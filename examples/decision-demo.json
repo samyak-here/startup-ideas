@@ -1,0 +1,29 @@
+{
+  "decision": "Use synthetic content only during bootstrap.",
+  "rationale": "Exercise the pipeline without fabricating research.",
+  "source_ids": [],
+  "alternatives": [],
+  "decision_maker": "Bootstrap design",
+  "revisit_conditions": [
+    "Real research is authorized in a later session."
+  ],
+  "id": "decision-demo",
+  "type": "decision",
+  "title": "DEMONSTRATION \u2014 synthetic decision",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "discovered",
+      "reason": "Initial record; replace with actual context"
+    }
+  ],
+  "provenance": {
+    "agent": "bootstrap-demo",
+    "session": "synthetic-fixture"
+  },
+  "demo": true,
+  "publish": true
+}

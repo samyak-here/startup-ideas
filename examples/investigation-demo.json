@@ -1,0 +1,47 @@
+{
+  "objective": "Demonstrate research publishing without real claims.",
+  "summary": "A synthetic workflow illustrates evidence, uncertainty, and cross-references.",
+  "related_problem_ids": [
+    "problem-demo"
+  ],
+  "questions": [],
+  "findings": [
+    {
+      "text": "Automation might reduce duplicate entry in this invented scenario.",
+      "classification": "hypothesis",
+      "source_ids": [
+        "source-demo"
+      ]
+    }
+  ],
+  "source_ids": [
+    "source-demo"
+  ],
+  "contradictory_findings": [],
+  "unresolved_questions": [
+    "Actual demand is unknown."
+  ],
+  "conclusions": "No commercial conclusion can be drawn from synthetic data.",
+  "next_steps": [
+    "Conduct public-source discovery after bootstrap."
+  ],
+  "id": "investigation-demo",
+  "type": "investigation",
+  "title": "DEMONSTRATION \u2014 synthetic investigation",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "discovered",
+      "reason": "Initial record; replace with actual context"
+    }
+  ],
+  "provenance": {
+    "agent": "bootstrap-demo",
+    "session": "synthetic-fixture"
+  },
+  "demo": true,
+  "publish": true
+}

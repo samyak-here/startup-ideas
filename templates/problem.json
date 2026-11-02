@@ -1,0 +1,34 @@
+{
+  "description": null,
+  "customer_segment": null,
+  "industries": [],
+  "geography": null,
+  "context": null,
+  "evidence": [],
+  "alternatives": [],
+  "contradictory_evidence": [],
+  "uncertainty": null,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [],
+  "next_actions": [],
+  "id": "problem-replace-me",
+  "type": "problem",
+  "title": "Replace with descriptive title",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "discovered",
+      "reason": "Initial record; replace with actual context"
+    }
+  ],
+  "provenance": {
+    "agent": "replace-me",
+    "session": "replace-me"
+  },
+  "demo": false,
+  "publish": false
+}

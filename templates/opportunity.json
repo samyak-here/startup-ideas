@@ -1,0 +1,32 @@
+{
+  "related_problem_ids": [],
+  "solution_direction": null,
+  "potential_customers": [],
+  "value_proposition": null,
+  "alternatives": [],
+  "technical_feasibility": null,
+  "revenue_hypothesis": null,
+  "distribution_hypothesis": null,
+  "differentiation_hypothesis": null,
+  "risks": [],
+  "validation_requirements": [],
+  "id": "opportunity-replace-me",
+  "type": "opportunity",
+  "title": "Replace with descriptive title",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "discovered",
+      "reason": "Initial record; replace with actual context"
+    }
+  ],
+  "provenance": {
+    "agent": "replace-me",
+    "session": "replace-me"
+  },
+  "demo": false,
+  "publish": false
+}

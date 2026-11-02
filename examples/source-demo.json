@@ -1,0 +1,33 @@
+{
+  "url": "https://example.com/",
+  "publisher": "Fictional demonstration publisher",
+  "published": null,
+  "accessed": "2026-11-02",
+  "source_type": "synthetic",
+  "reliability": "No real-world evidentiary value",
+  "findings": [
+    "Invented example: an administrator repeats data entry."
+  ],
+  "limitations": [
+    "Entirely synthetic; no customer research was conducted."
+  ],
+  "id": "source-demo",
+  "type": "source",
+  "title": "DEMONSTRATION \u2014 synthetic source",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "discovered",
+      "reason": "Initial record; replace with actual context"
+    }
+  ],
+  "provenance": {
+    "agent": "bootstrap-demo",
+    "session": "synthetic-fixture"
+  },
+  "demo": true,
+  "publish": true
+}

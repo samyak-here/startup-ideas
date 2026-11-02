@@ -1,0 +1,29 @@
+{
+  "url": "https://example.com/",
+  "publisher": null,
+  "published": null,
+  "accessed": "2026-11-02",
+  "source_type": null,
+  "reliability": null,
+  "findings": [],
+  "limitations": [],
+  "id": "source-replace-me",
+  "type": "source",
+  "title": "Replace with descriptive title",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "discovered",
+      "reason": "Initial record; replace with actual context"
+    }
+  ],
+  "provenance": {
+    "agent": "replace-me",
+    "session": "replace-me"
+  },
+  "demo": false,
+  "publish": false
+}

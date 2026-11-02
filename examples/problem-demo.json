@@ -1,0 +1,50 @@
+{
+  "description": "Synthetic scenario: repeated entry of a fictional appointment request.",
+  "customer_segment": "Fictional office administrators",
+  "industries": [
+    "demonstration"
+  ],
+  "geography": "Fictional US scenario",
+  "context": "Demonstration of the record and report pipeline.",
+  "evidence": [
+    {
+      "text": "Invented administrator repeats data entry.",
+      "classification": "hypothesis",
+      "source_ids": [
+        "source-demo"
+      ]
+    }
+  ],
+  "alternatives": [],
+  "contradictory_evidence": [],
+  "uncertainty": "All content is fictional.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [
+    "opportunity-demo"
+  ],
+  "open_questions": [
+    "What actual evidence would be needed?"
+  ],
+  "next_actions": [
+    "Replace this scenario with independently sourced research in a future session."
+  ],
+  "id": "problem-demo",
+  "type": "problem",
+  "title": "DEMONSTRATION \u2014 synthetic problem",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "discovered",
+      "reason": "Initial record; replace with actual context"
+    }
+  ],
+  "provenance": {
+    "agent": "bootstrap-demo",
+    "session": "synthetic-fixture"
+  },
+  "demo": true,
+  "publish": true
+}

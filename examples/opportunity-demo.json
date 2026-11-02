@@ -1,0 +1,38 @@
+{
+  "related_problem_ids": [
+    "problem-demo"
+  ],
+  "solution_direction": "Hypothetical duplicate-entry assistant",
+  "potential_customers": [],
+  "value_proposition": "Untested reduction of repetitive work",
+  "alternatives": [],
+  "technical_feasibility": null,
+  "revenue_hypothesis": null,
+  "distribution_hypothesis": null,
+  "differentiation_hypothesis": null,
+  "risks": [
+    "No demand evidence"
+  ],
+  "validation_requirements": [
+    "Independent public evidence before promotion"
+  ],
+  "id": "opportunity-demo",
+  "type": "opportunity",
+  "title": "DEMONSTRATION \u2014 synthetic opportunity",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "discovered",
+      "reason": "Initial record; replace with actual context"
+    }
+  ],
+  "provenance": {
+    "agent": "bootstrap-demo",
+    "session": "synthetic-fixture"
+  },
+  "demo": true,
+  "publish": true
+}
