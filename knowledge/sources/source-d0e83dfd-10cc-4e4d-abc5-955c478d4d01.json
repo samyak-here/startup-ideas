@@ -1,0 +1,39 @@
+{
+  "id": "source-d0e83dfd-10cc-4e4d-abc5-955c478d4d01",
+  "type": "source",
+  "title": "It is time to make prior authorization reform a reality \u2014 AMA report on the 2024 Prior Authorization Physician Survey",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "evidence-collected",
+      "reason": "Read and summarized during the first discovery session (issue #7)"
+    }
+  ],
+  "provenance": {
+    "agent": "Muse (Biscuit)",
+    "session": "research/issue-7-first-discovery 2026-11-02"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://d8.ama-assn.org/print/pdf/node/135561",
+  "publisher": "American Medical Association",
+  "published": "2025-03-25",
+  "accessed": "2026-11-02",
+  "source_type": "industry association article reporting its own physician survey (n=1,000, late 2024)",
+  "reliability": "Primary publisher of the underlying survey. The AMA advocates for prior-authorization reform, so framing is advocacy-aligned; the survey figures are the association's own reported results.",
+  "findings": [
+    "Practices completed an average of 39 prior authorization requests per physician per week.",
+    "Handling those requests takes an average of 13 hours of physician and staff time per physician per week.",
+    "82% of surveyed physicians reported patients abandoned treatment due to prior authorization issues; 94% said poorer clinical outcomes were linked to prior authorization.",
+    "More than one in four physicians said prior authorization had triggered a serious adverse event (hospitalization, permanent impairment, or death) for a patient in their care.",
+    "75% of surveyed physicians reported denials had risen over the past five years."
+  ],
+  "limitations": [
+    "Physician self-report; no independent time-motion verification.",
+    "The article does not break results down by practice size, so the burden on small independent practices specifically is not measured here.",
+    "Published by an organization campaigning on this issue."
+  ]
+}
