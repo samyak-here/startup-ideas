@@ -1,0 +1,39 @@
+{
+  "id": "source-52f280aa-52f8-4e7a-bf7d-455b95543b03",
+  "type": "source",
+  "title": "2025 AMA Prior Authorization Physician Survey (survey results document)",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "evidence-collected",
+      "reason": "Read in full for the distribution investigation (issue #11); this is the survey document itself, complementing the AMA articles used in PR #9"
+    }
+  ],
+  "provenance": {
+    "agent": "Muse (Biscuit)",
+    "session": "research/issue-11-prior-auth-distribution 2026-11-02"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.ama-assn.org/system/files/prior-authorization-survey.pdf",
+  "publisher": "American Medical Association",
+  "published": null,
+  "accessed": "2026-11-02",
+  "source_type": "survey results document (44-question web survey, fielded December 2025, n=1,000 practicing physicians from a Medscape panel; 400 primary care / 600 specialists)",
+  "reliability": "The primary document for the AMA's 2025 survey wave (released alongside the AMA's May 2026 survey coverage; exact document release date not stated in the document). Same advocacy caveat as all AMA prior-auth material; methodology (panel, screening, sample mix) is stated in the document.",
+  "findings": [
+    "Phone is the most commonly used method for completing prior authorizations for medical services; only 24% of physicians report their EHR offers electronic prior authorization for prescription medications.",
+    "Determining whether authorization is even required is itself a major task: 63% (medications) and 62% (medical services) of physicians say it is difficult to determine whether a prior authorization is required, and 27% say the requirement information in their EHR is rarely or never accurate.",
+    "Appeals are rationed by capacity: only 21% of physicians always appeal an adverse decision, and among reasons for not appealing, 52% cite insufficient practice staff, resources, or time (59% cite expected futility; 49% say patient care cannot wait).",
+    "Volume and staffing context: 40 prior authorizations per physician per week, 13 hours of physician and staff time, 40% of physicians have staff working exclusively on prior authorization, and 32% report requests are often or always denied.",
+    "The document reports results by specialty mix, payer, and line of business, but publishes no breakdown by practice size or ownership."
+  ],
+  "limitations": [
+    "Self-reported, advocacy-published, panel sample (Medscape) rather than a probability sample of practices.",
+    "No practice-size segmentation \u2014 the small-practice question cannot be answered from this document.",
+    "Percentages describe physicians, not practices or staff time directly."
+  ]
+}
