@@ -1,0 +1,40 @@
+{
+  "decision": "Deprioritize a generic certified-payroll report generator. Permit further desk research only around a defined payroll-stack/destination exception; no opportunity or product launch is authorized.",
+  "rationale": "Three vendors advertise reporting workflows, while this session did not establish independent residual small-contractor pain. A single Desktop-only vendor boundary does not demonstrate an unmet QBO market. This decision narrows research scope; it does not reject the existence of the reporting obligation.",
+  "source_ids": [
+    "source-349db593e40242af",
+    "source-b6d798cfb5244d49",
+    "source-72300daa0098495a",
+    "source-abc3a77b04e349af"
+  ],
+  "alternatives": [
+    "Continue broad form-generation exploration: rejected as low information gain given advertised substitutes.",
+    "Declare the entire reporting problem solved: rejected because vendor claims were not tested and exception evidence is missing.",
+    "Narrow to a specific integration pair and seek disconfirming customer evidence: preferred only if useful evidence can be obtained."
+  ],
+  "decision_maker": "Codex issue-6 research prioritization; not founder commercial authorization.",
+  "revisit_conditions": [
+    "Independent dated evidence of recurring manual exception work after correct incumbent setup.",
+    "Current official source/destination schemas reveal a specific transformation not served by existing tools.",
+    "A platform or destination requirement changes and invalidates an incumbent path."
+  ],
+  "id": "decision-f57547eacb4146d2",
+  "type": "decision",
+  "title": "Pause generic certified-payroll generation exploration; require a specific interoperability gap",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Issue #6 public-documentation comparison; no product testing, customer interviews or market validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-6-certified-payroll-gaps"
+  },
+  "demo": false,
+  "publish": true
+}

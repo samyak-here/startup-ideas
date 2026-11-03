@@ -1,0 +1,37 @@
+{
+  "url": "https://www.sunburstsoftwaresolutions.com/quickbooks-online.htm",
+  "publisher": "Sunburst Software Solutions",
+  "published": null,
+  "accessed": "2026-11-03",
+  "source_type": "primary-vendor-product-documentation",
+  "reliability": "Public vendor page read directly with curl; HTTP 200. Primary evidence of advertised scope only, not independently tested functionality or customer demand.",
+  "findings": [
+    "Sunburst explicitly says its products work with QuickBooks Windows Desktop, not QuickBooks Online or Mac.",
+    "The page describes the vendor's view that access to reliable QBO payroll data prevents its integration."
+  ],
+  "limitations": [
+    "Page labeled Last Updated 13 March 2024; it cannot establish the current QBO API behavior or limits of other vendors.",
+    "This is a commercially interested vendor's opinion about another platform. No official Intuit API documentation was checked.",
+    "Same Sunburst publisher as the product source; not an independent second evidence stream.",
+    "No independent small-contractor time/cost measurement, failure rate or willingness-to-pay evidence."
+  ],
+  "id": "source-72300daa0098495a",
+  "type": "source",
+  "title": "Why We Aren't Compatible With QuickBooks Online",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Issue #6 public-documentation comparison; no product testing, customer interviews or market validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-6-certified-payroll-gaps"
+  },
+  "demo": false,
+  "publish": true
+}

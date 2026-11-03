@@ -1,0 +1,38 @@
+{
+  "url": "https://www.payroll4construction.com/quickbooks/",
+  "publisher": "Payroll4Construction",
+  "published": null,
+  "accessed": "2026-11-03",
+  "source_type": "primary-vendor-product-documentation",
+  "reliability": "Public vendor page read directly with curl; HTTP 200. Primary evidence of advertised scope only, not independently tested functionality or customer demand.",
+  "findings": [
+    "The page describes a construction payroll service: contractors submit timecards, and payroll experts handle payroll; it claims integration with QuickBooks accounting data.",
+    "Listed capabilities include multiple jobs/trades/pay rates on a timecard, automated pay rates/fringes by employee/job/trade, and print/electronic certified payroll reports for LCPtracker, eMars, DIR and more.",
+    "The vendor says reports are generated after each payroll and can be downloaded after the pay period."
+  ],
+  "limitations": [
+    "This is a managed-payroll alternative rather than proof that an add-on export works with every existing payroll stack.",
+    "The precise QuickBooks integration scope, input conversion, current versions, fees and switching costs were not verified.",
+    "Selected vendor testimonials and unsourced competitor assertions are not treated as independent market evidence.",
+    "No independent small-contractor time/cost measurement, failure rate or willingness-to-pay evidence."
+  ],
+  "id": "source-abc3a77b04e349af",
+  "type": "source",
+  "title": "Payroll4Construction for QuickBooks Desktop Users",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Issue #6 public-documentation comparison; no product testing, customer interviews or market validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-6-certified-payroll-gaps"
+  },
+  "demo": false,
+  "publish": true
+}
