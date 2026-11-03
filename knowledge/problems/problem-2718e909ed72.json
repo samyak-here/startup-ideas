@@ -1,0 +1,91 @@
+{
+  "id": "problem-2718e909ed72",
+  "type": "problem",
+  "title": "Nonprofits report heavy application and reporting effort and late payments on government contracts and grants",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Signal from Urban Institute national survey; data are from 2012."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Review correction: replaced misattributed 2009 human-service percentages with 2013-survey Figure 11 results; corrected Table 3 denominator."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs; reviewed corrections by Codex fix_merge_30_31"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "In the Urban Institute’s 2013 survey covering 2012, about 71 percent of responding government-funded nonprofits rated application complexity as a big or small problem; about 71 percent did so for reporting complexity and about 45 percent for late payments. Missing/not-applicable responses were excluded in Figure 11.",
+  "customer_segment": "Charitable nonprofits with $100,000 or more in expenses and government contracts or grants; the smallest nonprofits are excluded from the survey frame.",
+  "industries": [
+    "nonprofit",
+    "human services"
+  ],
+  "geography": "United States",
+  "context": "Historical evidence about 2012 from the 2013 national survey; current prevalence and costs remain unverified. Earlier 75%/53% figures elsewhere in the same report concern 2009 human-service nonprofits and are not used as 2012 estimates.",
+  "evidence": [
+    {
+      "text": "Figure 11 (printed p. 25) reports application complexity as a big problem for 32% and a small problem for 39%; reporting complexity is 31% big and 40% small. Each totals about 71%, subject to rounding and exclusion of missing/not-applicable responses.",
+      "classification": "reported",
+      "source_ids": [
+        "source-f7358fd2c79e"
+      ]
+    },
+    {
+      "text": "Figure 11 reports late payments beyond contract specifications as a big problem for 19% and a small problem for 26%, about 45% combined, excluding missing/not-applicable responses.",
+      "classification": "reported",
+      "source_ids": [
+        "source-f7358fd2c79e"
+      ]
+    },
+    {
+      "text": "In the 2013-survey analysis of late payments (printed p. 32), nonprofits reporting late-payment problems were significantly more likely to draw on reserves, increase lines of credit, reduce programs, and close offices/sites; this association is not a causal estimate.",
+      "classification": "reported",
+      "source_ids": [
+        "source-f7358fd2c79e"
+      ]
+    },
+    {
+      "text": "Grant-and-contract administration software or services could reduce this effort for small nonprofits.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Grant-management software, accounting systems, consultants: not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "Table 3 (printed p. 10) shows that nonprofits in the $100,000–$249,999 budget category comprise 17% of government-funded nonprofits in the survey distribution. It does not establish that 17% of all nonprofits in that size band receive government funding; surrounding prose is ambiguous on this denominator.",
+      "classification": "reported",
+      "source_ids": [
+        "source-f7358fd2c79e"
+      ]
+    },
+    {
+      "text": "The evidence concerns 2012, not current practices. Figure 11 also shows 28%/28% reporting application/reporting complexity as not a problem and 55% reporting late payments as not a problem; missing/not-applicable answers were excluded.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-f7358fd2c79e"
+      ]
+    }
+  ],
+  "uncertainty": "Unknown: current prevalence, dollar cost of the effort, who buys tools, willingness to pay, and existing product coverage. Government-funding incidence within the smallest included budget band is not established by Table 3.",
+  "open_questions": [
+    "Do newer data (for example nonprofit sector surveys since 2020) show the same pattern?",
+    "Which payers and program types cause most delays?"
+  ],
+  "next_actions": [
+    "Find a post-2020 primary source on nonprofit government payment timeliness and reporting burden."
+  ]
+}
