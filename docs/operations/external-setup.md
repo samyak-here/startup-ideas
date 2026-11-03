@@ -5,7 +5,7 @@ Repository code implements validation, static rendering, tests, workflow definit
 An authorized maintainer must verify:
 1. The repository has a default `main` branch and bootstrap changes are pushed through the available review process.
 2. Actions are enabled; PR CI runs and its actual check name is required by a branch ruleset.
-3. `main` requires PRs, appropriate independent native review, dismissal of stale approvals, and no author bypass. Do not claim these rules exist without reading repository configuration.
+3. `main` requires PRs, at least one native approval, "require approval of the most recent reviewable push" (prevents the last pusher approving), dismissal of stale approvals, the `validate` check, and no author bypass. Agents sharing one GitHub account cannot supply independent native approval; the founder or a second identity must. Do not claim these rules exist without reading repository configuration.
 4. Pages uses GitHub Actions, the `github-pages` environment permits only the default branch, and a deployment succeeds. See publishing instructions.
 5. Labels listed in collaboration guidance exist and issue assignment/review permissions work.
 6. Provider apps/runners are independently installed, authorized with least privilege, and tested before scheduling work. No API key is needed for local validation/rendering.
