@@ -10,6 +10,11 @@
       "date": "2026-11-03",
       "status": "completed",
       "reason": "Source read directly on the access date; findings transcribed from the document."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Review reread clarified SBA-small entity coverage and existing versus incremental reporting scope."
     }
   ],
   "provenance": {
@@ -28,10 +33,12 @@
     "Establishments with 100 or more employees in designated industries must electronically submit information from OSHA Forms 300 and 301 to OSHA once a year, in addition to the existing Form 300A submission.",
     "OSHA states the information is already required to be kept under the existing recordkeeping regulation.",
     "OSHA estimates the rule has economic costs of $7.7 million per year, including $7.1 million per year to the private sector, with average costs of $136 per year for affected establishments with 100 or more employees (annualized over 10 years at a 7 percent discount rate).",
-    "OSHA states the final rule is not a significant regulatory action under Executive Order 12866."
+    "OSHA states the final rule is not a significant regulatory action under Executive Order 12866.",
+    "The small-entity discussion (Federal Register p. 47343) states affected establishments include SBA-defined small entities; the 100-employee establishment threshold does not exclude small businesses. Existing Form 300A submissions for certain 20+ employee establishments remain distinct."
   ],
   "limitations": [
     "Later OSHA actions (a 2026 rule on electronic posting appeared in a search but was not read) may change requirements.",
-    "Agency ex ante estimates; no independent measurement of actual time spent."
+    "Agency ex ante estimates; no independent measurement of actual time spent.",
+    "The $136 modeled average concerns the rule’s incremental added submission burden, not all existing OSHA recordkeeping or reporting work."
   ]
 }

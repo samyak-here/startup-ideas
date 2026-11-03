@@ -1,7 +1,7 @@
 {
   "id": "problem-d002af7819c3",
   "type": "problem",
-  "title": "Electronic submission of OSHA injury and illness records: burden appears small",
+  "title": "Incremental OSHA Forms 300/301 electronic submission: deprioritized on agency cost estimate",
   "created": "2026-11-03",
   "updated": "2026-11-03",
   "status": "rejected",
@@ -14,27 +14,32 @@
     {
       "date": "2026-11-03",
       "status": "rejected",
-      "reason": "OSHA's own estimate is about $136 per year per affected establishment, and only establishments with 100+ employees are covered; evidence argues against pursuing this as a startup problem."
+      "reason": "Initial rejection rationale (superseded in scope below): OSHA estimates about $136 per year per affected establishment; the earlier inference that 100+ employee establishments cannot be small businesses was incorrect."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "rejected",
+      "reason": "Review correction: rejected only the incremental Forms 300/301 submission thesis on the limited agency estimate, not broader OSHA reporting/recordkeeping. SBA-small entities can have 100+ employees; existing Form 300A reporting covers some establishments with 20+ employees."
     }
   ],
   "provenance": {
     "agent": "claude-code-cloud",
-    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs; Codex review correction PR25"
   },
   "demo": false,
   "publish": true,
   "related_problem_ids": [],
   "related_opportunity_ids": [],
-  "description": "Establishments with 100 or more employees in designated industries must submit injury and illness records electronically each year; OSHA estimates the added cost is small.",
-  "customer_segment": "Establishments with 100+ employees in OSHA-designated industries (not small businesses by employee count).",
+  "description": "Discovery of the 2023 rule’s incremental annual electronic submission of Forms 300 and 301 by establishments with 100 or more employees in designated industries. Deprioritized as a research thesis using OSHA’s modeled added cost, without claiming that all OSHA reporting or recordkeeping is inexpensive.",
+  "customer_segment": "Establishments with 100+ employees in OSHA-designated industries, including some SBA-defined small entities. Establishment employee count is not a firm-size classification.",
   "industries": [
     "multiple industries"
   ],
   "geography": "United States",
-  "context": "Rule published July 2023. Reopen only with independent evidence that the cost or error burden is materially larger than OSHA estimates.",
+  "context": "Historical July 2023 rule analysis, narrowly about added Forms 300/301 electronic submission. It does not evaluate existing Form 300A submissions for certain establishments with 20+ employees or total recordkeeping burden. Later rule status was not established.",
   "evidence": [
     {
-      "text": "OSHA estimates an average cost of $136 per year for affected establishments (annualized over 10 years at 7%).",
+      "text": "For the 2023 rule’s added Forms 300/301 electronic submission, OSHA estimates average annual cost of $136 per affected establishment (annualized over 10 years at 7%); this is not total OSHA recordkeeping cost.",
       "classification": "estimate",
       "source_ids": [
         "source-8e18182f8039"
@@ -53,6 +58,13 @@
       "source_ids": [
         "source-8e18182f8039"
       ]
+    },
+    {
+      "text": "The rule discusses affected SBA-defined small entities; it also preserves existing Form 300A electronic submission requirements for certain establishments with 20 or more employees.",
+      "classification": "reported",
+      "source_ids": [
+        "source-8e18182f8039"
+      ]
     }
   ],
   "alternatives": [
@@ -60,18 +72,19 @@
   ],
   "contradictory_evidence": [
     {
-      "text": "The only quantified burden is OSHA's own estimate, which is very low; independent evidence of higher cost was not found.",
+      "text": "The agency’s modeled incremental submission cost is low relative to the generic automation thesis; this is a research-priority judgment, not measured customer burden. Independent higher-cost evidence was not obtained.",
       "classification": "interpretation",
       "source_ids": [
         "source-8e18182f8039"
       ]
     }
   ],
-  "uncertainty": "Unknown: actual time spent, error or penalty exposure, and whether recordkeeping itself (as opposed to electronic submission) is burdensome.",
+  "uncertainty": "Unknown: actual incremental submission time, SBA-small firm distribution, error/penalty exposure, total recordkeeping burden, and later regulatory changes. The $136 modeled average does not establish any individual employer’s cost.",
   "open_questions": [
     "Is the underlying injury recordkeeping process, rather than submission, the pain point?"
   ],
   "next_actions": [
-    "Reopen only with independent evidence of material cost."
+    "Reopen this narrow submission thesis with independent evidence of material residual cost or errors.",
+    "Treat any broader Form 300A or underlying recordkeeping problem as separate research with its own evidence."
   ]
 }
