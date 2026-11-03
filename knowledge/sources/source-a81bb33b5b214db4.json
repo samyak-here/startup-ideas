@@ -1,0 +1,37 @@
+{
+  "url": "https://www.cms.gov/medicare/coding-billing/electronic-billing/health-care-payment-remittance-advice",
+  "publisher": "Centers for Medicare & Medicaid Services",
+  "published": null,
+  "accessed": "2026-11-03",
+  "source_type": "primary-government-guidance",
+  "reliability": "Primary agency description of its workflow/rule; reliable within stated scope, not independent customer-demand evidence. HTTP 200 public HTML read on access date.",
+  "findings": [
+    "Medicare remittance advice can cover multiple claims; adjustments can occur at line, claim and provider level, with standardized reason codes.",
+    "CMS states that electronic remittance advice enables automated posting to accounting or billing applications and avoids staff manually posting paper remittance information.",
+    "CMS identifies free PC Print for institutional providers and Medicare Easy Print for professional providers, including viewing/printing and MREP report export functionality."
+  ],
+  "limitations": [
+    "Medicare workflow guidance does not show how many small practices still post manually, their error rates, or willingness to buy a new tool.",
+    "Page last-modified label is September 10, 2024; original publication date unknown. Described tool availability was not independently installed or tested.",
+    "Do not generalize these Medicare details to every commercial payer."
+  ],
+  "id": "source-a81bb33b5b214db4",
+  "type": "source",
+  "title": "Health Care Payment and Remittance Advice",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Initial public-source discovery for issue #4; no customer interviews or commercial validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-4-first-discovery"
+  },
+  "demo": false,
+  "publish": true
+}
