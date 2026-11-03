@@ -10,6 +10,11 @@
       "date": "2026-11-03",
       "status": "completed",
       "reason": "Source read directly on the access date; findings transcribed from the document."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Review correction: distinguished historical economic analysis from separately sourced current timing."
     }
   ],
   "provenance": {
@@ -32,7 +37,7 @@
   ],
   "limitations": [
     "Per-firm cost figures and the number of affected small firms were not extracted and are not recorded.",
-    "Later changes to the compliance date or requirements were not read or verified.",
+    "This source is the historical 2022 final rule, not current timing guidance. Later FDA timing is recorded separately in source-40ee46dd9d834b12.",
     "Agency analysis; no independent measurement of actual burden."
   ]
 }
