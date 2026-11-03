@@ -1,0 +1,97 @@
+{
+  "id": "problem-3414c738-5667-4bcf-852c-440b89d80e3c",
+  "type": "problem",
+  "title": "Most invoicing US small businesses carry invoices overdue 30+ days, and manual payment processes compound the cash-flow scramble",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "evidence-collected",
+      "reason": "Initial evidence collected in the first discovery session (issue #7)"
+    }
+  ],
+  "provenance": {
+    "agent": "Muse (Biscuit)",
+    "session": "research/issue-7-first-discovery 2026-11-02"
+  },
+  "demo": false,
+  "publish": true,
+  "description": "US small businesses that sell on invoice terms routinely wait past 30 days to be paid: 59% carried invoices overdue by 30+ days in Intuit QuickBooks' 2026 survey, owed $17,700 on average. The administrative core of the problem is the manual chase-and-wait cycle \u2014 following up on invoices, matching bills, approvals, reminders, and record-keeping \u2014 which businesses themselves name as the top internal cause of their own delayed payments, on top of payment-processing delays after customers do pay. Even small missed payments (under $1,000 for 12% of owners) can make payroll or bills hard to cover.",
+  "customer_segment": "US small businesses (surveyed population: owners of businesses with 0-250 employees) that issue invoices or sell on terms \u2014 services, trades, and other B2B sellers. The source is cross-industry; which segments carry the worst load is unknown.",
+  "industries": [
+    "professional services",
+    "construction and trades",
+    "field services"
+  ],
+  "geography": "United States",
+  "context": "Payment terms are a structural driver: businesses on net-30 terms report overdue invoices at roughly double the rate of businesses requiring immediate payment. Late money in becomes late money out \u2014 42% of businesses say outside pressures delayed payments they owed to their own contractors, suppliers, or vendors.",
+  "evidence": [
+    {
+      "text": "59% of surveyed businesses have invoices overdue by 30+ days (up from 47% the prior year); businesses with unpaid invoices are owed $17,700 on average.",
+      "classification": "reported",
+      "source_ids": [
+        "source-bd7249c7-5974-461c-9c51-8633e31d28b6"
+      ]
+    },
+    {
+      "text": "39% of owners say a single late payment made it hard to cover payroll or bills in the past year; 12% said a late payment under $1,000 was enough to cause strain.",
+      "classification": "reported",
+      "source_ids": [
+        "source-bd7249c7-5974-461c-9c51-8633e31d28b6"
+      ]
+    },
+    {
+      "text": "Manual processes are the number-one internal reason businesses give for delayed outgoing payments, and 74% are not fully automated in managing and paying bills.",
+      "classification": "reported",
+      "source_ids": [
+        "source-bd7249c7-5974-461c-9c51-8633e31d28b6"
+      ]
+    },
+    {
+      "text": "49% of owners say standard payment processing times create critical or moderate cash-flow gaps even after the customer has paid.",
+      "classification": "reported",
+      "source_ids": [
+        "source-bd7249c7-5974-461c-9c51-8633e31d28b6"
+      ]
+    }
+  ],
+  "alternatives": [
+    "Requiring immediate or upfront payment and deposits (strongly associated with having no overdue invoices)",
+    "Manual follow-up calls and emails (status quo chase)",
+    "Accounting-software invoice reminders",
+    "Paying instant-transfer/fast-deposit fees to access earned money (59% paid extra fees last year)",
+    "Credit cards and lines of credit as gap-fillers",
+    "Invoice factoring"
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "Much of the problem is mitigated by a terms choice: 64% of businesses with no overdue invoices require immediate payment, versus 34% of businesses with overdue invoices \u2014 so a segment of sellers has already opted out of the worst of it, where their market allows.",
+      "classification": "reported",
+      "source_ids": [
+        "source-bd7249c7-5974-461c-9c51-8633e31d28b6"
+      ]
+    },
+    {
+      "text": "The sole source so far is vendor research from a company that sells invoicing, payments, and automation; its framing predictably emphasizes manual-process pain. Independent corroboration (Federal Reserve Small Business Credit Survey, NFIB) has not yet been collected.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-bd7249c7-5974-461c-9c51-8633e31d28b6"
+      ]
+    }
+  ],
+  "uncertainty": "Single vendor source, self-reported, cross-industry. Owner time spent chasing payments is not quantified in this report, and industry concentration is unknown; the administrative-time claim rests on respondent attribution.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "How many hours per week do owners or staff actually spend chasing and reconciling payments?",
+    "Which segments (trades, agencies, professional services) carry the highest overdue shares and balances?",
+    "Where exactly does the manual work sit: reminders, bill matching, approvals, or reconciliation?",
+    "Do independent sources (Federal Reserve SBCS, NFIB) reproduce the 59% / $17.7K picture?"
+  ],
+  "next_actions": [
+    "Corroborate with the Federal Reserve Small Business Credit Survey and NFIB problem rankings before deepening this problem.",
+    "Find segment-specific sources for trades/field services."
+  ]
+}
