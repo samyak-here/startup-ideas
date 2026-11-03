@@ -27,11 +27,20 @@
       "source_ids": [
         "source-6185a6d54e814c6d"
       ]
+    },
+    {
+      "text": "Sunburst describes additional employee/job/wage/deduction data stored in linked records and merged with QuickBooks data. This establishes configuration, not that users suffer unresolved re-entry.",
+      "classification": "reported",
+      "source_ids": [
+        "source-b6d798cfb5244d49"
+      ]
     }
   ],
   "alternatives": [
-    "DOL provides WH-347 and instructions; the form itself is optional.",
-    "Hypothesized alternatives to investigate: payroll software exports, a payroll bureau, or an accountant. Vendor capability and pricing have not been checked."
+    "DOL WH-347/instructions (the form is optional).",
+    "LCPcertified: advertised payroll upload, validation and certified-report/XML generation.",
+    "Sunburst CPS: advertised QuickBooks Desktop integration plus linked-record setup and paper/electronic reporting.",
+    "Payroll4Construction: advertised managed payroll from submitted timecards, QuickBooks accounting integration and automatic certified reports."
   ],
   "contradictory_evidence": [
     {
@@ -47,18 +56,35 @@
       "source_ids": [
         "source-74926512af044f14"
       ]
+    },
+    {
+      "text": "Three suppliers already advertise certified-report workflows, so a generic report-generation product would duplicate existing alternatives rather than establish differentiation.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-349db593e40242af",
+        "source-b6d798cfb5244d49",
+        "source-abc3a77b04e349af"
+      ]
+    },
+    {
+      "text": "Sunburst explicitly excludes QBO, but this is a single vendor limitation, not evidence that no QBO-compatible alternative exists.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-72300daa0098495a"
+      ]
     }
   ],
-  "uncertainty": "Recurring reporting is supported. Manual duplication, avoidable hours, current software gaps, buyer access, error costs and willingness to pay are unknown. A single agency burden estimate is not customer validation.",
+  "uncertainty": "Recurring reporting is supported. Manual duplication, avoidable hours, current software gaps, buyer access, error costs and willingness to pay are unknown. A single agency burden estimate is not customer validation. Issue #6 found advertised alternatives but no independently verified residual exception workload. Current interoperability, source-stack fit, switching friction and a QBO-specific gap remain unknown.",
   "related_problem_ids": [],
   "related_opportunity_ids": [],
   "open_questions": [
-    "Which small-subcontractor payroll systems already produce the accepted weekly output without re-entry?",
-    "Where, if anywhere, do project-specific classifications and fringe-benefit inputs break an existing export?"
+    "After selecting one source payroll stack and one destination portal, what specific required fields still need recurring manual transformation?",
+    "Do those exceptions persist after correct incumbent setup, and how often do small subcontractors encounter them?",
+    "Which current QBO-compatible solutions already serve this exact workflow?"
   ],
   "next_actions": [
-    "Compare public documentation for at least three payroll/compliance alternatives and look for first-hand, dated small-contractor accounts of export failures.",
-    "Narrow by contractor size, payroll stack and contract reporting destination before considering a solution."
+    "Narrow any continued desk research to one payroll-stack/destination pair; obtain current official import/export field documentation.",
+    "Seek dated first-hand contractor evidence before escalating to an opportunity. Pause generic WH-347 automation work absent a differentiated gap."
   ],
   "id": "problem-0d6205b2fe6e4317",
   "type": "problem",
@@ -71,11 +97,16 @@
       "date": "2026-11-03",
       "status": "evidence-collected",
       "reason": "Initial public-source discovery for issue #4; no customer interviews or commercial validation."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Issue #6: added three-vendor comparison and integration-boundary evidence; narrowed the generic automation thesis without changing the original documented reporting obligation."
     }
   ],
   "provenance": {
     "agent": "Codex",
-    "session": "issue-4-first-discovery"
+    "session": "issue-4-first-discovery; extended by issue-6-certified-payroll-gaps"
   },
   "demo": false,
   "publish": true

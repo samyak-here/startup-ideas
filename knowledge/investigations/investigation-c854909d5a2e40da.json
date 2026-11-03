@@ -1,0 +1,108 @@
+{
+  "objective": "Issue #6: compare at least three existing alternatives and test whether an unmet small-subcontractor export gap is supported.",
+  "summary": "Compared LCPcertified, Sunburst CPS and Payroll4Construction across four public vendor documents. All advertise reporting workflows; Sunburst also documents a Desktop-only boundary and linked-record configuration. This narrows the research toward specific interoperability exceptions, but no independent small-contractor evidence establishes residual pain. Pause generic form-generation exploration; do not create an opportunity record.",
+  "related_problem_ids": [
+    "problem-0d6205b2fe6e4317"
+  ],
+  "questions": [
+    "What source data and output paths do existing products advertise?",
+    "What is the difference between additional configuration and a demonstrated unresolved problem?",
+    "Is there independent first-hand evidence of an economically meaningful exception?"
+  ],
+  "findings": [
+    {
+      "text": "LCPcertified: payroll-data upload → validation/mathematical checks → certified reports, with XML outputs listed for California, Washington and Maryland. The public page does not establish every supported payroll version or field mapping.",
+      "classification": "reported",
+      "source_ids": [
+        "source-349db593e40242af"
+      ]
+    },
+    {
+      "text": "Sunburst CPS: QuickBooks Desktop employee/job/time/payroll data + additional linked employee/job/wage/deduction records → federal/state and named electronic reporting outputs. Linked records are a setup/input requirement, not evidence of recurrent failure.",
+      "classification": "reported",
+      "source_ids": [
+        "source-b6d798cfb5244d49"
+      ]
+    },
+    {
+      "text": "Payroll4Construction: submitted timecards → managed construction payroll and QuickBooks accounting integration → automatically generated print/electronic certified reports. It is a service/switching alternative, not a demonstrated drop-in transformation layer for any incumbent stack.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-abc3a77b04e349af"
+      ]
+    },
+    {
+      "text": "Sunburst says its products do not support QBO. The older vendor explanation is not verified against current Intuit APIs and must not be generalized to a market-wide impossibility.",
+      "classification": "reported",
+      "source_ids": [
+        "source-72300daa0098495a"
+      ]
+    },
+    {
+      "text": "The current evidence favors narrowing to a payroll-stack/destination-portal pair rather than a broad certified-form generator. This is a research priority judgment, not customer validation.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-349db593e40242af",
+        "source-b6d798cfb5244d49",
+        "source-72300daa0098495a",
+        "source-abc3a77b04e349af"
+      ]
+    }
+  ],
+  "source_ids": [
+    "source-349db593e40242af",
+    "source-b6d798cfb5244d49",
+    "source-72300daa0098495a",
+    "source-abc3a77b04e349af"
+  ],
+  "contradictory_findings": [
+    {
+      "text": "Advertised upload, merging, automatic generation and named electronic outputs provide concrete alternatives to manual report production. They weaken the assumption that required weekly work is itself an unmet software need.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-349db593e40242af",
+        "source-b6d798cfb5244d49",
+        "source-abc3a77b04e349af"
+      ]
+    },
+    {
+      "text": "A platform-specific limitation at one vendor does not establish that all competing vendors or QBO itself leave the workflow unsolved.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-72300daa0098495a"
+      ]
+    }
+  ],
+  "unresolved_questions": [
+    "No dated independent small-contractor account of a residual export failure was obtained in this bounded search. Do not present marketing copy or curated testimonials as that evidence.",
+    "The search attempted Google (JavaScript-only response), Bing (irrelevant results), DuckDuckGo (human challenge; not attempted) and a public Intuit community search route (404). These outcomes establish retrieval limits, not absence of customer pain.",
+    "Four source pages are from three suppliers; two Sunburst pages are one interested evidence stream.",
+    "No software was installed; no payroll data, pricing comparison, measured avoidable hours, customer budget or willingness to pay were collected.",
+    "Original publication dates are unknown; visible Sunburst update dates are recorded as limitations and do not verify present-day compatibility."
+  ],
+  "conclusions": "Complete the bounded documentation comparison, but not the customer-gap investigation. Pause the generic report-generation thesis. A narrow interoperability/exception hypothesis is still unproven and should not be promoted to an opportunity. A future session should first verify official field requirements and find independent contractor evidence, or archive this line if incumbents adequately serve it.",
+  "next_steps": [
+    "Select one source payroll stack and one destination portal; verify current export/import documentation and incumbent coverage before further expansion.",
+    "Search for first-hand, dated small-contractor exception accounts; do not contact customers without founder approval.",
+    "Revisit only if a reproducible unserved transformation and recurring economically meaningful burden can be evidenced."
+  ],
+  "id": "investigation-c854909d5a2e40da",
+  "type": "investigation",
+  "title": "Certified-payroll alternatives: reporting is served; residual gaps remain unproven",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Issue #6 public-documentation comparison; no product testing, customer interviews or market validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-6-certified-payroll-gaps"
+  },
+  "demo": false,
+  "publish": true
+}

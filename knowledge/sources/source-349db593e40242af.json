@@ -1,0 +1,37 @@
+{
+  "url": "https://lcptracker.com/lcpcertified/",
+  "publisher": "LCPtracker",
+  "published": null,
+  "accessed": "2026-11-03",
+  "source_type": "primary-vendor-product-documentation",
+  "reliability": "Public vendor page read directly with curl; HTTP 200. Primary evidence of advertised scope only, not independently tested functionality or customer demand.",
+  "findings": [
+    "LCPtracker describes a cloud-based single-contractor application for self-performing contractors not managing other subcontractors' compliance.",
+    "The vendor says users upload payroll data to generate certified payroll reports; it describes built-in validations and mathematical checks.",
+    "The vendor lists XML output for California DIR, Washington Labor & Industries and Maryland Department of Labor."
+  ],
+  "limitations": [
+    "The broad payroll-compatibility statement does not specify every supported source field, version, upload schema or exception path.",
+    "Vendor-hosted testimonials are curated; none is counted as independent proof of unmet pain.",
+    "No independent small-contractor time/cost measurement, failure rate or willingness-to-pay evidence."
+  ],
+  "id": "source-349db593e40242af",
+  "type": "source",
+  "title": "LCPcertified | Certified Payroll Software for Subs",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Issue #6 public-documentation comparison; no product testing, customer interviews or market validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-6-certified-payroll-gaps"
+  },
+  "demo": false,
+  "publish": true
+}
