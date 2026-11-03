@@ -334,9 +334,83 @@ class PublicationTests(unittest.TestCase):
     def test_library_has_record_type_filter_and_curated_search_index(self):
         render.build(self.records, self.out)
         text = (self.out / 'index.html').read_text()
-        self.assertIn('id="type"', text)
-        self.assertIn('data-type="problem"', text)
-        self.assertNotIn('provenance', text.split('data-search=')[1].split('"')[1])
+        self.assertIn('id="kind"', text)
+        self.assertIn('data-kind="problem"', text)
+        self.assertNotIn('data-search', text)
+        index = json.loads((self.out / 'search-index.json').read_text())
+        joined = ' '.join(row['text'] for row in index)
+        for noise in ('source_ids', 'provenance', 'bootstrap-demo'):
+            self.assertNotIn(noise, joined)
+
+
+class SecondAuditRegressionTests(unittest.TestCase):
+    """Rules added by the 2026-11-03 independent audit (see docs/audits/)."""
+    def prod(self):
+        # Production IDs need collision-resistant suffixes, so rename the short synthetic IDs consistently.
+        text = json.dumps(fixtures())
+        for kind in ('problem', 'source', 'investigation', 'opportunity', 'decision'):
+            text = text.replace(f'{kind}-demo', f'{kind}-0a1b2c3d4e5f')
+        recs = json.loads(text)
+        for r in recs:
+            r['demo'] = False
+            r['title'] = r['title'].replace('DEMONSTRATION \u2014 ', '')
+            r['provenance'] = {'agent': 'test-agent', 'session': 'test-session'}
+        return recs
+
+    def kind(self, recs, k):
+        return next(r for r in recs if r['type'] == k)
+
+    def rejects(self, recs, text):
+        with self.assertRaisesRegex(ValueError, text):
+            lab.validate(recs)
+
+    def test_baseline_production_copy_is_valid(self):
+        lab.validate(self.prod())
+
+    def test_completed_investigation_needs_sources_and_findings(self):
+        recs = self.prod(); i = self.kind(recs, 'investigation')
+        i.update(status='completed', source_ids=[], findings=[])
+        i['history'][-1]['status'] = 'completed'
+        self.rejects(recs, 'needs findings')
+
+    def test_promising_opportunity_needs_problem(self):
+        recs = self.prod(); o = self.kind(recs, 'opportunity')
+        o.update(status='promising', related_problem_ids=[])
+        o['history'][-1]['status'] = 'promising'
+        self.rejects(recs, 'must link a problem')
+
+    def test_duplicate_source_url_rejected(self):
+        recs = self.prod(); dup = copy.deepcopy(self.kind(recs, 'source'))
+        dup['id'] = 'source-dup0a1b2c3d4e5f'; dup['url'] = dup['url'].upper().replace('HTTPS', 'https') + '/'
+        recs.append(dup)
+        self.rejects(recs, 'duplicate source URL')
+
+    def test_source_dates_must_be_ordered(self):
+        recs = self.prod(); self.kind(recs, 'source')['published'] = '2099-01-01'
+        self.rejects(recs, 'accessed before its publication')
+
+    def test_unsourced_estimate_rejected(self):
+        recs = self.prod(); p = self.kind(recs, 'problem')
+        p['evidence'] = [{'text': 'Market is $50B', 'classification': 'estimate', 'source_ids': []}]
+        self.rejects(recs, 'lacks sources')
+
+    def test_search_text_is_external_and_type_filter_present(self):
+        out = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, out, True)
+        render.build(fixtures(), out)
+        home = (out / 'index.html').read_text()
+        self.assertIn('id="kind"', home)
+        self.assertNotIn('data-search', home)
+        index = json.loads((out / 'search-index.json').read_text())
+        self.assertEqual(len(index), 5)
+
+    def test_private_records_not_in_search_index(self):
+        recs = fixtures(); recs[0]['publish'] = False
+        out = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, out, True)
+        render.build(recs, out)
+        ids = {row['id'] for row in json.loads((out / 'search-index.json').read_text())}
+        self.assertNotIn(recs[0]['id'], ids)
 
 
 if __name__ == '__main__':

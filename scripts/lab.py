@@ -117,6 +117,14 @@ def _check_record_basics(record, kind, rid):
         raise ValueError(f'{rid}: source cannot be accessed before its publication date')
 
 
+ADVANCED = ('promising', 'needs-validation', 'completed')
+
+
+def _norm_url(url):
+    p = urlsplit(url.strip())
+    return (p.scheme.lower(), p.hostname.lower(), p.port, p.path.rstrip('/'), p.query)
+
+
 def validate(records):
     by_id={}
     for record in records:
@@ -134,20 +142,10 @@ def validate(records):
         if dates!=sorted(dates) or dates[0]<record['created'] or dates[-1]>record['updated']:
             raise ValueError(f'{rid}: invalid history dates')
         if record['history'][-1]['status']!=record['status']: raise ValueError(f'{rid}: status disagrees with history')
-    seen_source_urls={}
-    for record in records:
-        if record['type']=='source':
-            if record['url'] in seen_source_urls:
-                raise ValueError(f"{record['id']}: duplicate source locator already recorded as {seen_source_urls[record['url']]}")
-            seen_source_urls[record['url']]=record['id']
-        if record['type']=='investigation' and record['status']=='completed':
-            cited = record['source_ids'] or any(f.get('source_ids') for f in record['findings'] if isinstance(f, dict))
-            if not record['findings'] or not cited:
-                raise ValueError(f"{record['id']}: a completed investigation needs findings backed by sources")
     def walk(value,owner):
         if isinstance(value,dict):
-            if 'classification' in value and value['classification'] in ('observed','reported') and not value['source_ids']:
-                raise ValueError(f"{owner['id']}: factual claim lacks sources")
+            if 'classification' in value and value['classification'] in ('observed','reported','estimate') and not value['source_ids']:
+                raise ValueError(f"{owner['id']}: observed/reported/estimate claim lacks sources")
             for key,item in value.items():
                 expected={'source_ids':'source','related_problem_ids':'problem','related_opportunity_ids':'opportunity'}.get(key)
                 if expected:
@@ -162,6 +160,21 @@ def validate(records):
         elif isinstance(value,list):
             for item in value: walk(item,owner)
     for record in records: walk(record,record)
+    urls={}
+    for record in records:
+        rid=record['id']; kind=record['type']; done=record['status'] in ADVANCED
+        if kind=='source':
+            key=(record['demo'],_norm_url(record['url']))
+            if key in urls: raise ValueError(f"{rid}: duplicate source URL already recorded as {urls[key]}")
+            urls[key]=rid
+            acc=record['accessed']
+            if acc>record['updated']: raise ValueError(f'{rid}: accessed after record update')
+        if kind=='investigation' and done:
+            cited = record['source_ids'] or any(f.get('source_ids') for f in record['findings'] if isinstance(f, dict))
+            if not record['findings'] or not cited:
+                raise ValueError(f'{rid}: {record["status"]} investigation needs findings backed by sources')
+        if kind=='opportunity' and done and not record['related_problem_ids']:
+            raise ValueError(f'{rid}: {record["status"]} opportunity must link a problem')
 
 
 class _Page(HTMLParser):
