@@ -1,0 +1,72 @@
+{
+  "id": "problem-70775565e9c7",
+  "type": "problem",
+  "title": "Small farms face H-2A application and compliance paperwork; burden estimates are disputed",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Signal from DOL final rule and public comments."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "Agricultural employers using the H-2A program file job orders and certification applications with addenda; DOL estimates small burden while industry commenters call the estimate a gross underestimation.",
+  "customer_segment": "H-2A employers, most of them small (DOL found 82.5 percent of the matched sample small, average 11 employees).",
+  "industries": [
+    "agriculture"
+  ],
+  "geography": "United States",
+  "context": "Based on the April 2024 final rule; the rule's later status and DOL processing changes were not checked.",
+  "evidence": [
+    {
+      "text": "DOL found 2,159 of 2,615 matched H-2A employers (82.5 percent) were small, averaging 11 employees and about $3.6 million revenue.",
+      "classification": "reported",
+      "source_ids": [
+        "source-379bf6b7cb50"
+      ]
+    },
+    {
+      "text": "An industry commenter asserted DOL's burden estimate was drastically low.",
+      "classification": "reported",
+      "source_ids": [
+        "source-379bf6b7cb50"
+      ]
+    },
+    {
+      "text": "H-2A employers may spend material staff time or consultant fees on applications and records.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Agricultural labor contractors, associations and attorneys who file on behalf of farms: not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "DOL's own analysis estimates a low per-employer burden; the dispute is between agency and commenters and is not resolved by this source.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-379bf6b7cb50"
+      ]
+    }
+  ],
+  "uncertainty": "Unknown: actual time and fees per application, how many farms use agents, and who buys software.",
+  "open_questions": [
+    "What do H-2A employers or their agents actually spend per season?",
+    "Do agents already automate this work?"
+  ],
+  "next_actions": [
+    "Find independent data on H-2A filing cost and agent usage.",
+    "Check the rule's current status."
+  ]
+}
