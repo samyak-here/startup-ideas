@@ -1,0 +1,40 @@
+{
+  "id": "source-79c43bc5-af44-4cc3-9f05-35c1e22ff878",
+  "type": "source",
+  "title": "2024 CAQH Index Report \u2014 From Transactions to Trust",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "evidence-collected",
+      "reason": "Read in full (prior authorization and methodology sections) for the distribution investigation (issue #11)"
+    }
+  ],
+  "provenance": {
+    "agent": "Muse (Biscuit)",
+    "session": "research/issue-11-prior-auth-distribution 2026-11-02"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.caqh.org/hubfs/Index/2024%20Index%20Report/CAQH_IndexReport_2024_FINAL.pdf",
+  "publisher": "CAQH",
+  "published": "2025-02-01",
+  "accessed": "2026-11-02",
+  "source_type": "industry administrative-transaction index (data from 600+ provider organizations and health plans covering 63% of insured lives; labor cost/time per transaction by channel)",
+  "reliability": "The standard industry source for administrative transaction cost/time, contributed by both plans and providers and cited by federal agencies. CAQH's mission favors electronic transactions, so its savings framing is directional; per-transaction measurements are its core data product. Costs cover transaction labor only \u2014 not information gathering or follow-up.",
+  "findings": [
+    "Provider time per prior authorization: 24 minutes when conducted manually (phone, fax, email) and 16 minutes via health plan portal \u2014 the highest portal time of any administrative transaction tracked.",
+    "Provider labor cost per manual prior authorization is $12.88 per transaction; the medical industry's remaining savings opportunity from full electronic adoption is $515 million, at an average of 14 minutes saved per transaction.",
+    "Channel mix is shifting: in 2024 manual prior-authorization volume fell 37%, portal volume rose 20%, and fully electronic volume rose 6%; providers most often request prior authorization via portal, and only about one-third of medical prior authorizations are fully electronic.",
+    "Specialists and behavioral health providers spend more time and money per prior authorization than generalists, due to case complexity.",
+    "Eligibility and benefit verification is nearly fully electronic for medical plans (96% adoption), in sharp contrast to prior authorization.",
+    "CMS rule CMS-0057 requires impacted payers to offer FHIR-based prior authorization APIs by January 1, 2027."
+  ],
+  "limitations": [
+    "No practice-size segmentation: contributing organizations span all sizes and results are not broken out for small practices.",
+    "Per-transaction cost/time excludes gathering clinical information and follow-up work, so it understates the full per-request effort practices report in surveys.",
+    "National weighted estimates from participating organizations, not a random sample of practices."
+  ]
+}
