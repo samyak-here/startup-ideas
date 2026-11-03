@@ -1,0 +1,102 @@
+{
+  "id": "problem-bb2a8a222fe6",
+  "type": "problem",
+  "title": "Small defense contractors face CMMC assessment and annual affirmation costs",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Signal from DoD final rule."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Primary rule read; DoD cost estimates and small-entity counts recorded."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Review correction: separated existing security-compliance baseline from unquantified remediation; qualified contract/phase applicability and awardee baseline."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "Small DoD contractors and subcontractors can face CMMC assessment and affirmation requirements when the applicable acquisition contract requirements and phase-in apply. The October 2024 program rule estimates five- to six-figure Level 2 assessment costs for a small entity; this is not verified current demand or measured actual spend.",
+  "customer_segment": "Small DoD contractors and subcontractors with applicable CMMC requirements at the required level and phase. The 23,475 small-entity count is the rule's DFARS 252.204-7012 awardee baseline, not a verified count currently needing CMMC assessments.",
+  "industries": [
+    "defense contracting"
+  ],
+  "geography": "United States",
+  "context": "Regulatory requirement published October 2024; applicability depends on contract clauses and phase-in. Who decides and pays for compliance help inside small firms is not established.",
+  "evidence": [
+    {
+      "text": "DoD estimates 23,475 small entities (75% of 31,338 unique awardees) receive awards under contracts containing DFARS 252.204-7012.",
+      "classification": "reported",
+      "source_ids": [
+        "source-a7d9dedfe942"
+      ]
+    },
+    {
+      "text": "DoD estimates a Level 2 certification assessment plus affirmation costs a small entity $101,752 and a Level 2 self-assessment plus affirmation $34,277.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-a7d9dedfe942"
+      ]
+    },
+    {
+      "text": "DoD excludes underlying security-control implementation from the CMMC rule cost figures because FAR 52.204-21 and DFARS 252.204-7012 already require applicable controls; its baseline assumes those implementation costs should already have been incurred.",
+      "classification": "reported",
+      "source_ids": [
+        "source-a7d9dedfe942"
+      ]
+    },
+    {
+      "text": "A contractor that has not met its pre-existing security obligations might still incur remediation expense, but that expense and its attribution to incremental CMMC requirements are not quantified here.",
+      "classification": "hypothesis",
+      "source_ids": [
+        "source-a7d9dedfe942"
+      ]
+    },
+    {
+      "text": "Small contractors may pay for tooling or services that reduce assessment preparation effort.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Compliance consultants, managed security providers and GRC software vendors: not yet investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "All cost figures are the regulator's own ex ante estimates; actual costs, and how many firms exit or never bid, are unknown.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-a7d9dedfe942"
+      ]
+    },
+    {
+      "text": "Existing assessment and compliance vendors may already serve this need; competitor coverage and pricing are unknown.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: actual spend, remediation cost, current phase-in dates, buyer and budget, competitor coverage, and whether the problem is assessment preparation or control implementation.",
+  "open_questions": [
+    "What do small contractors actually spend on CMMC preparation (independent of DoD estimates)?",
+    "Which parts are repetitive documentation versus technical remediation?",
+    "What are the current phase-in dates?"
+  ],
+  "next_actions": [
+    "Find independent surveys or small-business trade-group data on CMMC readiness and spend.",
+    "Review public pricing and scope of existing CMMC compliance vendors."
+  ]
+}
