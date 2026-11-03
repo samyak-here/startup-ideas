@@ -1,0 +1,42 @@
+{
+  "id": "source-b213eed010ec",
+  "type": "source",
+  "title": "AMA Wire: Survey quantifies time burdens of prior authorization (2017)",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Source read directly on access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.ama-assn.org/practice-management/prior-authorization/survey-quantifies-time-burdens-prior-authorization",
+  "publisher": "American Medical Association",
+  "published": "2017-01-30",
+  "accessed": "2026-11-03",
+  "source_type": "News article by an advocacy organization reporting its own survey",
+  "reliability": "Primary report of AMA's own web-based survey of 1,000 physicians (fielded December 2016). The AMA advocates for prior-authorization reform, so it is an interested party. Underlying questionnaire not examined.",
+  "findings": [
+    "Web-based survey of 1,000 physicians administered in December (2016); respondents provided 20+ hours of care weekly and completed at least some prior-authorization (PA) requests.",
+    "Average of 37 PA requests per physician per week completed by physician and staff.",
+    "Average of 16.4 hours of physician and staff time per week spent on PA; 22% reported more than 20 hours.",
+    "About one-third of physicians have staff who work exclusively on PA.",
+    "75% rated the burden high or extremely high; 6% low or extremely low.",
+    "Fax and telephone were the most commonly reported ways to complete PA requests.",
+    "80% sometimes/often/always must repeat PA for patients already stabilized on a chronic treatment."
+  ],
+  "limitations": [
+    "Data is from 2016; current conditions may differ.",
+    "Sample limited to physicians providing 20+ hours of care weekly who complete some PA; not all practices.",
+    "Article does not break results down by practice size or specialty.",
+    "Self-reported estimates, not time-motion measurement."
+  ]
+}
