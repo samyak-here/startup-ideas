@@ -1,0 +1,40 @@
+{
+  "id": "source-323733b263ba",
+  "type": "source",
+  "title": "Federal Reserve Banks: 2024 Report on Payments (2023 Small Business Credit Survey)",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Source read directly on access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.fedsmallbusiness.org/-/media/project/clevelandfedtenant/fsbsite/reports/2024/2024-report-on-payments_sbcs.pdf",
+  "publisher": "Federal Reserve Banks (Cleveland Fed lead)",
+  "published": "2024-12-05",
+  "accessed": "2026-11-03",
+  "source_type": "Government central-bank survey report",
+  "reliability": "Primary report by the Federal Reserve Banks on the Small Business Credit Survey. Cover states \"Published December 2024\"; exact day inferred from the report DOI (sbcs-20241205). Opt-in survey, weighted by the authors.",
+  "findings": [
+    "Fielded September-November 2023; 6,131 responses from small employer firms with 1-499 employees in all 50 states and DC; payments findings use 4,920 firms that answered an optional end-of-survey module (~80% of employer-firm respondents opted in).",
+    "About 80% of firms report payments-related challenges; 20% report none.",
+    "Payments challenges (N=4,858): fees 52%; customers slow to pay 39%; time-consuming processes such as billing customers and making deposits 20%; delays in settlement or availability of funds 18%; managing multiple payment streams 13%; fraud or theft 11%; customer demand for more options 7%.",
+    "Firms collecting payment after delivery, on a schedule, in installments or via a third party more often report slow-paying customers; professional services/real estate and manufacturing are more likely than other industries to take payment after delivery and to report slow payers.",
+    "Time-consuming processes and settlement delays are most common among firms paid through a third party."
+  ],
+  "limitations": [
+    "Self-reported challenges; no measure of dollar cost, time spent, or willingness to pay.",
+    "Optional module: respondents may differ from non-respondents.",
+    "Employer firms with 1-499 employees only; excludes non-employer businesses.",
+    "Per-industry percentages were shown in a chart that was not cleanly extracted and are not recorded here."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "source-1ce420b3e0bf",
+  "type": "source",
+  "title": "AMA press release: 2025 Prior Authorization Physician Survey (insurer pledge skepticism)",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Source read directly on access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.ama-assn.org/press-center/ama-press-releases/ama-survey-prior-authorization-reform-pledge-falls-short-physicians",
+  "publisher": "American Medical Association",
+  "published": null,
+  "accessed": "2026-11-03",
+  "source_type": "Press release summarizing the 2025 AMA Prior Authorization Physician Survey",
+  "reliability": "Primary announcement of AMA's own survey of 1,000 practicing physicians; AMA is an interested party advocating PA reform. The linked survey PDF was not fetched or examined.",
+  "findings": [
+    "AMA surveyed 1,000 practicing physicians (2025 AMA Prior Authorization Physician Survey).",
+    "Physicians complete an average of 40 PA requests per week; 32% report requests are often or always denied.",
+    "PA consumes an average of 13 hours of physician and staff time per week; 40% employ staff dedicated exclusively to PA.",
+    "74% report denials have increased over the past five years.",
+    "Only 33% believe the June 2025 insurer pledge will make a meaningful difference."
+  ],
+  "limitations": [
+    "Publication date not confirmed: the page text refers to the June 2025 pledge as \"last summer\"; a date string on the page could not be confirmed as the release date, so published is left unknown.",
+    "Survey instrument, sampling method and practice-size breakdown not examined.",
+    "Self-reported by physicians; press-release framing."
+  ]
+}

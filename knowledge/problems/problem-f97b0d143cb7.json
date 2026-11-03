@@ -1,0 +1,89 @@
+{
+  "id": "problem-f97b0d143cb7",
+  "type": "problem",
+  "title": "Small firms struggle with slow-paying customers and manual payment handling",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Federal Reserve payments report read directly; evidence articulates the issue but not its cost."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "description": "Many small employer firms that bill after delivery report that customers pay slowly, and some report time-consuming billing and deposit processes and settlement delays.",
+  "customer_segment": "US small employer firms (1-499 employees) that collect payment after delivery, on a schedule, in installments or via third parties; professional services/real estate and manufacturing are more often in this group.",
+  "industries": [
+    "professional services",
+    "real estate",
+    "manufacturing"
+  ],
+  "geography": "United States",
+  "context": "Self-reported challenges from an opt-in module of the 2023 Small Business Credit Survey (Federal Reserve Banks).",
+  "evidence": [
+    {
+      "text": "39% of surveyed employer firms said customers are slow to pay; 20% cited time-consuming processes such as billing and bank deposits; 18% cited settlement delays (N=4,858).",
+      "classification": "reported",
+      "source_ids": [
+        "source-323733b263ba"
+      ]
+    },
+    {
+      "text": "Slow-paying customers are more commonly reported by firms collecting payment after delivery, on a schedule, in installments, or through a third party.",
+      "classification": "reported",
+      "source_ids": [
+        "source-323733b263ba"
+      ]
+    },
+    {
+      "text": "Late payment is common but its dollar and time cost to firms is not measured in this source.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-323733b263ba"
+      ]
+    },
+    {
+      "text": "Some firms may value invoicing and collections automation enough to pay for it.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Accounting and invoicing software, factoring, and payment-processing services: not yet investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "Fees (52%) were the most common payments challenge; slow payment (39%) and time-consuming processes (20%) were less common, and 20% of firms reported no payments challenges.",
+      "classification": "reported",
+      "source_ids": [
+        "source-323733b263ba"
+      ]
+    },
+    {
+      "text": "Reporting a challenge does not show it is costly enough to justify a purchase; the survey does not measure cost, time spent or willingness to pay.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-323733b263ba"
+      ]
+    }
+  ],
+  "uncertainty": "Unknown: severity (days late, dollars outstanding), which industries and sizes are most affected, existing tool adoption, and willingness to pay. The segment definition is broad.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "How late and how large are the receivables, by industry and firm size?",
+    "Which firms already use invoicing/collections tools and what gaps remain?",
+    "Is the problem different for very small firms (excluded as non-employer here)?"
+  ],
+  "next_actions": [
+    "Find independent data on days-sales-outstanding and late-payment costs for small firms (e.g., Census, Federal Reserve, SBA sources).",
+    "Review public documentation of existing invoicing and collections products."
+  ]
+}
