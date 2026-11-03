@@ -1,0 +1,36 @@
+{
+  "id": "source-d9077c5a06bd",
+  "type": "source",
+  "title": "HUD Archives news release: HUD and Census Bureau Release Findings of 2021 Rental Housing Finance Survey",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://archives.hud.gov/news/2022/pr22-242.cfm",
+  "publisher": "U.S. Department of Housing and Urban Development",
+  "published": "2022-11-29",
+  "accessed": "2026-11-03",
+  "source_type": "Government news release summarizing a Census Bureau survey",
+  "reliability": "Primary release of HUD/Census survey results.",
+  "findings": [
+    "Of the 49.5 million U.S. rental housing units, nearly 46 percent are in rental properties of one to four units.",
+    "Of those small rental properties, 70 percent (15.9 million) are owned by individual investors, and more than one-third (8.1 million) have a mortgage or similar debt.",
+    "The Rental Housing Finance Survey is funded by HUD and collected every three years by the Census Bureau; it covers property configuration, ownership and management, rental income and expenses, financing and capital improvements."
+  ],
+  "limitations": [
+    "News-release summary only; tables on management practices, rent collection or tenant screening were not read.",
+    "Data concern 2021."
+  ]
+}
