@@ -240,3 +240,67 @@ class PublicationTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class AuditRegressionTests(unittest.TestCase):
+    """Rules added by the 2026-11-03 independent audit (see docs/audits/)."""
+    def prod(self):
+        recs = fixtures()
+        for r in recs:
+            r['demo'] = False
+        return recs
+
+    def kind(self, recs, k):
+        return next(r for r in recs if r['type'] == k)
+
+    def rejects(self, recs, text):
+        with self.assertRaisesRegex(ValueError, text):
+            lab.validate(recs)
+
+    def test_baseline_production_copy_is_valid(self):
+        lab.validate(self.prod())
+
+    def test_completed_investigation_needs_sources_and_findings(self):
+        recs = self.prod(); i = self.kind(recs, 'investigation')
+        i.update(status='completed', source_ids=[], findings=[])
+        i['history'][-1]['status'] = 'completed'
+        self.rejects(recs, 'needs findings')
+
+    def test_promising_opportunity_needs_problem(self):
+        recs = self.prod(); o = self.kind(recs, 'opportunity')
+        o.update(status='promising', related_problem_ids=[])
+        o['history'][-1]['status'] = 'promising'
+        self.rejects(recs, 'must link a problem')
+
+    def test_duplicate_source_url_rejected(self):
+        recs = self.prod(); dup = copy.deepcopy(self.kind(recs, 'source'))
+        dup['id'] = 'source-dup'; dup['url'] = dup['url'].upper().replace('HTTPS', 'https') + '/'
+        recs.append(dup)
+        self.rejects(recs, 'duplicate source URL')
+
+    def test_source_dates_must_be_ordered(self):
+        recs = self.prod(); self.kind(recs, 'source')['published'] = '2099-01-01'
+        self.rejects(recs, 'published after accessed')
+
+    def test_unsourced_estimate_rejected(self):
+        recs = self.prod(); p = self.kind(recs, 'problem')
+        p['evidence'] = [{'text': 'Market is $50B', 'classification': 'estimate', 'source_ids': []}]
+        self.rejects(recs, 'lacks sources')
+
+    def test_search_text_is_external_and_type_filter_present(self):
+        out = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, out, True)
+        render.build(fixtures(), out)
+        home = (out / 'index.html').read_text()
+        self.assertIn('id="kind"', home)
+        self.assertNotIn('data-search', home)
+        index = json.loads((out / 'search-index.json').read_text())
+        self.assertEqual(len(index), 5)
+
+    def test_private_records_not_in_search_index(self):
+        recs = fixtures(); recs[0]['publish'] = False
+        out = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, out, True)
+        render.build(recs, out)
+        ids = {row['id'] for row in json.loads((out / 'search-index.json').read_text())}
+        self.assertNotIn(recs[0]['id'], ids)
