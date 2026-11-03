@@ -1,0 +1,44 @@
+{
+  "id": "source-379bf6b7cb50",
+  "type": "source",
+  "title": "Federal Register: Improving Protections for Workers in Temporary Agricultural Employment in the United States, final rule (DOL)",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Review reread extracted final four-hour familiarization and clarified incremental burden/matched-subset scope."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2024-04-29/pdf/2024-08333.pdf",
+  "publisher": "U.S. Department of Labor (via GovInfo / Federal Register)",
+  "published": "2024-04-29",
+  "accessed": "2026-11-03",
+  "source_type": "Government final rule with regulatory flexibility analysis and summarized public comments",
+  "reliability": "Government document; the issuing agency is also the party imposing or administering the requirement. Contains industry commenters' counter-claims.",
+  "findings": [
+    "In DOL’s small-entity analysis, 9,927 unique H-2A employers excluded labor contractors; revenue and employee matches were available for 2,615 employers from FY2020/FY2021 certification data.",
+    "Of those 2,615, DOL determined 2,159 were small (82.5 percent); these unique small entities averaged 11 employees and about $3.6 million in annual revenue.",
+    "A commenter (AmericanHort) argued DOL's burden estimate was \"drastically low\" and a \"gross underestimation\", characterizing DOL's proposal as estimating a one-time $54.00 familiarization cost and $108.00 to complete the new application with owner, manager and supervisor information for small businesses.",
+    "Employers must submit job orders and applications on Forms ETA-790/790A and ETA-9142A with required addenda.",
+    "The final rule increases rule-familiarization time to four hours (Federal Register p. 34052; see also quantified-cost discussion). It models incremental familiarization and additional application information, not the entire existing H-2A application process."
+  ],
+  "limitations": [
+    "The $54/$108 figures are a commenter’s characterization of proposal-stage incremental estimates, not final full-application costs. Final rule familiarization is modeled at four hours.",
+    "82.5% describes the matched subset, not a proven representative proportion of all H-2A employers; labor contractors were excluded.",
+    "The rule is historical; later litigation and policy developments require separate current verification."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://www.dol.gov/agencies/eta/foreign-labor/farmworker-protection-final-rule",
+  "publisher": "U.S. Department of Labor, Employment and Training Administration",
+  "published": null,
+  "accessed": "2026-11-03",
+  "source_type": "Government rule-summary and enforcement notice",
+  "reliability": "Primary agency description; the visible notice describes a specific historical order, not a comprehensive live legal-status database.",
+  "findings": [
+    "The page states the Farmworker Protection Rule was effective June 28, 2024 and describes an August 26, 2024 preliminary injunction limiting DOL enforcement in named states and against specified entities.",
+    "DOL states it is complying with that injunction and directs readers to its announcements for certification-process information."
+  ],
+  "limitations": [
+    "Original publication/update date unknown.",
+    "No comprehensive search of later injunctions, appeals, rule changes or announcements was completed. This page does not establish universal current applicability."
+  ],
+  "id": "source-a29cd6f049cf4963",
+  "type": "source",
+  "title": "DOL Farmworker Protection Final Rule page: enforcement restriction notice",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Public DOL rule page read via curl (HTTP 200) to qualify implementation scope."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "PR26-review-correction"
+  },
+  "demo": false,
+  "publish": true
+}
