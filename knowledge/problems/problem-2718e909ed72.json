@@ -1,0 +1,86 @@
+{
+  "id": "problem-2718e909ed72",
+  "type": "problem",
+  "title": "Nonprofits report heavy application and reporting effort and late payments on government contracts and grants",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Signal from Urban Institute national survey; data are from 2012."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "In a 2013 national survey, about 75 percent of nonprofits with government funding said application and reporting complexity was a problem and 53 percent said late payments for services already provided were a problem.",
+  "customer_segment": "Charitable nonprofits with $100,000+ in expenses holding government contracts or grants; small nonprofits are less likely to hold government funding.",
+  "industries": [
+    "nonprofit",
+    "human services"
+  ],
+  "geography": "United States",
+  "context": "Evidence is about 13 years old and covers 2012; still-current conditions are unverified.",
+  "evidence": [
+    {
+      "text": "For about 75 percent of surveyed nonprofits, the complexity and time required for applying and reporting on government contracts and grants was a problem.",
+      "classification": "reported",
+      "source_ids": [
+        "source-f7358fd2c79e"
+      ]
+    },
+    {
+      "text": "For 53 percent, late government payments for services already provided were a problem.",
+      "classification": "reported",
+      "source_ids": [
+        "source-f7358fd2c79e"
+      ]
+    },
+    {
+      "text": "Nonprofits with late-payment problems were significantly more likely to draw on reserves, borrow and cut programs.",
+      "classification": "reported",
+      "source_ids": [
+        "source-f7358fd2c79e"
+      ]
+    },
+    {
+      "text": "Grant-and-contract administration software or services could reduce this effort for small nonprofits.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Grant-management software, accounting systems, consultants: not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "Only 17 percent of nonprofits with $100,000-$249,999 budgets hold government funding, limiting the number of small nonprofits affected.",
+      "classification": "reported",
+      "source_ids": [
+        "source-f7358fd2c79e"
+      ]
+    },
+    {
+      "text": "The data are from 2012; conditions, payment practices and tools may have changed.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-f7358fd2c79e"
+      ]
+    }
+  ],
+  "uncertainty": "Unknown: current prevalence, dollar cost of the effort, who buys tools, willingness to pay, and existing product coverage.",
+  "open_questions": [
+    "Do newer data (for example nonprofit sector surveys since 2020) show the same pattern?",
+    "Which payers and program types cause most delays?"
+  ],
+  "next_actions": [
+    "Find a post-2020 primary source on nonprofit government payment timeliness and reporting burden."
+  ]
+}
