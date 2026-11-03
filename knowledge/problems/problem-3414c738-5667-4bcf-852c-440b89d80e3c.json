@@ -3,13 +3,18 @@
   "type": "problem",
   "title": "Most invoicing US small businesses carry invoices overdue 30+ days, and manual payment processes compound the cash-flow scramble",
   "created": "2026-11-02",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "status": "evidence-collected",
   "history": [
     {
       "date": "2026-11-02",
       "status": "evidence-collected",
       "reason": "Initial evidence collected in the first discovery session (issue #7)"
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Added independent Federal Reserve survey evidence from PR #10 (claude-code-cloud); answers the open question on independent corroboration only in part. Status unchanged."
     }
   ],
   "provenance": {
@@ -18,15 +23,15 @@
   },
   "demo": false,
   "publish": true,
-  "description": "US small businesses that sell on invoice terms routinely wait past 30 days to be paid: 59% carried invoices overdue by 30+ days in Intuit QuickBooks' 2026 survey, owed $17,700 on average. The administrative core of the problem is the manual chase-and-wait cycle \u2014 following up on invoices, matching bills, approvals, reminders, and record-keeping \u2014 which businesses themselves name as the top internal cause of their own delayed payments, on top of payment-processing delays after customers do pay. Even small missed payments (under $1,000 for 12% of owners) can make payroll or bills hard to cover.",
-  "customer_segment": "US small businesses (surveyed population: owners of businesses with 0-250 employees) that issue invoices or sell on terms \u2014 services, trades, and other B2B sellers. The source is cross-industry; which segments carry the worst load is unknown.",
+  "description": "US small businesses that sell on invoice terms routinely wait past 30 days to be paid: 59% carried invoices overdue by 30+ days in Intuit QuickBooks' 2026 survey, owed $17,700 on average. The administrative core of the problem is the manual chase-and-wait cycle — following up on invoices, matching bills, approvals, reminders, and record-keeping — which businesses themselves name as the top internal cause of their own delayed payments, on top of payment-processing delays after customers do pay. Even small missed payments (under $1,000 for 12% of owners) can make payroll or bills hard to cover.",
+  "customer_segment": "US small businesses (surveyed population: owners of businesses with 0-250 employees) that issue invoices or sell on terms — services, trades, and other B2B sellers. The source is cross-industry; which segments carry the worst load is unknown.",
   "industries": [
     "professional services",
     "construction and trades",
     "field services"
   ],
   "geography": "United States",
-  "context": "Payment terms are a structural driver: businesses on net-30 terms report overdue invoices at roughly double the rate of businesses requiring immediate payment. Late money in becomes late money out \u2014 42% of businesses say outside pressures delayed payments they owed to their own contractors, suppliers, or vendors.",
+  "context": "Payment terms are a structural driver: businesses on net-30 terms report overdue invoices at roughly double the rate of businesses requiring immediate payment. Late money in becomes late money out — 42% of businesses say outside pressures delayed payments they owed to their own contractors, suppliers, or vendors.",
   "evidence": [
     {
       "text": "59% of surveyed businesses have invoices overdue by 30+ days (up from 47% the prior year); businesses with unpaid invoices are owed $17,700 on average.",
@@ -55,6 +60,13 @@
       "source_ids": [
         "source-bd7249c7-5974-461c-9c51-8633e31d28b6"
       ]
+    },
+    {
+      "text": "Federal Reserve Banks' 2024 Report on Payments (2023 Small Business Credit Survey; N=4,858 employer firms with 1-499 employees): 39% of firms said customers are slow to pay, 20% cited time-consuming processes such as billing customers and making deposits, and 18% cited delays in settlement or availability of funds; slow-paying customers are more common among firms that collect payment after delivery, on a schedule, in installments or through a third party.",
+      "classification": "reported",
+      "source_ids": [
+        "source-323733b263ba"
+      ]
     }
   ],
   "alternatives": [
@@ -67,7 +79,7 @@
   ],
   "contradictory_evidence": [
     {
-      "text": "Much of the problem is mitigated by a terms choice: 64% of businesses with no overdue invoices require immediate payment, versus 34% of businesses with overdue invoices \u2014 so a segment of sellers has already opted out of the worst of it, where their market allows.",
+      "text": "Much of the problem is mitigated by a terms choice: 64% of businesses with no overdue invoices require immediate payment, versus 34% of businesses with overdue invoices — so a segment of sellers has already opted out of the worst of it, where their market allows.",
       "classification": "reported",
       "source_ids": [
         "source-bd7249c7-5974-461c-9c51-8633e31d28b6"
@@ -78,6 +90,13 @@
       "classification": "interpretation",
       "source_ids": [
         "source-bd7249c7-5974-461c-9c51-8633e31d28b6"
+      ]
+    },
+    {
+      "text": "Independent corroboration is partial: the Fed survey reproduces the direction (slow-paying customers is the second most common payments challenge) but measures reported challenges, not invoices overdue 30+ days, so it does not reproduce the vendor study's 59% or its dollar amounts. Fees (52%) were a more common challenge than slow payment (39%), 20% of firms reported no payments challenge, the payments module is opt-in, and no cost or willingness-to-pay data exist.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-323733b263ba"
       ]
     }
   ],
