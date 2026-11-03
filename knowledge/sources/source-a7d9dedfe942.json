@@ -10,6 +10,11 @@
       "date": "2026-11-03",
       "status": "completed",
       "reason": "Source read directly on the access date; findings transcribed from the document."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Review correction: clarified the existing-compliance baseline and removed unsupported incremental-cost inference."
     }
   ],
   "provenance": {
@@ -33,7 +38,7 @@
   ],
   "limitations": [
     "Figures are DoD ex ante estimates from extracted PDF text; table totals were not independently recomputed.",
-    "Excludes the cost of implementing the underlying security controls, so total compliance cost to a contractor is higher and unquantified here.",
+    "Underlying security-control implementation is excluded because the rule treats it as an existing required/incurred baseline. Exclusion alone does not establish additional remaining or incremental CMMC cost for each contractor; noncompliant firms' remediation is unquantified.",
     "Phase-in dates, the later DFARS acquisition rule and any subsequent changes were not read or verified.",
     "Does not show how many small entities will buy outside help or what they would pay for it."
   ]

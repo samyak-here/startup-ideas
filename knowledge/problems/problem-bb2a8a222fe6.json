@@ -15,6 +15,11 @@
       "date": "2026-11-03",
       "status": "evidence-collected",
       "reason": "Primary rule read; DoD cost estimates and small-entity counts recorded."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Review correction: separated existing security-compliance baseline from unquantified remediation; qualified contract/phase applicability and awardee baseline."
     }
   ],
   "provenance": {
@@ -25,8 +30,8 @@
   "publish": true,
   "related_problem_ids": [],
   "related_opportunity_ids": [],
-  "description": "Small businesses holding DoD contracts with the DFARS 252.204-7012 clause must undergo CMMC assessments and annual affirmations, with DoD estimating five- to six-figure costs per small entity at Level 2.",
-  "customer_segment": "Small DoD contractors and subcontractors subject to CMMC Level 1 or Level 2; DoD counts 23,475 small entities among awardees.",
+  "description": "Small DoD contractors and subcontractors can face CMMC assessment and affirmation requirements when the applicable acquisition contract requirements and phase-in apply. The October 2024 program rule estimates five- to six-figure Level 2 assessment costs for a small entity; this is not verified current demand or measured actual spend.",
+  "customer_segment": "Small DoD contractors and subcontractors with applicable CMMC requirements at the required level and phase. The 23,475 small-entity count is the rule's DFARS 252.204-7012 awardee baseline, not a verified count currently needing CMMC assessments.",
   "industries": [
     "defense contracting"
   ],
@@ -48,8 +53,15 @@
       ]
     },
     {
-      "text": "DoD excluded the cost of implementing the security controls from these figures, so the burden on contractors is larger than the estimates shown.",
+      "text": "DoD excludes underlying security-control implementation from the CMMC rule cost figures because FAR 52.204-21 and DFARS 252.204-7012 already require applicable controls; its baseline assumes those implementation costs should already have been incurred.",
       "classification": "reported",
+      "source_ids": [
+        "source-a7d9dedfe942"
+      ]
+    },
+    {
+      "text": "A contractor that has not met its pre-existing security obligations might still incur remediation expense, but that expense and its attribution to incremental CMMC requirements are not quantified here.",
+      "classification": "hypothesis",
       "source_ids": [
         "source-a7d9dedfe942"
       ]
