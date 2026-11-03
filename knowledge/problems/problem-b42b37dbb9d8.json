@@ -1,0 +1,63 @@
+{
+  "id": "problem-b42b37dbb9d8",
+  "type": "problem",
+  "title": "About 29% of small employer firms report complying with government regulations as an operational challenge",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Signal from Federal Reserve Small Business Credit Survey; nature of the compliance burden unspecified."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "In the 2024 Small Business Credit Survey, 29 percent of small employer firms cited complying with government regulations as an operational challenge, up from 25 percent in 2023.",
+  "customer_segment": "US small employer firms with 1-499 employees; no breakdown by regulation or industry recorded.",
+  "industries": [
+    "multiple industries"
+  ],
+  "geography": "United States",
+  "context": "A broad signal. It does not identify which regulations, how much time or money, or which firms.",
+  "evidence": [
+    {
+      "text": "29 percent of firms in the 2024 survey (N=7,545) reported complying with government regulations as an operational challenge, versus 25 percent in 2023.",
+      "classification": "reported",
+      "source_ids": [
+        "source-9def1952111a"
+      ]
+    },
+    {
+      "text": "Compliance ranked below reaching customers (57%) and hiring (51%) as an operational challenge in 2024.",
+      "classification": "reported",
+      "source_ids": [
+        "source-9def1952111a"
+      ]
+    }
+  ],
+  "alternatives": [],
+  "contradictory_evidence": [
+    {
+      "text": "Compliance is a minority concern relative to growth and hiring, and the survey is a convenience sample.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-9def1952111a"
+      ]
+    }
+  ],
+  "uncertainty": "Unknown: which regulations, cost, who is most affected, and willingness to pay. Pair with specific-regulation records to find concrete problems.",
+  "open_questions": [
+    "Which regulations drive the reported challenge, by industry and firm size?"
+  ],
+  "next_actions": [
+    "Look for survey or SBA data breaking compliance burden down by regulation."
+  ]
+}
