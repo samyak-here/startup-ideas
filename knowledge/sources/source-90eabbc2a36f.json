@@ -10,6 +10,11 @@
       "date": "2026-11-03",
       "status": "completed",
       "reason": "Source read directly on the access date; findings transcribed from the document."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Re-read IRS PDF page 16 for review; clarified annual units, cost definitions, bundle scope and 62-hour aggregate."
     }
   ],
   "provenance": {
@@ -25,10 +30,11 @@
   "source_type": "Government form instructions with burden estimates",
   "reliability": "Government document; the issuing agency is also the party imposing or administering the requirement. Publication date not shown beyond \"Rev. March 2026\".",
   "findings": [
-    "IRS burden estimates cover the Form 941 series and related employment tax forms, based on law as of October 1, 2025, and include time (recordkeeping, preparing and submitting forms, wage statements) and out-of-pocket costs.",
+    "IRS annual burden estimates cover the Form 941 series and related employment-tax and wage-statement forms and schedules, under law as of October 1, 2025. Time includes recordkeeping, preparing/submitting forms and wage statements; out-of-pocket reporting expenses are separate, and taxes paid are excluded.",
     "IRS says the figures are national averages that do not necessarily reflect a typical employer, and that most employers experience lower than average burden, varying considerably with the number of Forms W-2 filed.",
-    "IRS example: an employer issuing four Forms W-2 has an estimated average burden of 63.6 hours (15.9 hours x 4) and $2,480 ($620 x 4).",
-    "IRS example: a large employer issuing 2,000 Forms W-2 has an estimated average burden of 800 hours (2,000 x 0.4) and $40,000 (2,000 x $20)."
+    "IRS example: four Forms W-2 imply estimated annual time of 63.6 hours (15.9 x 4) and annual out-of-pocket cost of $2,480 ($620 x 4), across the reporting bundle; this is not the total monetized burden.",
+    "IRS example: 2,000 Forms W-2 imply estimated annual time of 800 hours (2,000 x 0.4) and annual out-of-pocket cost of $40,000 (2,000 x $20), across the reporting bundle.",
+    "The Annual Average Burden table lists 62 total hours and $2,760 out-of-pocket cost for filers with Form 941, and $4,890 total monetized burden. The footnote defines total monetized burden as monetized hours plus out-of-pocket costs. This aggregate differs from the per-W-2 size-band estimates."
   ],
   "limitations": [
     "Model-based IRS estimates, not measured time; the underlying method was not examined.",
