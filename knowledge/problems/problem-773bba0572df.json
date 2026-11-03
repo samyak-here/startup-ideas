@@ -1,0 +1,81 @@
+{
+  "id": "problem-773bba0572df",
+  "type": "problem",
+  "title": "Very small employers carry a high per-employee payroll tax reporting burden by IRS estimate",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Signal from IRS instructions."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "IRS burden examples read directly; scaling per W-2 recorded."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "The IRS estimates employment tax reporting burden is far higher per employee for small employers (15.9 hours and $620 per Form W-2 in its four-W-2 example) than for large employers (0.4 hours and $20 per W-2).",
+  "customer_segment": "Employers with few employees filing the Form 941 series and wage statements.",
+  "industries": [
+    "multiple industries"
+  ],
+  "geography": "United States",
+  "context": "IRS model-based estimates as of October 1, 2025 law; whether small employers actually spend this time given payroll services is unknown.",
+  "evidence": [
+    {
+      "text": "IRS estimates an employer issuing four Forms W-2 has an average burden of 63.6 hours and $2,480, versus 800 hours and $40,000 for 2,000 W-2s.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-90eabbc2a36f"
+      ]
+    },
+    {
+      "text": "IRS states most employers experience lower than average burden and that the figures are national averages.",
+      "classification": "reported",
+      "source_ids": [
+        "source-90eabbc2a36f"
+      ]
+    },
+    {
+      "text": "Many small employers may offload this work to payroll providers, shrinking their own time but paying fees.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Payroll software and outsourced payroll/accounting services: adoption not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "The IRS says most employers experience lower than average burden, so the examples may overstate typical small-employer time.",
+      "classification": "reported",
+      "source_ids": [
+        "source-90eabbc2a36f"
+      ]
+    },
+    {
+      "text": "Established payroll providers may already solve this; the unmet need is unknown.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: real time spent by very small employers, share using payroll services, fees paid, and remaining pain.",
+  "open_questions": [
+    "How do very small employers actually file, and what do they pay for it?",
+    "What gaps remain with existing payroll providers?"
+  ],
+  "next_actions": [
+    "Find independent survey data on small-employer payroll time and provider usage."
+  ]
+}
