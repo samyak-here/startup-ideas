@@ -1,0 +1,43 @@
+{
+  "id": "source-5c02d7b8da75",
+  "type": "source",
+  "title": "Federal Register: Agency Information Collection Activities; Extension, Without Change: Employment Eligibility Verification (Form I-9)",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Review re-read: distinguished completion and recordkeeping counts and PRA cost burden from economic burden."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-05-18/pdf/2026-09846.pdf",
+  "publisher": "U.S. Citizenship and Immigration Services, DHS (via GovInfo / Federal Register)",
+  "published": "2026-05-18",
+  "accessed": "2026-11-03",
+  "source_type": "Government Paperwork Reduction Act notice",
+  "reliability": "Government document; the issuing agency is also the party imposing or administering the requirement.",
+  "findings": [
+    "USCIS estimates 62,063,950 annual I-9 employer respondents at 0.35 hours per response; this respondent/response estimate is not a verified number of distinct employer customers.",
+    "USCIS estimates 62,063,950 annual employee respondents at 0.15 hours per response, and 27,200,000 recordkeeping respondents at 0.17 hours per response.",
+    "USCIS estimates a total annual hour burden of 35,655,796 hours and separately states an annual cost burden of $0. The $0 line must not be interpreted as zero economic value of the estimated hours or zero overall compliance cost.",
+    "The notice is an extension without change of an existing collection."
+  ],
+  "limitations": [
+    "Agency PRA estimates, not measured time; no breakdown by employer size.",
+    "Does not capture penalties, error rates or legal-review costs.",
+    "Employer completion, employee completion and recordkeeping have separate counts and time estimates. The notice does not provide one observed all-in cost per hire or establish that the full I-9 workflow is low pain."
+  ]
+}
