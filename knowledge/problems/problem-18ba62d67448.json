@@ -15,26 +15,38 @@
       "date": "2026-11-03",
       "status": "paused",
       "reason": "USCIS's estimate of 0.35 hours per employer response is small; no evidence of material cost or penalty exposure. Revisit if independent evidence of error rates or penalties appears."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "paused",
+      "reason": "Review clarification: retained pause as a provisional research-priority decision, not an agency conclusion of low pain. Employer completion excludes separate recordkeeping estimates; PRA $0 does not imply no economic burden. Prior rationale preserved above as history."
     }
   ],
   "provenance": {
     "agent": "claude-code-cloud",
-    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs; Codex review corrections PR28"
   },
   "demo": false,
   "publish": true,
   "related_problem_ids": [],
   "related_opportunity_ids": [],
-  "description": "Employers must complete Form I-9 for each hire; USCIS estimates 0.35 hours per employer response across about 62 million annual responses.",
+  "description": "Employers must complete Form I-9 for hires; USCIS estimates 0.35 hours per employer response across 62,063,950 annual responses. Its notice separately estimates employee completion and recordkeeping time. The respondent totals are not a count of distinct employer customers, and the completion estimate alone does not measure the entire employer compliance workflow.",
   "customer_segment": "All US employers; no size breakdown available.",
   "industries": [
     "multiple industries"
   ],
   "geography": "United States",
-  "context": "USCIS PRA extension notice published May 2026.",
+  "context": "USCIS PRA extension notice published May 2026. Agency information-collection estimates distinguish employer response, employee response and recordkeeping components; their different respondent counts must not be combined into a single per-hire estimate without an additional method.",
   "evidence": [
     {
       "text": "USCIS estimates 0.35 hours per employer Form I-9 response and 62,063,950 annual employer responses.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-5c02d7b8da75"
+      ]
+    },
+    {
+      "text": "The notice separately estimates 27,200,000 annual recordkeeping respondents at 0.17 hours per response, and 62,063,950 employee respondents at 0.15 hours per response. These categories use different counts from employer completion.",
       "classification": "estimate",
       "source_ids": [
         "source-5c02d7b8da75"
@@ -46,7 +58,7 @@
   ],
   "contradictory_evidence": [
     {
-      "text": "Per-response time is small by the agency's own estimate.",
+      "text": "This session judges the 0.35-hour completion estimate alone insufficient to prioritize a new solution. That research-priority judgment is not USCIS finding the full I-9 workflow immaterial: the notice separately estimates recordkeeping, and this research has not established error, audit or legal exposure.",
       "classification": "interpretation",
       "source_ids": [
         "source-5c02d7b8da75"
@@ -58,7 +70,7 @@
       "source_ids": []
     }
   ],
-  "uncertainty": "Unknown: audit and penalty exposure, error rates, small-employer experience, and existing tool adoption.",
+  "uncertainty": "Unknown: audit and penalty exposure, error rates, small-employer experience, current tool adoption, and residual work after existing systems. The PRA cost-burden figure of $0 must not be read as zero economic burden: the same notice estimates substantial hours, and their economic value is not zero merely because this cost-burden line is zero.",
   "open_questions": [
     "Do small employers face material penalty or audit risk from I-9 errors?"
   ],
