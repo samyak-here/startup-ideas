@@ -10,6 +10,11 @@
       "date": "2026-11-03",
       "status": "evidence-collected",
       "reason": "Two AMA survey reports read directly; evidence articulates the problem. Not validated as a startup opportunity."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Review fix: cited the reported pledge evidence separately from the unknown forecast."
     }
   ],
   "provenance": {
@@ -91,7 +96,14 @@
       ]
     },
     {
-      "text": "Insurer pledges (June 2025) and regulatory changes may reduce the problem; the AMA reports physician skepticism (33% expect meaningful change), but outcomes are unknown.",
+      "text": "In June 2025 roughly 60 health insurers pledged to streamline and reduce prior authorization, with implementation deadlines spanning 2025 through 2027; in AMA's 2025 survey only 33% of physicians believed the pledge would make a meaningful difference.",
+      "classification": "reported",
+      "source_ids": [
+        "source-1ce420b3e0bf"
+      ]
+    },
+    {
+      "text": "Whether the insurer pledge or regulatory changes will actually shrink prior-authorization volume or staff time by 2027 is not known.",
       "classification": "unknown",
       "source_ids": []
     }
