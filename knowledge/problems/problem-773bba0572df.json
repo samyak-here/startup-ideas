@@ -1,0 +1,93 @@
+{
+  "id": "problem-773bba0572df",
+  "type": "problem",
+  "title": "Very small employers carry a high per-employee payroll tax reporting burden by IRS estimate",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Signal from IRS instructions."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "IRS burden examples read directly; scaling per W-2 recorded."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Review correction: specified annual time versus out-of-pocket and total monetized costs, full reporting-bundle scope, and separate 62-hour aggregate."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs; Codex review corrections PR27"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "The IRS estimates annual employment-tax and wage-statement reporting burden across a bundle of forms. In its four-W-2 example, annual time is 63.6 hours (15.9 per W-2) and annual out-of-pocket cost is $2,480 ($620 per W-2), compared with 800 hours and $40,000 for 2,000 W-2s. Out-of-pocket cost is separate from monetized time and total economic burden; these are not Form 941 per-filing figures.",
+  "customer_segment": "Employers with few employees filing the Form 941 series and wage statements.",
+  "industries": [
+    "multiple industries"
+  ],
+  "geography": "United States",
+  "context": "IRS model-based annual reporting-bundle estimates under law as of October 1, 2025, covering Form 941-series and other employment-tax/wage-statement forms, associated schedules and reporting methods. Taxes paid are excluded. Whether small employers experience this burden after using payroll services is unknown.",
+  "evidence": [
+    {
+      "text": "IRS estimates annual time burden of 63.6 hours and annual out-of-pocket reporting costs of $2,480 for an employer issuing four Forms W-2, versus 800 hours and $40,000 for 2,000 W-2s. These refer to the full employment-tax/wage-statement reporting bundle, not Form 941 alone; out-of-pocket costs exclude monetized time.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-90eabbc2a36f"
+      ]
+    },
+    {
+      "text": "IRS states most employers experience lower than average burden and that the figures are national averages.",
+      "classification": "reported",
+      "source_ids": [
+        "source-90eabbc2a36f"
+      ]
+    },
+    {
+      "text": "Many small employers may offload this work to payroll providers, shrinking their own time but paying fees.",
+      "classification": "hypothesis",
+      "source_ids": []
+    },
+    {
+      "text": "The separate Annual Average Burden table lists 62 total hours per year for filers with Form 941, across the reporting bundle. This aggregate is not the 1\u20135 W-2 subgroup estimate and should not replace it.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-90eabbc2a36f"
+      ]
+    }
+  ],
+  "alternatives": [
+    "Payroll software and outsourced payroll/accounting services: adoption not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "The IRS says most employers experience lower than average burden, so the examples may overstate typical small-employer time.",
+      "classification": "reported",
+      "source_ids": [
+        "source-90eabbc2a36f"
+      ]
+    },
+    {
+      "text": "Established payroll providers may already solve this; the unmet need is unknown.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: real time spent by very small employers, share using payroll services, fees paid, and remaining pain.",
+  "open_questions": [
+    "How do very small employers actually file, and what do they pay for it?",
+    "What gaps remain with existing payroll providers?"
+  ],
+  "next_actions": [
+    "Find independent survey data on small-employer payroll time and provider usage."
+  ]
+}
