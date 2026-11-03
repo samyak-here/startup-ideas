@@ -1,0 +1,50 @@
+{
+  "id": "problem-ef2f4753-d46b-48cc-a5ef-28a973eca056",
+  "type": "problem",
+  "title": "Archived duplicate: prior-authorization evidence consolidated into problem-df174fd556554536",
+  "created": "2026-11-02",
+  "updated": "2026-11-03",
+  "status": "archived",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "evidence-collected",
+      "reason": "Initial evidence collected in the first discovery session (issue #7)"
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Added 2016 AMA survey evidence from PR #10 (claude-code-cloud); the former separate problem record in that PR was merged into this canonical record. Status unchanged."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "archived",
+      "reason": "Explicit duplicate consolidation into problem-df174fd556554536; former source claims copied to canonical record and historical commits retained. No market-validity rejection implied."
+    }
+  ],
+  "provenance": {
+    "agent": "Muse (Biscuit)",
+    "session": "research/issue-7-first-discovery 2026-11-02"
+  },
+  "demo": false,
+  "publish": true,
+  "description": "This duplicate PA problem was consolidated into problem-df174fd556554536. Follow that canonical record for CMS and AMA evidence, open questions and uncertainty. Its former evidence and provenance are retained in Git history and integrated into the canonical record.",
+  "customer_segment": "US physician practices and administrative staff. Small independent practices are a hypothesized segment; surveys do not establish their burden distribution. CMS requirements have narrower payer and non-drug scope than the AMA surveys.",
+  "industries": [
+    "healthcare"
+  ],
+  "geography": "United States",
+  "context": "Historical identifier retained to preserve links and reconciliation history; not an independent problem or extra evidence stream.",
+  "evidence": [],
+  "alternatives": [],
+  "contradictory_evidence": [],
+  "uncertainty": "Archived as duplicate, not rejected as a real workflow. Commercial viability and small-practice pain remain unknown in the canonical record.",
+  "related_problem_ids": [
+    "problem-df174fd556554536"
+  ],
+  "related_opportunity_ids": [],
+  "open_questions": [],
+  "next_actions": [
+    "Continue the canonical record problem-df174fd556554536 rather than reopening a disconnected copy."
+  ]
+}

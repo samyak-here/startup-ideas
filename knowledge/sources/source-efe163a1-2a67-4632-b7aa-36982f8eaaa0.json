@@ -1,0 +1,38 @@
+{
+  "id": "source-efe163a1-2a67-4632-b7aa-36982f8eaaa0",
+  "type": "source",
+  "title": "Only 1 in 3 doctors trusts insurers' prior authorization promises \u2014 AMA 2025 survey report",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "evidence-collected",
+      "reason": "Read to check whether the 2024 burden persisted and to capture reform counterevidence (issue #7)"
+    }
+  ],
+  "provenance": {
+    "agent": "Muse (Biscuit)",
+    "session": "research/issue-7-first-discovery 2026-11-02"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.ama-assn.org/practice-management/prior-authorization/only-1-3-doctors-trusts-insurers-prior-authorization",
+  "publisher": "American Medical Association",
+  "published": "2026-05-18",
+  "accessed": "2026-11-02",
+  "source_type": "industry association article reporting its own physician survey (n=1,000, 2025)",
+  "reliability": "Same publisher and advocacy caveats as the 2024 survey report; useful as a second annual data point from the same instrument family.",
+  "findings": [
+    "Physicians complete on average 40 prior authorizations per week, consuming about 13 hours of physician and staff time \u2014 essentially unchanged from the 2024 survey.",
+    "40% of physicians employ staff dedicated solely to prior authorization tasks.",
+    "32% reported prior authorization requests are often or always denied.",
+    "Only 5% reported health plans offering exemption ('gold card') programs based on physician performance.",
+    "Only one in three physicians believes the insurers' 2025 streamlining pledge will produce meaningful change."
+  ],
+  "limitations": [
+    "Same self-report and advocacy limitations as the 2024 survey.",
+    "Measures physician perception of insurer pledges, not measured process outcomes."
+  ]
+}

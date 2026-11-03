@@ -1,0 +1,93 @@
+{
+  "id": "problem-12c285b2-1bce-497b-bb4e-8a937e079c3c",
+  "type": "problem",
+  "title": "Restaurant managers lose hours to unplanned admin, and manual inventory counting and receiving drive food-cost variance",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "evidence-collected",
+      "reason": "Initial evidence collected in the first discovery session (issue #7)"
+    }
+  ],
+  "provenance": {
+    "agent": "Muse (Biscuit)",
+    "session": "research/issue-7-first-discovery 2026-11-02"
+  },
+  "demo": false,
+  "publish": true,
+  "description": "Restaurant general managers absorb a heavy reactive administrative load \u2014 call-outs, payroll fixes, last-minute schedule changes \u2014 with 44% of operators reporting six or more unplanned admin hours per GM per week. In parallel, inventory control remains substantially manual: receiving and counting errors are the second-ranked driver of inventory variance (37% of operators), behind only waste/spoilage. Operators with disciplined forecasting and consistent tool use report far less unplanned admin, which suggests the pain concentrates in lower-maturity operations rather than being uniform.",
+  "customer_segment": "US restaurant operators. The benchmark sample skews to multi-unit brands (over half oversee 20+ locations); single-unit independent restaurants \u2014 a core small-business segment \u2014 are underrepresented and their load is unmeasured here.",
+  "industries": [
+    "restaurants",
+    "hospitality"
+  ],
+  "geography": "United States",
+  "context": "Food and labor are the dominant restaurant cost lines, so inventory variance shows up directly as margin loss on thin (often single-digit) margins. The same report links unplanned admin load to GM/AGM turnover, making the administrative burden a retention problem as well as a time problem.",
+  "evidence": [
+    {
+      "text": "44% of operators report GMs spending six or more hours per week on unplanned administrative tasks.",
+      "classification": "reported",
+      "source_ids": [
+        "source-d2e9f6f1-35d3-4c4c-a7da-18988b00c3bd"
+      ]
+    },
+    {
+      "text": "Receiving/counting errors (37%) and inaccurate forecasting/ordering (26%) are among the top drivers of inventory variance, behind waste or spoilage (54%).",
+      "classification": "reported",
+      "source_ids": [
+        "source-d2e9f6f1-35d3-4c4c-a7da-18988b00c3bd"
+      ]
+    },
+    {
+      "text": "Operators with under 5% sales forecast variance are far more likely to report under five unplanned admin hours weekly (74%) than operators with 16%+ variance (22%).",
+      "classification": "reported",
+      "source_ids": [
+        "source-d2e9f6f1-35d3-4c4c-a7da-18988b00c3bd"
+      ]
+    },
+    {
+      "text": "Higher unplanned admin tracks higher GM/AGM turnover (5% high turnover at low admin loads versus 15% at 6-10 unplanned hours).",
+      "classification": "reported",
+      "source_ids": [
+        "source-d2e9f6f1-35d3-4c4c-a7da-18988b00c3bd"
+      ]
+    }
+  ],
+  "alternatives": [
+    "Paper and spreadsheet inventory counts (status quo for many operators)",
+    "POS-linked inventory and workforce platforms",
+    "Standardized forecasting systems and fixed admin routines (the top-tier operators' pattern in the same report)",
+    "Spot-check counting of high-variance items instead of full counts"
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "The burden is uneven: top-quartile operators with consistent tool discipline report low unplanned admin \u2014 this may be primarily a process-discipline problem in lower-maturity operations, not a universal missing-tool problem.",
+      "classification": "reported",
+      "source_ids": [
+        "source-d2e9f6f1-35d3-4c4c-a7da-18988b00c3bd"
+      ]
+    },
+    {
+      "text": "The evidence comes from a small (n=112), multi-unit-skewed, vendor-framework survey; it may overstate how structured the typical independent restaurant's problem is, or miss it entirely.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-d2e9f6f1-35d3-4c4c-a7da-18988b00c3bd"
+      ]
+    }
+  ],
+  "uncertainty": "No independent or independent-restaurant-specific time-use data yet. Inventory-specific hours are bundled into general unplanned admin in this source, so the size of the inventory-counting slice alone is unknown.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "How much time do single-unit independent restaurants actually spend counting, receiving, and reconciling inventory each week, and in what tools (paper, Excel, POS)?",
+    "Is the felt pain margin loss from variance, manager time, or both?",
+    "What do independents already pay for back-office software, if anything?"
+  ],
+  "next_actions": [
+    "Seek National Restaurant Association operator data and any academic or government time-use evidence focused on independent restaurants before deepening.",
+    "Treat any vendor 'hours on inventory' claims as reported, not observed, until independently corroborated."
+  ]
+}

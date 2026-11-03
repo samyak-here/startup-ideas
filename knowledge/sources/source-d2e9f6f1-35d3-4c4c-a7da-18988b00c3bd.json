@@ -1,0 +1,39 @@
+{
+  "id": "source-d2e9f6f1-35d3-4c4c-a7da-18988b00c3bd",
+  "type": "source",
+  "title": "State of Restaurant Operations 2026",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "evidence-collected",
+      "reason": "Read (benchmark PDF) during the first discovery session (issue #7)"
+    }
+  ],
+  "provenance": {
+    "agent": "Muse (Biscuit)",
+    "session": "research/issue-7-first-discovery 2026-11-02"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.qsrmagazine.com/wp-content/uploads/2023/06/State_of_Restaurant_Operations_042026_v5-1.pdf",
+  "publisher": "Fourth and QSR Magazine (WTWH Media)",
+  "published": null,
+  "accessed": "2026-11-02",
+  "source_type": "industry benchmark survey report (n=112 restaurant leaders, early 2026)",
+  "reliability": "Near-primary industry survey with stated sample and method. Fourth sells restaurant operations software and the report uses Fourth's own maturity framework; respondents are executives/owners, skewing multi-unit (over half oversee 20+ locations).",
+  "findings": [
+    "44% of operators report general managers spending six or more hours per week on unplanned administrative work (call-outs, payroll errors, last-minute schedule changes).",
+    "Top drivers of inventory variance: waste or spoilage 54%, receiving/counting errors 37%, recipe/portion non-compliance 29%, vendor/supply disruptions 29%, theft/loss/unrecorded usage 27%, inaccurate forecasting/ordering 26%.",
+    "Operators with under 5% sales forecast variance are far more likely to report under five unplanned admin hours per week (74%) than operators with 16%+ variance (22%).",
+    "Unplanned admin load tracks manager retention: 5% of low-admin operators report high GM/AGM turnover versus 15% among those with 6-10 unplanned hours.",
+    "64% of operators have not deployed AI or automation tools for operations."
+  ],
+  "limitations": [
+    "Small sample (n=112) of leaders, not front-line managers; skews to multi-unit brands, so single-unit independent restaurants are underrepresented.",
+    "Self-reported, scored with the vendor's own maturity framework.",
+    "Inventory-specific hours are not separated from other unplanned admin in this report."
+  ]
+}

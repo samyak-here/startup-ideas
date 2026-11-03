@@ -1,11 +1,12 @@
 {
-  "description": "Discovery hypothesis: small independent medical-practice staff may spend avoidable effort finding payer documentation requirements and tracking non-drug prior authorizations. CMS recognizes a broader prior-authorization burden; the small-practice segment remains unverified.",
-  "customer_segment": "Hypothesized segment: US small independent practices dealing with affected payers and non-drug medical items/services. No size-specific sample.",
+  "description": "US medical practices assemble payer-specific documentation and track prior-authorization decisions across channels. CMS documents a limited non-drug payer-rule scope; AMA surveys describe a broader medication/procedure authorization workload. Both support administrative workflow research, but the AMA averages cannot be attributed to small practices or to the CMS-covered non-drug subset.",
+  "customer_segment": "US physician practices and administrative staff. Small independent practices are a hypothesized segment; surveys do not establish their burden distribution. CMS requirements have narrower payer and non-drug scope than the AMA surveys.",
   "industries": [
+    "healthcare",
     "healthcare-administration"
   ],
   "geography": "United States; payer scope and drug exclusions matter.",
-  "context": "Administrative work before an authorized medical item/service; no patient information was collected.",
+  "context": "Administrative work before medical items, services or medications. Keep broad AMA survey figures distinct from the CMS non-drug regulatory subset; no patient information was collected.",
   "evidence": [
     {
       "text": "CMS describes its rule as reducing prior-authorization burden and specifies APIs for covered items/services, documentation requirements, requests and responses.",
@@ -20,11 +21,51 @@
       "source_ids": [
         "source-7ab1fa6af51546c0"
       ]
+    },
+    {
+      "text": "Practices completed an average of 39 prior authorization requests per physician per week (AMA 2024 survey, n=1,000).",
+      "classification": "reported",
+      "source_ids": [
+        "source-d0e83dfd-10cc-4e4d-abc5-955c478d4d01"
+      ]
+    },
+    {
+      "text": "Those requests consumed an average of 13 hours of physician and staff time per physician per week.",
+      "classification": "reported",
+      "source_ids": [
+        "source-d0e83dfd-10cc-4e4d-abc5-955c478d4d01"
+      ]
+    },
+    {
+      "text": "The burden persisted a year later: about 40 requests and about 13 hours per week in the AMA 2025 survey, and 40% of physicians employ staff dedicated solely to prior authorization.",
+      "classification": "reported",
+      "source_ids": [
+        "source-efe163a1-2a67-4632-b7aa-36982f8eaaa0"
+      ]
+    },
+    {
+      "text": "82% of physicians in the 2024 survey reported patients abandoned treatment due to prior authorization issues, and more than one in four reported a serious adverse event for a patient in their care.",
+      "classification": "reported",
+      "source_ids": [
+        "source-d0e83dfd-10cc-4e4d-abc5-955c478d4d01"
+      ]
+    },
+    {
+      "text": "An earlier AMA survey (web-based, 1,000 physicians, December 2016) reported an average of 37 PA requests per physician per week and 16.4 hours per week of physician and staff time; about one-third of physicians had staff working exclusively on PA, and fax and telephone were the most commonly reported ways to complete requests.",
+      "classification": "reported",
+      "source_ids": [
+        "source-b213eed010ec"
+      ]
     }
   ],
   "alternatives": [
     "Existing payer channels and practice workflows; CMS explicitly discusses portal, fax, email, mail and phone for denial communication.",
-    "Payer APIs described by CMS; EHR/vendor adoption and real availability were not tested."
+    "Payer APIs described by CMS; EHR/vendor adoption and real availability were not tested.",
+    "Dedicated prior-authorization staff (used by 40% of physicians per the 2025 survey)",
+    "Payer portals and phone/fax follow-up (status quo)",
+    "EHR and clearinghouse prior-authorization modules",
+    "Third-party prior-authorization services",
+    "Insurer 'gold card' exemption programs (reported by only 5% of physicians)"
   ],
   "contradictory_evidence": [
     {
@@ -40,37 +81,89 @@
       "source_ids": [
         "source-7ab1fa6af51546c0"
       ]
+    },
+    {
+      "text": "Insurers pledged in 2025 to streamline prior authorization and electronic prior-authorization rules are advancing, which could shrink this problem; however only one in three physicians expects meaningful change, and the 2025 measured burden is unchanged.",
+      "classification": "reported",
+      "source_ids": [
+        "source-efe163a1-2a67-4632-b7aa-36982f8eaaa0"
+      ]
+    },
+    {
+      "text": "Prior authorization exists to control inappropriate utilization, and 32% of physicians say requests are often or always denied — some share of the work is the system functioning as designed rather than pure waste. The problem claim is about process cost, not about eliminating review.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-efe163a1-2a67-4632-b7aa-36982f8eaaa0"
+      ]
+    },
+    {
+      "text": "The 2016 and 2024/2025 AMA surveys are separate samples from the same advocacy organization, so they show the burden persisting over about nine years but are not independent corroboration from a different source. The 2016 figure (16.4 hours) is higher than the 2024/2025 figure (about 13 hours), so the reported burden has not clearly grown; differences in sample and wording prevent a trend claim.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-b213eed010ec"
+      ]
+    },
+    {
+      "text": "The earlier AMA surveys and different AMA articles remain evidence from one advocacy organization. They are not independent source corroboration and do not establish willingness to buy an external solution.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-d0e83dfd-10cc-4e4d-abc5-955c478d4d01",
+        "source-efe163a1-2a67-4632-b7aa-36982f8eaaa0",
+        "source-b213eed010ec"
+      ]
     }
   ],
-  "uncertainty": "No small-practice interviews, measured staff time, payer implementation verification or willingness-to-pay evidence. Current regulatory developments after this fact sheet were not exhaustively checked. Clinical integrations and privacy obligations could make a solo-founder MVP difficult.",
+  "uncertainty": "No small-practice interviews, independently measured staff time, payer implementation verification or willingness-to-pay evidence. AMA figures are physician self-report, not a time-motion study; dedicated staff demonstrate labor allocation, not demand for a new product. Practice-size distribution, clinical privacy/integration cost and current regulatory implementation remain unknown.",
   "related_problem_ids": [
-    "problem-f9e394ad0dda4b2d"
+    "problem-f9e394ad0dda4b2d",
+    "problem-ef2f4753-d46b-48cc-a5ef-28a973eca056"
   ],
   "related_opportunity_ids": [],
   "open_questions": [
     "Which documentation/response-tracking gaps remain after current EHR and payer integrations in a narrowly defined specialty?",
-    "What later changes affect the 2024 rule and actual 2026/2027 implementation?"
+    "What later changes affect the 2024 rule and actual 2026/2027 implementation?",
+    "How is prior-authorization time distributed in small (1-5 physician) practices: who does it, in which tools, and how much is eligibility/status-chasing versus clinical documentation?",
+    "What does denial rework add on top of initial submission time?",
+    "Which specialties and payer mixes carry the worst load?",
+    "Does dental prior authorization (different payer systems) show the same pattern?"
   ],
   "next_actions": [
     "Check current CMS updates and representative payer/EHR public implementation documentation before any technical opportunity assessment.",
-    "Find independent first-hand small-practice evidence; do not treat regulatory intent as a quantified pain estimate."
+    "Find independent first-hand small-practice evidence; do not treat regulatory intent as a quantified pain estimate.",
+    "Investigate the small-practice distribution question above, starting from the full AMA survey data and MGMA sources.",
+    "Look for payer-side or CMS data that corroborates volumes independently of the AMA."
   ],
   "id": "problem-df174fd556554536",
   "type": "problem",
   "title": "Prior-authorization requirements and response tracking in medical practices",
-  "created": "2026-11-03",
+  "created": "2026-11-02",
   "updated": "2026-11-03",
   "status": "evidence-collected",
   "history": [
     {
+      "date": "2026-11-02",
+      "status": "evidence-collected",
+      "reason": "Initial evidence collected in the first discovery session (issue #7)"
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Added 2016 AMA survey evidence from PR #10 (claude-code-cloud); the former separate problem record in that PR was merged into this canonical record. Status unchanged."
+    },
+    {
       "date": "2026-11-03",
       "status": "evidence-collected",
       "reason": "Initial public-source discovery for issue #4; no customer interviews or commercial validation."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "PR #9 integration: consolidated CMS and broader AMA evidence into this canonical PA record; retained former problem ID as an explicitly archived duplicate. Kept non-drug rule scope distinct from broad survey scope and willingness to pay unknown."
     }
   ],
   "provenance": {
-    "agent": "Codex",
-    "session": "issue-4-first-discovery"
+    "agent": "Codex; Muse (Biscuit); claude-code-cloud",
+    "session": "issue-4-first-discovery; research/issue-7-first-discovery; PR10 AMA2017/Fed evidence; PR9 integration correction"
   },
   "demo": false,
   "publish": true
