@@ -10,11 +10,16 @@
       "date": "2026-11-03",
       "status": "completed",
       "reason": "Source read directly on the access date; findings transcribed from the document."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Review correction after rereading original PDF: separated 2010-report summary from 2013 survey, corrected Figure 11 and Table 3 interpretation."
     }
   ],
   "provenance": {
     "agent": "claude-code-cloud",
-    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs; reviewed corrections by Codex fix_merge_30_31"
   },
   "demo": false,
   "publish": true,
@@ -23,19 +28,21 @@
   "published": null,
   "accessed": "2026-11-03",
   "source_type": "Research report on a national, stratified random survey",
-  "reliability": "Non-profit research institute report of its own survey; publication date not extracted from the document text.",
+  "reliability": "Research institute report of its own national survey; cover dates publication to December 2013, but exact day is unknown. Findings here identify the applicable figure/table and population.",
   "findings": [
     "The survey is a national, stratified, random survey of most types of charitable nonprofits reporting $100,000 or more in expenses on IRS Form 990 in 2010.",
     "Urban estimates government agencies entered into about 350,000 contracts and grants with about 56,000 nonprofits; the average is six per nonprofit (median three); governments paid $137 billion to nonprofits for services in 2012.",
-    "For 53 percent of respondents, late payments for services already provided were a problem; nearly 50 percent of human service nonprofits reported a late-payment problem in both 2009 and 2012.",
-    "For about 75 percent of respondents, the complexity and time required for applying and reporting on contracts and grants was a problem.",
-    "Nonprofits that said late payments were problematic were significantly more likely to draw on reserves, increase lines of credit, reduce the number of programs, and close program offices or sites.",
-    "Only 17 percent of nonprofits with budgets of $100,000 to $249,999 have a government contract or grant."
+    "Figure 11 (printed p. 25), 2013 national survey covering 2012: application complexity 32% big problem + 39% small; reporting complexity 31% big + 40% small; late payments 19% big + 26% small. Missing/not-applicable responses excluded; rounding applies.",
+    "The Summary of 2010 Report (printed pp. 6–7) gives about 75% application/reporting and 53% late-payment problem rates for human-service nonprofits in 2009. These must not be attributed to the 2013 survey’s 2012 broader nonprofit population.",
+    "Printed p. 32 reports an association between late-payment problems and drawing on reserves, increased credit lines, program reductions and office/site closure; it does not establish causation.",
+    "Table 3 (printed p. 10) gives budget-group composition of government-funded nonprofits: 17% in $100k–$249,999, 36% in $250k–$999,999, 31% in $1m–$4.99m, 16% in $5m+. The 17% is not within-band government-funding incidence."
   ],
   "limitations": [
     "Data concern 2012; current conditions may differ substantially.",
     "Survey excludes nonprofits under $100,000 in expenses.",
     "Self-reported problems; no dollar cost of administrative effort was extracted.",
-    "Publication date not extracted (report on 2013 survey)."
+    "Publication month December 2013 is stated on the cover; exact day unknown, so published remains null.",
+    "Preceding prose around Table 3 is ambiguous; this record uses the explicit column distribution rather than inferring within-band incidence.",
+    "The PDF includes an earlier-study summary with a different year and human-service-only population; headline figures must not be mixed across them."
   ]
 }
