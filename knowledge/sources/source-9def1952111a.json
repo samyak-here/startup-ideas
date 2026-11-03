@@ -1,0 +1,37 @@
+{
+  "id": "source-9def1952111a",
+  "type": "source",
+  "title": "Federal Reserve Banks: 2025 Report on Employer Firms (2024 Small Business Credit Survey)",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://fedsmallbusiness.org/-/media/project/clevelandfedtenant/fsbsite/reports/2025/2025-report-on-employer-firms.pdf",
+  "publisher": "Federal Reserve Banks (Cleveland Fed lead)",
+  "published": "2025-03-27",
+  "accessed": "2026-11-03",
+  "source_type": "Central-bank survey report",
+  "reliability": "Primary report by the Federal Reserve Banks; convenience sample, weighted by the authors. Publication day inferred from the report DOI (sbcs-20250327); cover says \"Published March 2025\".",
+  "findings": [
+    "The survey was open September 4 to November 4, 2024 and yielded 7,653 responses from a nationwide convenience sample of small employer firms with 1-499 employees in all 50 states and DC.",
+    "Operational challenges in the prior 12 months (read from chart text): complying with government regulations 25% in the 2023 survey (N=6,056) and 29% in the 2024 survey (N=7,545); reaching customers and growing sales 53% then 57%; hiring or retaining qualified staff 54% then 51%; utilizing technology 26% then 29%; 9% reported no operational challenges in either year.",
+    "The report states reaching customers and growing sales was the most commonly reported operational challenge in 2024."
+  ],
+  "limitations": [
+    "Chart values were extracted from PDF text; the 2023-then-2024 column order was inferred, consistent with the narrative for the reaching-customers row.",
+    "Convenience sample; results may not generalize.",
+    "No indication of which regulations or what cost."
+  ]
+}
