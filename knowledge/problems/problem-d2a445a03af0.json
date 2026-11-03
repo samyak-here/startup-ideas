@@ -1,0 +1,80 @@
+{
+  "id": "problem-d2a445a03af0",
+  "type": "problem",
+  "title": "Small food businesses must keep additional traceability records under the FDA food traceability rule",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Signal from FDA final rule."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "Food firms that handle foods on FDA's traceability list must keep additional traceability records, and FDA itself finds the rule has a significant economic impact on a substantial number of small entities.",
+  "customer_segment": "Small food manufacturers, processors, packers, distributors and others covered by the rule and not exempt; exact counts not recorded.",
+  "industries": [
+    "food manufacturing",
+    "food distribution"
+  ],
+  "geography": "United States",
+  "context": "Rule published November 2022 with a multi-year compliance period; current compliance dates not verified.",
+  "evidence": [
+    {
+      "text": "FDA found the rule has a significant economic impact on a substantial number of small entities because some small firms may incur annualized costs above 1 percent of revenue.",
+      "classification": "reported",
+      "source_ids": [
+        "source-526c2ce9af35"
+      ]
+    },
+    {
+      "text": "The rule exempts certain small producers and certain small retail food establishments and restaurants.",
+      "classification": "reported",
+      "source_ids": [
+        "source-526c2ce9af35"
+      ]
+    },
+    {
+      "text": "Small covered firms may lack tools to produce sortable electronic traceability records on request.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Spreadsheets built from paper records (FDA says this can work in limited circumstances).",
+    "Existing traceability software vendors: not yet investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "FDA exempted many of the smallest firms, narrowing the affected small-firm population.",
+      "classification": "reported",
+      "source_ids": [
+        "source-526c2ce9af35"
+      ]
+    },
+    {
+      "text": "Software vendors and industry initiatives may already address traceability recordkeeping; coverage and pricing are unknown.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: number of affected small firms, actual cost per firm, current compliance dates, and willingness to pay.",
+  "open_questions": [
+    "How many non-exempt small firms are covered, by sector?",
+    "What are the current compliance dates?",
+    "What do existing traceability tools cost and who adopts them?"
+  ],
+  "next_actions": [
+    "Read the rule's economic analysis tables for covered-firm counts and per-firm cost.",
+    "Verify current compliance dates from FDA."
+  ]
+}
