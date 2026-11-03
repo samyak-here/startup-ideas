@@ -1,0 +1,40 @@
+{
+  "id": "source-bd7249c7-5974-461c-9c51-8633e31d28b6",
+  "type": "source",
+  "title": "2026 Small Business Late Payments Report",
+  "created": "2026-11-02",
+  "updated": "2026-11-02",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-02",
+      "status": "evidence-collected",
+      "reason": "Read in full during the first discovery session (issue #7)"
+    }
+  ],
+  "provenance": {
+    "agent": "Muse (Biscuit)",
+    "session": "research/issue-7-first-discovery 2026-11-02"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://quickbooks.intuit.com/r/small-business-data/small-business-late-payments-report-2026/",
+  "publisher": "Intuit QuickBooks",
+  "published": null,
+  "accessed": "2026-11-02",
+  "source_type": "vendor-commissioned survey report (Intuit QuickBooks Small Business Insights, ~5,000 owners quarterly; Business Ownership survey, 1,305 US owners, Dec 2025)",
+  "reliability": "Vendor research: Intuit sells invoicing, payments, and automation, and the report's framing favors automation. Sample sizes are large and the methodology is stated on the page; treat figures as reported claims pending independent corroboration.",
+  "findings": [
+    "59% of surveyed businesses have invoices overdue by 30+ days, up from 47% the prior year; businesses with unpaid invoices are owed $17,700 on average.",
+    "39% of owners say a single late payment made it hard to cover payroll or bills in the past year; 27% said a missed payment under $5,000 did, including 12% for under $1,000.",
+    "Manual processes are the number-one internal reason businesses give for delayed outgoing payments; 39% say internal challenges delayed payments they owed, rising to 51% among businesses with overdue invoices.",
+    "74% of businesses are not fully automated in managing and paying bills.",
+    "49% of owners say standard payment processing times create critical or moderate cash-flow gaps even after a customer has paid.",
+    "Businesses requiring immediate payment largely avoid overdue invoices: 64% of businesses with no overdue invoices require immediate payment, versus 34% of those with overdue invoices; 55% of net-30 businesses have overdue invoices versus 26% on immediate terms."
+  ],
+  "limitations": [
+    "Vendor-commissioned and self-reported; no independent verification.",
+    "The page read does not break results out by industry, so segment concentration (e.g. trades vs agencies) is unknown.",
+    "Respondent attribution of delays to 'manual processes' is perception, not measured time use."
+  ]
+}
