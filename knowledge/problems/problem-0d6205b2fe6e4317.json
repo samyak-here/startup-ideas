@@ -1,0 +1,82 @@
+{
+  "description": "Discovery hypothesis: small subcontractors on DBRA-covered projects may struggle to assemble job-specific hours, classifications, wages and fringe-benefit data for weekly payroll certification. The recurring task is documented; unmet small-business pain is not yet established.",
+  "customer_segment": "Hypothesized segment: US small construction subcontractors on covered federal or federally assisted projects; source does not isolate firm size.",
+  "industries": [
+    "construction"
+  ],
+  "geography": "United States; only applicable covered contracts, not all construction payroll.",
+  "context": "Payroll administrator or owner prepares weekly reporting and compliance certification. No employer records were accessed.",
+  "evidence": [
+    {
+      "text": "DOL states that covered contractors and subcontractors must submit payroll information weekly with a signed Statement of Compliance.",
+      "classification": "reported",
+      "source_ids": [
+        "source-6185a6d54e814c6d"
+      ]
+    },
+    {
+      "text": "The instructions distinguish labor classifications and fringe-benefit treatment, creating multiple inputs to the reporting task.",
+      "classification": "reported",
+      "source_ids": [
+        "source-6185a6d54e814c6d"
+      ]
+    },
+    {
+      "text": "DOL estimates an average of 55 minutes to complete the information collection, including review and data gathering; this is not a measured small-business time saving and is not extrapolated.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-6185a6d54e814c6d"
+      ]
+    }
+  ],
+  "alternatives": [
+    "DOL provides WH-347 and instructions; the form itself is optional.",
+    "Hypothesized alternatives to investigate: payroll software exports, a payroll bureau, or an accountant. Vendor capability and pricing have not been checked."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "WH-347 is optional: a proposed product cannot assume every contractor must re-enter data into this exact form.",
+      "classification": "reported",
+      "source_ids": [
+        "source-6185a6d54e814c6d"
+      ]
+    },
+    {
+      "text": "DOL identifies limited DBRA coverage and injunction-affected provisions; not every construction firm or activity belongs in this segment.",
+      "classification": "reported",
+      "source_ids": [
+        "source-74926512af044f14"
+      ]
+    }
+  ],
+  "uncertainty": "Recurring reporting is supported. Manual duplication, avoidable hours, current software gaps, buyer access, error costs and willingness to pay are unknown. A single agency burden estimate is not customer validation.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "Which small-subcontractor payroll systems already produce the accepted weekly output without re-entry?",
+    "Where, if anywhere, do project-specific classifications and fringe-benefit inputs break an existing export?"
+  ],
+  "next_actions": [
+    "Compare public documentation for at least three payroll/compliance alternatives and look for first-hand, dated small-contractor accounts of export failures.",
+    "Narrow by contractor size, payroll stack and contract reporting destination before considering a solution."
+  ],
+  "id": "problem-0d6205b2fe6e4317",
+  "type": "problem",
+  "title": "Weekly certified payroll preparation for covered construction subcontractors",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Initial public-source discovery for issue #4; no customer interviews or commercial validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-4-first-discovery"
+  },
+  "demo": false,
+  "publish": true
+}

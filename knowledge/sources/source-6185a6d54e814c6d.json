@@ -1,0 +1,36 @@
+{
+  "url": "https://www.dol.gov/agencies/whd/forms/wh347",
+  "publisher": "U.S. Department of Labor, Wage and Hour Division",
+  "published": null,
+  "accessed": "2026-11-03",
+  "source_type": "primary-government-guidance",
+  "reliability": "Primary agency description of its workflow/rule; reliable within stated scope, not independent customer-demand evidence. HTTP 200 public HTML read on access date.",
+  "findings": [
+    "Covered contractors and subcontractors must submit weekly certified payroll information; using WH-347 specifically is optional.",
+    "The instructions require reporting hours by labor classification and address wage/fringe benefit treatment and a signed Statement of Compliance.",
+    "The Public Burden Statement estimates an average of 55 minutes for the information collection, including review, data gathering, completion and checking; this is an agency estimate, not measured small-contractor time."
+  ],
+  "limitations": [
+    "Instructions are authoritative about this federal reporting workflow, not evidence of dissatisfaction, error prevalence, willingness to pay, or the performance of existing software.",
+    "The 55-minute estimate does not establish per-worker, per-project annual cost, a small-business subgroup, a distribution, or avoidable time. No such extrapolation is made."
+  ],
+  "id": "source-6185a6d54e814c6d",
+  "type": "source",
+  "title": "Instructions For Completing Davis-Bacon and Related Acts Weekly Certified Payroll Form, WH-347",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Initial public-source discovery for issue #4; no customer interviews or commercial validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-4-first-discovery"
+  },
+  "demo": false,
+  "publish": true
+}

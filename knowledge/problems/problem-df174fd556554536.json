@@ -1,0 +1,77 @@
+{
+  "description": "Discovery hypothesis: small independent medical-practice staff may spend avoidable effort finding payer documentation requirements and tracking non-drug prior authorizations. CMS recognizes a broader prior-authorization burden; the small-practice segment remains unverified.",
+  "customer_segment": "Hypothesized segment: US small independent practices dealing with affected payers and non-drug medical items/services. No size-specific sample.",
+  "industries": [
+    "healthcare-administration"
+  ],
+  "geography": "United States; payer scope and drug exclusions matter.",
+  "context": "Administrative work before an authorized medical item/service; no patient information was collected.",
+  "evidence": [
+    {
+      "text": "CMS describes its rule as reducing prior-authorization burden and specifies APIs for covered items/services, documentation requirements, requests and responses.",
+      "classification": "reported",
+      "source_ids": [
+        "source-7ab1fa6af51546c0"
+      ]
+    },
+    {
+      "text": "The fact sheet specifies denial reasons and describes decision timeframes with payer exclusions.",
+      "classification": "reported",
+      "source_ids": [
+        "source-7ab1fa6af51546c0"
+      ]
+    }
+  ],
+  "alternatives": [
+    "Existing payer channels and practice workflows; CMS explicitly discusses portal, fax, email, mail and phone for denial communication.",
+    "Payer APIs described by CMS; EHR/vendor adoption and real availability were not tested."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "CMS describes operational requirements generally starting in 2026 and API requirements generally starting in 2027: public infrastructure and incumbent adoption may reduce a new entrant's differentiation.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-7ab1fa6af51546c0"
+      ]
+    },
+    {
+      "text": "The rule described excludes drugs and does not cover every US payer; a universal workflow claim would overreach.",
+      "classification": "reported",
+      "source_ids": [
+        "source-7ab1fa6af51546c0"
+      ]
+    }
+  ],
+  "uncertainty": "No small-practice interviews, measured staff time, payer implementation verification or willingness-to-pay evidence. Current regulatory developments after this fact sheet were not exhaustively checked. Clinical integrations and privacy obligations could make a solo-founder MVP difficult.",
+  "related_problem_ids": [
+    "problem-f9e394ad0dda4b2d"
+  ],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "Which documentation/response-tracking gaps remain after current EHR and payer integrations in a narrowly defined specialty?",
+    "What later changes affect the 2024 rule and actual 2026/2027 implementation?"
+  ],
+  "next_actions": [
+    "Check current CMS updates and representative payer/EHR public implementation documentation before any technical opportunity assessment.",
+    "Find independent first-hand small-practice evidence; do not treat regulatory intent as a quantified pain estimate."
+  ],
+  "id": "problem-df174fd556554536",
+  "type": "problem",
+  "title": "Prior-authorization requirements and response tracking in medical practices",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Initial public-source discovery for issue #4; no customer interviews or commercial validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-4-first-discovery"
+  },
+  "demo": false,
+  "publish": true
+}

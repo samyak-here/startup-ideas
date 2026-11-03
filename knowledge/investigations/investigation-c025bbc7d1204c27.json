@@ -1,0 +1,106 @@
+{
+  "objective": "Issue #4: identify up to three initial administrative problem signals across at least two industries without proposing a startup or fabricating customer evidence.",
+  "summary": "Three candidate problems, two industries, four primary agency sources. Construction has an explicitly weekly task and an agency burden estimate; medical authorization and remittance workflows have substantial existing standardization. These are discovery signals, not validated commercial opportunities.",
+  "related_problem_ids": [
+    "problem-0d6205b2fe6e4317",
+    "problem-df174fd556554536",
+    "problem-f9e394ad0dda4b2d"
+  ],
+  "questions": [
+    "What recurring administrative work is documented?",
+    "What existing tools or policy changes undermine a new-product thesis?",
+    "What high-value uncertainty should the next session resolve?"
+  ],
+  "findings": [
+    {
+      "text": "DOL requires weekly reporting for covered contractors and provides detailed labor-classification, wage and fringe-benefit instructions.",
+      "classification": "reported",
+      "source_ids": [
+        "source-6185a6d54e814c6d"
+      ]
+    },
+    {
+      "text": "The WH-347 information collection has an agency average burden estimate of 55 minutes; no small-firm distribution or avoidable-cost estimate was established.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-6185a6d54e814c6d"
+      ]
+    },
+    {
+      "text": "CMS recognizes prior-authorization burden and describes API and operational requirements within a limited payer/non-drug scope.",
+      "classification": "reported",
+      "source_ids": [
+        "source-7ab1fa6af51546c0"
+      ]
+    },
+    {
+      "text": "Medicare remittances involve multiple adjustment levels, but CMS already describes automatic posting through ERA and free viewing tools.",
+      "classification": "reported",
+      "source_ids": [
+        "source-a81bb33b5b214db4"
+      ]
+    },
+    {
+      "text": "Construction payroll export exceptions are the preferred next desk-research target because the recurring task is clear and a public-documentation comparison can cheaply falsify a generic automation thesis. This is a prioritization judgment, not proof of founder fit.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-6185a6d54e814c6d",
+        "source-74926512af044f14"
+      ]
+    }
+  ],
+  "source_ids": [
+    "source-6185a6d54e814c6d",
+    "source-74926512af044f14",
+    "source-7ab1fa6af51546c0",
+    "source-a81bb33b5b214db4"
+  ],
+  "contradictory_findings": [
+    {
+      "text": "WH-347 is optional; reporting scope is restricted, and current payroll exports may already solve the work. The last point remains an untested hypothesis.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-6185a6d54e814c6d",
+        "source-74926512af044f14"
+      ]
+    },
+    {
+      "text": "Payer API requirements and existing ERA automation challenge undifferentiated medical administration products. Neither page establishes the remaining gap for small practices.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-7ab1fa6af51546c0",
+        "source-a81bb33b5b214db4"
+      ]
+    }
+  ],
+  "unresolved_questions": [
+    "All willingness-to-pay, buyer-access and small-business-specific pain questions remain unknown.",
+    "No vendor pricing, customer interviews, market sizes, or source-independent customer corroboration were collected.",
+    "Sources are four documents from two agencies, not four independent customer-demand studies.",
+    "Publication dates for three guidance pages are unknown; source access is dated, and rule implementation was not independently verified."
+  ],
+  "conclusions": "Complete as a bounded discovery scan only. Keep all three problems at discovery/evidence-collected depth; create no opportunity record or commercial recommendation. Prefer one targeted construction competitor/workaround investigation next. Do not contact customers or begin product development.",
+  "next_steps": [
+    "Compare existing certified-payroll exports and project-input workflows in public documentation; seek dated first-hand small-subcontractor evidence of residual friction.",
+    "If the gap is absent or already solved, retain these records and deprioritize rather than inventing a solution."
+  ],
+  "id": "investigation-c025bbc7d1204c27",
+  "type": "investigation",
+  "title": "First discovery scan: construction reporting and medical payer administration",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Initial public-source discovery for issue #4; no customer interviews or commercial validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-4-first-discovery"
+  },
+  "demo": false,
+  "publish": true
+}

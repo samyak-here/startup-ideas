@@ -1,0 +1,77 @@
+{
+  "description": "Discovery hypothesis: billing staff may need to reconcile claim-level and provider-level adjustments against expected payments. The workflow is documented, but a remaining software gap among small practices is not.",
+  "customer_segment": "Hypothesized segment: small US professional practices receiving Medicare remittance advice; not all healthcare payers.",
+  "industries": [
+    "healthcare-administration"
+  ],
+  "geography": "United States; Medicare payment/remittance workflow.",
+  "context": "Post-adjudication billing/accounting work, distinct from the pre-service authorization problem. No claims or personal data accessed.",
+  "evidence": [
+    {
+      "text": "CMS describes remittances spanning multiple claims and adjustments at line, claim and provider levels.",
+      "classification": "reported",
+      "source_ids": [
+        "source-a81bb33b5b214db4"
+      ]
+    },
+    {
+      "text": "CMS states that ERA can automatically post amounts and adjustments to billing/accounting applications rather than manual staff posting from paper.",
+      "classification": "reported",
+      "source_ids": [
+        "source-a81bb33b5b214db4"
+      ]
+    }
+  ],
+  "alternatives": [
+    "Electronic remittance advice integrated with accounting/billing applications.",
+    "CMS identifies free Medicare Easy Print for professional providers and PC Print for institutional providers; these are not claimed to perform every reconciliation task."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "CMS already describes standardized electronic remittance and automatic posting, weakening the case for a generic replacement of manual entry.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-a81bb33b5b214db4"
+      ]
+    },
+    {
+      "text": "CMS identifies free remittance viewing/printing tools, so displaying or explaining codes alone is not demonstrated differentiation.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-a81bb33b5b214db4"
+      ]
+    }
+  ],
+  "uncertainty": "No measured exception frequency, manual-posting prevalence, small-practice dissatisfaction, buyer budget, or unmet reconciliation requirement. Existing standardized tools may adequately solve much of the work.",
+  "related_problem_ids": [
+    "problem-df174fd556554536"
+  ],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "Which exceptions remain unresolved after a practice already uses ERA auto-posting?",
+    "Are those exceptions frequent enough and economically meaningful enough to justify a separate tool?"
+  ],
+  "next_actions": [
+    "Prioritize evidence of specific unresolved exceptions over generic payment-automation claims.",
+    "Pause deeper work if available billing systems already handle the identified exceptions."
+  ],
+  "id": "problem-f9e394ad0dda4b2d",
+  "type": "problem",
+  "title": "Posting and explaining Medicare payment adjustments in small practices",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Initial public-source discovery for issue #4; no customer interviews or commercial validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-4-first-discovery"
+  },
+  "demo": false,
+  "publish": true
+}

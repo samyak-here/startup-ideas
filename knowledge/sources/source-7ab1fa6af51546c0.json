@@ -1,0 +1,38 @@
+{
+  "url": "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+  "publisher": "Centers for Medicare & Medicaid Services",
+  "published": "2024-01-17",
+  "accessed": "2026-11-03",
+  "source_type": "primary-government-guidance",
+  "reliability": "Primary agency description of its workflow/rule; reliable within stated scope, not independent customer-demand evidence. HTTP 200 public HTML read on access date.",
+  "findings": [
+    "CMS describes the rule as reducing prior-authorization burden and requires specified impacted payers to implement APIs for requirements discovery, requests and responses.",
+    "The fact sheet describes operational compliance generally beginning January 1, 2026 and API compliance generally beginning January 1, 2027, with exact dates varying by payer.",
+    "The described prior-authorization provisions exclude drugs; the impacted payer list is limited rather than all US insurance.",
+    "CMS specifies denial reasons and, for impacted payers excluding QHP issuers on FFEs, 72-hour expedited and seven-calendar-day standard decision timeframes."
+  ],
+  "limitations": [
+    "A rule fact sheet, not an empirical survey of small medical practices or proof that requirements have been implemented by each payer.",
+    "No later-rule or litigation search was completed; treat dates as the fact sheet's description and verify current implementation before recommending a product.",
+    "All claims drawn from this page are one CMS evidence stream, not independent confirmations."
+  ],
+  "id": "source-7ab1fa6af51546c0",
+  "type": "source",
+  "title": "CMS Interoperability and Prior Authorization Final Rule CMS-0057-F",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Initial public-source discovery for issue #4; no customer interviews or commercial validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-4-first-discovery"
+  },
+  "demo": false,
+  "publish": true
+}
