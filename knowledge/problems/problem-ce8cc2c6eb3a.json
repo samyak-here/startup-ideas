@@ -1,7 +1,7 @@
 {
   "id": "problem-ce8cc2c6eb3a",
   "type": "problem",
-  "title": "Small individual-investor landlords: large segment, no customer problem yet evidenced",
+  "title": "Individual-investor landlords: segment lead, no customer problem yet evidenced",
   "created": "2026-11-03",
   "updated": "2026-11-03",
   "status": "discovered",
@@ -10,26 +10,31 @@
       "date": "2026-11-03",
       "status": "discovered",
       "reason": "Segment-size signal from HUD/Census; no pain point established."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Review correction: removed settled ownership/property-count claims because the HUD release mixes unit/property denominators; retained only clearly labeled housing-unit scope."
     }
   ],
   "provenance": {
     "agent": "claude-code-cloud",
-    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs; reviewed corrections by Codex fix_merge_30_31"
   },
   "demo": false,
   "publish": true,
   "related_problem_ids": [],
   "related_opportunity_ids": [],
-  "description": "Nearly half of US rental units are in 1-4 unit properties, and 70 percent of those small properties are owned by individual investors; whether these owners have a specific unmet administrative problem is not yet evidenced.",
+  "description": "HUD reports that nearly 46% of US rental units are in 1–4 unit properties. Individual-investor landlords are a segment to investigate, but the release’s ownership counts mix units and properties; no owner-population size or specific unmet administrative problem is established here.",
   "customer_segment": "Individual-investor owners of 1-4 unit rental properties.",
   "industries": [
     "real estate"
   ],
   "geography": "United States",
-  "context": "Scoping record only: this establishes segment size, not a problem. Do not treat as validated demand.",
+  "context": "Scoping lead only: identifies a housing/property type for further investigation, not quantified individual-owner population or a customer problem. Do not treat as validated demand.",
   "evidence": [
     {
-      "text": "About 46 percent of 49.5 million rental units are in 1-4 unit properties, and 70 percent of those properties are owned by individual investors.",
+      "text": "The HUD release reports 49.5 million US rental housing units, nearly 46% of them in properties with 1–4 units. These are housing-unit figures, not counts of landlords or small businesses.",
       "classification": "reported",
       "source_ids": [
         "source-d9077c5a06bd"
@@ -48,7 +53,7 @@
       ]
     }
   ],
-  "uncertainty": "Unknown: management practices, rent collection and screening pain, tool adoption, and spend. This record exists to avoid re-scoping the segment.",
+  "uncertainty": "Unknown: management practices, rent collection and screening pain, tool adoption, and spend. This record exists to avoid re-scoping the segment. The ownership percentage/count denominator in the HUD summary is unresolved; verify RHFS tables before quantifying individual-investor owners or mortgaged small properties.",
   "open_questions": [
     "How do small landlords currently collect rent, screen tenants and keep records?",
     "Which tasks cause the most time or loss?"

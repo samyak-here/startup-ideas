@@ -10,11 +10,16 @@
       "date": "2026-11-03",
       "status": "completed",
       "reason": "Source read directly on the access date; findings transcribed from the document."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Review correction: disclosed release denominator inconsistency and stopped presenting ambiguous owner/property counts as settled facts."
     }
   ],
   "provenance": {
     "agent": "claude-code-cloud",
-    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs; reviewed corrections by Codex fix_merge_30_31"
   },
   "demo": false,
   "publish": true,
@@ -26,11 +31,13 @@
   "reliability": "Primary release of HUD/Census survey results.",
   "findings": [
     "Of the 49.5 million U.S. rental housing units, nearly 46 percent are in rental properties of one to four units.",
-    "Of those small rental properties, 70 percent (15.9 million) are owned by individual investors, and more than one-third (8.1 million) have a mortgage or similar debt.",
+    "The release discusses individual-investor ownership and mortgage debt for small rental properties, but the percentage/absolute-count denominator is ambiguous; those ownership/debt counts are not treated as verified property or owner counts in this record.",
     "The Rental Housing Finance Survey is funded by HUD and collected every three years by the Census Bureau; it covers property configuration, ownership and management, rental income and expenses, financing and capital improvements."
   ],
   "limitations": [
     "News-release summary only; tables on management practices, rent collection or tenant screening were not read.",
-    "Data concern 2021."
+    "Data concern 2021.",
+    "The release calls 70% (15.9 million) individual-investor-owned and 8.1 million mortgaged small properties, yet also reports only 19.3 million rental properties overall. These figures appear to mix unit and property denominators. RHFS tables were not verified, so ownership percentages/absolute counts are not used to quantify the target owner population.",
+    "Rental units, properties, individual owners and small businesses are distinct units of analysis; this release alone does not identify a reachable customer population."
   ]
 }
