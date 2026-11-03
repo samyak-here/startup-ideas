@@ -1,0 +1,35 @@
+{
+  "id": "source-f760fccd5e5e",
+  "type": "source",
+  "title": "Federal Register: Beneficial Ownership Information Reporting Requirement Revision and Deadline Extension, interim final rule (FinCEN)",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2025-03-26/pdf/2025-05199.pdf",
+  "publisher": "Financial Crimes Enforcement Network, U.S. Department of the Treasury (via GovInfo / Federal Register)",
+  "published": "2025-03-26",
+  "accessed": "2026-11-03",
+  "source_type": "Government interim final rule",
+  "reliability": "Government document; the issuing agency is also the party imposing or administering the requirement.",
+  "findings": [
+    "The interim final rule is effective March 26, 2025.",
+    "It exempts all domestic reporting companies, and their beneficial owners, from the requirement to file initial BOI reports, or to update or correct previously filed reports, by excluding domestic companies from the definition of \"reporting company\".",
+    "The original Reporting Rule had required domestic and foreign reporting companies created or registered before January 1, 2024 to file initial BOI reports by January 1, 2025."
+  ],
+  "limitations": [
+    "An interim final rule; later action followed (see the August 2026 source) and was only partly read."
+  ]
+}
