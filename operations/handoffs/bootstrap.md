@@ -11,3 +11,12 @@ Remote: Git push succeeded. PR creation failed because no main base branch exist
 Cloud: start_skill saved successfully for repeatable validation/build instructions. No install script is needed: Python standard library only. Environment configuration must be reviewed/saved and published in the environment UI; saving a draft did not publish it.
 
 Next research task (after bootstrap review): ../backlog/first-session.md. No research, outreach, paid service, or business launch was undertaken.
+
+## Superseded status (2026-11-02)
+
+The remote state above is historical. The bootstrap commits are now on
+`main`, Pages is live, and the independent audit that this handoff said was
+required has been performed — see
+[../reviews/architecture-audit-2026-11-02.md](../reviews/architecture-audit-2026-11-02.md)
+and issue #1. Do not act on the "no main branch / no PR possible" statements
+above.
