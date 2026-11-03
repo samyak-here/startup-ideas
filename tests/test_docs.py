@@ -8,7 +8,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 class DocumentationTests(unittest.TestCase):
     def test_local_markdown_links_exist(self):
-        files = list(ROOT.glob('*.md')) + list((ROOT / 'docs').rglob('*.md'))
+        # Every Markdown file is onboarding surface for some agent — not just
+        # root and docs/. operations/, templates/, .github/, knowledge/ and
+        # schemas/ links rotted silently before this scan covered them.
+        files = [p for p in ROOT.rglob('*.md') if '.git' not in p.parts]
         for path in files:
             for link in re.findall(r'\[[^\]]*\]\(([^)]+)\)', path.read_text()):
                 parsed = urlsplit(link)

@@ -73,6 +73,9 @@ def report(record, records):
         ('Related problems', r.get('related_problem_ids', [])),
         ('Sources and references', sorted(source_ids)),
     ]
+    # Omit narrative sections with nothing behind them; every field — empty
+    # ones included, rendered as Unknown — still appears in Record detail.
+    sections = [(t, v) for t, v in sections if not (v is None or v == '' or v == [] or v == {})]
     demo = '<aside class="demo">SYNTHETIC DEMONSTRATION · Fictional content for pipeline testing. No market evidence or validated business claims.</aside>' if r.get('demo') else ''
     nav = '<nav class="contents" aria-label="Report contents"><h2>In this report</h2>' + ''.join(f'<a href="#section-{i}">{esc(title)}</a>' for i,(title,_) in enumerate(sections)) + '</nav>'
     body = demo + f'<div class="report-heading"><a class="back" href="../index.html">← Research library</a><p class="eyebrow">{esc(r["type"])} / {esc(r["id"])}</p><h1>{esc(r["title"])}</h1><p class="meta">Published {esc(r["created"])} · Revised {esc(r["updated"])} <span class="badge">{esc(r["status"])}</span></p></div>'
@@ -114,7 +117,15 @@ def build(records, output):
     kinds = sorted({r['type'] for r in selected})
     options = lambda values: ''.join(f'<option value="{esc(v)}">{esc(v.replace("_", " "))}</option>' for v in values)
     # Full-text search text lives in one lazily fetched file, not in every card (an inline index made the homepage O(total record size)).
-    index = [{'id': r['id'], 'text': json.dumps(r, sort_keys=True, ensure_ascii=False).lower()} for r in selected]
+    def strings(value):
+        # Human-meaningful values only: no field names, so queries do not match schema keys like "source_ids".
+        if isinstance(value, str): yield value
+        elif isinstance(value, list):
+            for v in value: yield from strings(v)
+        elif isinstance(value, dict):
+            for k, v in sorted(value.items()):
+                if k not in ('provenance', 'history', 'demo', 'publish'): yield from strings(v)
+    index = [{'id': r['id'], 'text': ' '.join(strings(r)).lower()} for r in selected]
     (output/'search-index.json').write_text(json.dumps(index, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     body += '<section class="library"><div class="section-heading"><h2>Explore the library</h2><span>Most recently revised first</span></div><div class="filters"><div><label for="search">Search records</label><input id="search" type="search" placeholder="Problem, customer, or keyword…"></div><div><label for="kind">Record type</label><select id="kind"><option value="">All types</option>'+options(kinds)+'</select></div><div><label for="industry">Industry</label><select id="industry"><option value="">All industries</option>'+options(tags)+'</select></div><div><label for="status">Research stage</label><select id="status"><option value="">All stages</option>'+options(states)+'</select></div></div><p id="result-count" role="status" aria-live="polite"></p><div class="cards">'
     for r in sorted(selected,key=lambda r:(r['updated'],r['id']),reverse=True):

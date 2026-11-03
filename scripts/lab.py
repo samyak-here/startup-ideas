@@ -16,15 +16,38 @@ from html.parser import HTMLParser
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def _load_file(path):
+    try:
+        record = json.loads(path.read_text(encoding='utf-8'))
+    except (OSError, ValueError) as exc:
+        raise ValueError(f'{path}: {exc}') from exc
+    if not isinstance(record, dict):
+        raise ValueError(f'{path}: expected one record object')
+    return record
+
+
 def load_records(root):
+    return [_load_file(path) for path in sorted(Path(root).rglob('*.json'))]
+
+
+# Canonical storage contract (docs/research/records.md, knowledge/README.md):
+# one record per file, in its type directory, named <id>.json. Validation of a
+# bare record list cannot see paths, so the knowledge loader enforces this.
+TYPE_DIRECTORIES = {'problem': 'problems', 'source': 'sources',
+                    'investigation': 'investigations', 'opportunity': 'opportunities',
+                    'decision': 'decisions'}
+
+
+def load_knowledge(root):
     records = []
     for path in sorted(Path(root).rglob('*.json')):
-        try:
-            record = json.loads(path.read_text(encoding='utf-8'))
-        except (OSError, ValueError) as exc:
-            raise ValueError(f'{path}: {exc}') from exc
-        if not isinstance(record, dict):
-            raise ValueError(f'{path}: expected one record object')
+        record = _load_file(path)
+        kind, rid = record.get('type'), record.get('id')
+        if kind in TYPE_DIRECTORIES and isinstance(rid, str):
+            if path.parent.name != TYPE_DIRECTORIES[kind]:
+                raise ValueError(f'{path}: {kind} records belong in knowledge/{TYPE_DIRECTORIES[kind]}/')
+            if path.name != rid + '.json':
+                raise ValueError(f'{path}: filename must be the record id ({rid}.json)')
         records.append(record)
     return records
 
@@ -66,6 +89,34 @@ def _schema(value, schema, path):
                 raise ValueError(f'{path}: unsafe source URL')
 
 
+# Obvious credential shapes must never enter a record. This repository is
+# public, so a committed secret is public through Git itself even when the
+# record is never rendered (publish: false is not privacy).
+CREDENTIAL_PATTERNS = [
+    r'sk-[A-Za-z0-9]{20,}', r'AKIA[0-9A-Z]{16}', r'gh[pousr]_[A-Za-z0-9]{30,}',
+    r'xox[baprs]-[A-Za-z0-9-]{10,}', r'-----BEGIN [A-Z ]*PRIVATE KEY-----',
+]
+
+
+def _check_record_basics(record, kind, rid):
+    # Template placeholders are starting points, never canonical records.
+    provenance = record.get('provenance', {})
+    if ('replace-me' in rid or record.get('title', '').startswith('Replace with')
+            or provenance.get('agent') == 'replace-me' or provenance.get('session') == 'replace-me'):
+        raise ValueError(f'{rid}: template placeholder values are not valid research records')
+    if rid.endswith('-') or '--' in rid:
+        raise ValueError(f'{rid}: identifier must not end with a hyphen or contain consecutive hyphens')
+    # knowledge/README.md requires collision-resistant suffixes for parallel
+    # work; short sequential suffixes collide and are guessable. Synthetic
+    # fixtures (demo) keep their short readable IDs.
+    if not record['demo'] and len(rid) - len(kind) - 1 < 8:
+        raise ValueError(f'{rid}: identifier suffix too short; use a collision-resistant suffix (UUID)')
+    if any(re.search(p, json.dumps(record)) for p in CREDENTIAL_PATTERNS):
+        raise ValueError(f'{rid}: possible credential detected; secrets must never be committed')
+    if kind == 'source' and record.get('published') and record['accessed'] < record['published']:
+        raise ValueError(f'{rid}: source cannot be accessed before its publication date')
+
+
 ADVANCED = ('promising', 'needs-validation', 'completed')
 
 
@@ -85,6 +136,7 @@ def validate(records):
         if not rid.startswith(kind+'-'): raise ValueError(f'{rid}: identifier must have type prefix')
         if rid in by_id: raise ValueError(f'Duplicate identifier: {rid}')
         by_id[rid]=record
+        _check_record_basics(record, kind, rid)
         if record['updated']<record['created']: raise ValueError(f'{rid}: updated before created')
         dates=[entry['date'] for entry in record['history']]
         if dates!=sorted(dates) or dates[0]<record['created'] or dates[-1]>record['updated']:
@@ -99,10 +151,11 @@ def validate(records):
                 if expected:
                     if len(item)!=len(set(item)): raise ValueError(f"{owner['id']}: duplicate reference")
                     for ref in item:
+                        if ref==owner['id']: raise ValueError(f"{owner['id']}: record must not reference itself")
                         target=by_id.get(ref)
                         if not target or target['type']!=expected: raise ValueError(f"{owner['id']}: missing or wrong-type reference {ref}")
                         if not owner['demo'] and target['demo']: raise ValueError(f"{owner['id']}: production references synthetic data")
-                        if owner['publish'] and not target['publish']: raise ValueError(f"{owner['id']}: published record references private record")
+                        if owner['publish'] and not target['publish']: raise ValueError(f"{owner['id']}: published record references unpublished record")
                 walk(item,owner)
         elif isinstance(value,list):
             for item in value: walk(item,owner)
@@ -114,11 +167,12 @@ def validate(records):
             key=(record['demo'],_norm_url(record['url']))
             if key in urls: raise ValueError(f"{rid}: duplicate source URL already recorded as {urls[key]}")
             urls[key]=rid
-            pub,acc=record['published'],record['accessed']
-            if pub and pub>acc: raise ValueError(f'{rid}: published after accessed')
+            acc=record['accessed']
             if acc>record['updated']: raise ValueError(f'{rid}: accessed after record update')
-        if kind=='investigation' and done and not (record['source_ids'] and record['findings']):
-            raise ValueError(f'{rid}: {record["status"]} investigation needs findings and source_ids')
+        if kind=='investigation' and done:
+            cited = record['source_ids'] or any(f.get('source_ids') for f in record['findings'] if isinstance(f, dict))
+            if not record['findings'] or not cited:
+                raise ValueError(f'{rid}: {record["status"]} investigation needs findings backed by sources')
         if kind=='opportunity' and done and not record['related_problem_ids']:
             raise ValueError(f'{rid}: {record["status"]} opportunity must link a problem')
 
@@ -165,7 +219,7 @@ def main():
     parser.add_argument('--demo',action='store_true')
     parser.add_argument('--output',default='site')
     args=parser.parse_args()
-    records=load_records(ROOT/'knowledge')
+    records=load_knowledge(ROOT/'knowledge')
     if any(r.get('demo') for r in records): raise ValueError('Demo records must live in examples/')
     demo=load_records(ROOT/'examples') if args.demo else []
     validate(records+demo)

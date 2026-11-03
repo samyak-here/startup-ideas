@@ -1,0 +1,38 @@
+{
+  "url": "https://www.sunburstsoftwaresolutions.com/certified-payroll-solution.htm",
+  "publisher": "Sunburst Software Solutions",
+  "published": null,
+  "accessed": "2026-11-03",
+  "source_type": "primary-vendor-product-documentation",
+  "reliability": "Public vendor page read directly with curl; HTTP 200. Primary evidence of advertised scope only, not independently tested functionality or customer demand.",
+  "findings": [
+    "The vendor describes integration with QuickBooks Pro, Premier or Enterprise and Intuit Basic, Enhanced or Assisted Payroll.",
+    "The product page lists WH-347/WH-348 reporting and electronic submission compatibility with LCPtracker, Elation Systems, California DIR, AASHTO and other systems.",
+    "The vendor says QuickBooks holds employee/job/time/payroll data while CPS holds additional employee, job, payroll-wage-item and deduction data in linked records, then merges information for reports."
+  ],
+  "limitations": [
+    "Page shows Last Updated 03 November 2025 but also older product narrative and form references; current version coverage requires confirmation. Original publication date unknown.",
+    "Additional linked-record configuration demonstrates a product data model, not measured ongoing duplicate work or a defect.",
+    "Marketing claims of time savings or compatibility were not installed/tested; no pricing is relied on.",
+    "No independent small-contractor time/cost measurement, failure rate or willingness-to-pay evidence."
+  ],
+  "id": "source-b6d798cfb5244d49",
+  "type": "source",
+  "title": "Certified Payroll Solution for QuickBooks",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Issue #6 public-documentation comparison; no product testing, customer interviews or market validation."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "issue-6-certified-payroll-gaps"
+  },
+  "demo": false,
+  "publish": true
+}

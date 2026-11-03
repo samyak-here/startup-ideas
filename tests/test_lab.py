@@ -130,6 +130,93 @@ class IntegrityTests(unittest.TestCase):
             lab.validate(self.records)
 
 
+class AuditRegressionTests(unittest.TestCase):
+    """Regression tests for the 2026-11-02 independent audit findings."""
+
+    def setUp(self):
+        self.records = fixtures()
+        self.problem = next(r for r in self.records if r['type'] == 'problem')
+        self.source = next(r for r in self.records if r['type'] == 'source')
+
+    def _rename_problem(self, new_id):
+        old = self.problem['id']
+        def swap(value):
+            if isinstance(value, list):
+                return [new_id if item == old else item for item in value]
+            if isinstance(value, dict):
+                return {k: swap(v) for k, v in value.items()}
+            return value
+        for record in self.records:
+            for key in list(record):
+                record[key] = swap(record[key])
+        self.problem['id'] = new_id
+
+    def test_placeholder_title_is_rejected(self):
+        self.problem['title'] = 'Replace with descriptive title'
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_short_sequential_id_is_rejected_for_real_records(self):
+        self._rename_problem('problem-1')
+        self.problem['demo'] = False
+        # Isolate the ID rule: a production record may not reference demo data,
+        # so validate this record alone (it has no references of its own that
+        # point at demo records except opportunities — clear them).
+        self.problem['related_opportunity_ids'] = []
+        with self.assertRaises(ValueError):
+            lab.validate([self.problem])
+
+    def test_trailing_hyphen_id_is_rejected(self):
+        self._rename_problem('problem-demo-')
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_self_reference_is_rejected(self):
+        self.problem['related_problem_ids'] = [self.problem['id']]
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_duplicate_source_url_is_rejected(self):
+        clone = copy.deepcopy(self.source)
+        clone['id'] = 'source-87654321'
+        self.records.append(clone)
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_completed_investigation_requires_sourced_findings(self):
+        inv = next(r for r in self.records if r['type'] == 'investigation')
+        inv['findings'] = []
+        inv['source_ids'] = []
+        inv['status'] = 'completed'
+        inv['history'][-1]['status'] = 'completed'
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_source_accessed_before_publication_is_rejected(self):
+        self.source['published'] = '2025-06-06'
+        self.source['accessed'] = '2020-01-01'
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_credential_shaped_text_is_rejected(self):
+        self.problem['description'] = 'leaked key sk-' + 'A' * 24
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_knowledge_loader_enforces_type_directory_and_filename(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            base = Path(tmp)
+            bad_root = base / 'bad'
+            (bad_root / 'wrongdir').mkdir(parents=True)
+            (bad_root / 'wrongdir' / 'random.json').write_text(json.dumps(self.problem))
+            with self.assertRaises(ValueError):
+                lab.load_knowledge(bad_root)
+            good_root = base / 'good'
+            (good_root / 'problems').mkdir(parents=True)
+            (good_root / 'problems' / (self.problem['id'] + '.json')).write_text(json.dumps(self.problem))
+            self.assertEqual([r['id'] for r in lab.load_knowledge(good_root)], [self.problem['id']])
+
+
 class PublicationTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
@@ -237,17 +324,37 @@ class PublicationTests(unittest.TestCase):
         for path in self.out.rglob('*.html'):
             self.assertRegex(path.read_text().lower(), r'demonstration|synthetic')
 
+    def test_empty_narrative_sections_are_omitted_from_reports(self):
+        render.build(self.records, self.out)
+        source = next(r for r in self.records if r['type'] == 'source')
+        text = (self.out / 'reports' / (source['id'] + '.html')).read_text()
+        self.assertNotIn('Customer problem', text)
+        self.assertIn('Record detail', text)
 
-if __name__ == '__main__':
-    unittest.main()
+    def test_library_has_record_type_filter_and_curated_search_index(self):
+        render.build(self.records, self.out)
+        text = (self.out / 'index.html').read_text()
+        self.assertIn('id="kind"', text)
+        self.assertIn('data-kind="problem"', text)
+        self.assertNotIn('data-search', text)
+        index = json.loads((self.out / 'search-index.json').read_text())
+        joined = ' '.join(row['text'] for row in index)
+        for noise in ('source_ids', 'provenance', 'bootstrap-demo'):
+            self.assertNotIn(noise, joined)
 
 
-class AuditRegressionTests(unittest.TestCase):
+class SecondAuditRegressionTests(unittest.TestCase):
     """Rules added by the 2026-11-03 independent audit (see docs/audits/)."""
     def prod(self):
-        recs = fixtures()
+        # Production IDs need collision-resistant suffixes, so rename the short synthetic IDs consistently.
+        text = json.dumps(fixtures())
+        for kind in ('problem', 'source', 'investigation', 'opportunity', 'decision'):
+            text = text.replace(f'{kind}-demo', f'{kind}-0a1b2c3d4e5f')
+        recs = json.loads(text)
         for r in recs:
             r['demo'] = False
+            r['title'] = r['title'].replace('DEMONSTRATION \u2014 ', '')
+            r['provenance'] = {'agent': 'test-agent', 'session': 'test-session'}
         return recs
 
     def kind(self, recs, k):
@@ -274,13 +381,13 @@ class AuditRegressionTests(unittest.TestCase):
 
     def test_duplicate_source_url_rejected(self):
         recs = self.prod(); dup = copy.deepcopy(self.kind(recs, 'source'))
-        dup['id'] = 'source-dup'; dup['url'] = dup['url'].upper().replace('HTTPS', 'https') + '/'
+        dup['id'] = 'source-dup0a1b2c3d4e5f'; dup['url'] = dup['url'].upper().replace('HTTPS', 'https') + '/'
         recs.append(dup)
         self.rejects(recs, 'duplicate source URL')
 
     def test_source_dates_must_be_ordered(self):
         recs = self.prod(); self.kind(recs, 'source')['published'] = '2099-01-01'
-        self.rejects(recs, 'published after accessed')
+        self.rejects(recs, 'accessed before its publication')
 
     def test_unsourced_estimate_rejected(self):
         recs = self.prod(); p = self.kind(recs, 'problem')
@@ -304,3 +411,7 @@ class AuditRegressionTests(unittest.TestCase):
         render.build(recs, out)
         ids = {row['id'] for row in json.loads((out / 'search-index.json').read_text())}
         self.assertNotIn(recs[0]['id'], ids)
+
+
+if __name__ == '__main__':
+    unittest.main()

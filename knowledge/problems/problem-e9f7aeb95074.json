@@ -1,0 +1,66 @@
+{
+  "id": "problem-e9f7aeb95074",
+  "type": "problem",
+  "title": "Small domestic companies' beneficial ownership (BOI) reporting burden has been removed by FinCEN rulemaking",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "rejected",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Corporate Transparency Act reporting was widely expected to burden small companies."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "rejected",
+      "reason": "FinCEN's March 2025 interim final rule exempted domestic reporting companies, and the August 2026 rule's background describes narrowing reporting to foreign companies; the compliance problem for small domestic companies is overtaken by events. Reopen if reporting is reinstated."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "Small domestic companies were once required to file beneficial ownership reports with FinCEN; FinCEN's 2025 interim final rule excluded domestic companies from the reporting requirement.",
+  "customer_segment": "Small domestic companies (formerly \"reporting companies\").",
+  "industries": [
+    "multiple industries"
+  ],
+  "geography": "United States",
+  "context": "Preserved as research history so the same dead end is not re-investigated; rule status after August 2026 not verified.",
+  "evidence": [
+    {
+      "text": "FinCEN's interim final rule effective March 26, 2025 exempts all domestic reporting companies and their beneficial owners from BOI reporting.",
+      "classification": "reported",
+      "source_ids": [
+        "source-f760fccd5e5e"
+      ]
+    },
+    {
+      "text": "FinCEN's August 14, 2026 rule background states Treasury's intent to narrow reporting to foreign companies only.",
+      "classification": "reported",
+      "source_ids": [
+        "source-8d74a2dc96fe"
+      ]
+    }
+  ],
+  "alternatives": [],
+  "contradictory_evidence": [
+    {
+      "text": "The August 2026 rule's operative provisions were not fully read, so reporting obligations for foreign companies or future reinstatement are not characterized here.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: operative text of the 2026 rule, litigation or legislative changes, and any state-level beneficial ownership requirements.",
+  "open_questions": [
+    "Do state-level beneficial ownership or similar filings create a replacement problem?"
+  ],
+  "next_actions": [
+    "Reopen only if federal reporting for domestic companies is reinstated or state requirements emerge."
+  ]
+}

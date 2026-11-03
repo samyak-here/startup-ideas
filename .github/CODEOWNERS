@@ -1,0 +1,5 @@
+# The founder owns every path. This file only takes effect when branch
+# protection requires code-owner review; it does not by itself enforce
+# independent review (see docs/agents/review.md and the external-setup list
+# in docs/operations/external-setup.md).
+* @samyak-here
