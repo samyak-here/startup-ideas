@@ -10,3 +10,6 @@
 - Open: PR #5 (prior authorization, certified payroll, Medicare adjustments) still has a prior-authorization problem record overlapping #9 and needs the same reconciliation. This PR must merge after #9.
 - Validation: `scripts/lab.py validate`, unit tests and production `check` pass locally.
 - Reviewer focus: re-open the two added source URLs and confirm the two appended claims; confirm no AMA article from the same survey is treated as independent evidence.
+
+## Integration correction
+PR #10 was merged into the PR #9 branch while this integration session began. Its AMA2017 and Federal Reserve sources and evidence are preserved. The live canonical prior-authorization problem is now `problem-df174fd556554536` from #5, combining CMS non-drug rule context with explicitly broader AMA survey workload evidence. The former #9 problem `problem-ef2f4753-d46b-48cc-a5ef-28a973eca056` remains as an archived, linked duplicate so historical URLs and provenance survive; it must not be counted as a separate problem. The investigation now points to the canonical ID. Dedicated staff are labor allocation, not proof of willingness to buy relief. Existing Fed evidence provides partial directional corroboration, not reproduction of vendor percentages or dollar balances. No research execution or launch is authorized.

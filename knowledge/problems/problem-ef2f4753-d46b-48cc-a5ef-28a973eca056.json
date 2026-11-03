@@ -1,10 +1,10 @@
 {
   "id": "problem-ef2f4753-d46b-48cc-a5ef-28a973eca056",
   "type": "problem",
-  "title": "Prior authorization paperwork consumes about 13 hours per physician per week in US medical practices",
+  "title": "Archived duplicate: prior-authorization evidence consolidated into problem-df174fd556554536",
   "created": "2026-11-02",
   "updated": "2026-11-03",
-  "status": "evidence-collected",
+  "status": "archived",
   "history": [
     {
       "date": "2026-11-02",
@@ -15,6 +15,11 @@
       "date": "2026-11-03",
       "status": "evidence-collected",
       "reason": "Added 2016 AMA survey evidence from PR #10 (claude-code-cloud); the former separate problem record in that PR was merged into this canonical record. Status unchanged."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "archived",
+      "reason": "Explicit duplicate consolidation into problem-df174fd556554536; former source claims copied to canonical record and historical commits retained. No market-validity rejection implied."
     }
   ],
   "provenance": {
@@ -23,91 +28,23 @@
   },
   "demo": false,
   "publish": true,
-  "description": "Before many medications, procedures, and treatments can be delivered, a US medical practice must obtain insurer approval (prior authorization), assembling payer-specific documentation and chasing decisions through portals, phone, and fax. Survey evidence from the AMA's 2024 and 2025 physician surveys shows this consumes roughly 13 hours of physician and staff time per physician every week, and practices commonly respond by employing staff whose only job is prior authorization. The friction is the process cost itself: volume, payer-specific rules, denials and rework — not any single form.",
-  "customer_segment": "US physician practices; the surveys cover practices broadly, and the load plausibly falls hardest on small and independent practices without dedicated administrative staff — that distribution is not yet measured (see uncertainty).",
+  "description": "This duplicate PA problem was consolidated into problem-df174fd556554536. Follow that canonical record for CMS and AMA evidence, open questions and uncertainty. Its former evidence and provenance are retained in Git history and integrated into the canonical record.",
+  "customer_segment": "US physician practices and administrative staff. Small independent practices are a hypothesized segment; surveys do not establish their burden distribution. CMS requirements have narrower payer and non-drug scope than the AMA surveys.",
   "industries": [
     "healthcare"
   ],
   "geography": "United States",
-  "context": "Prior authorization volume has grown and denials have risen over five years per surveyed physicians. Insurers pledged streamlining in 2025 and federal electronic prior-authorization rules are progressing, so the workflow sits at a contested, changing boundary — but the 2025 survey shows the measured burden essentially unchanged.",
-  "evidence": [
-    {
-      "text": "Practices completed an average of 39 prior authorization requests per physician per week (AMA 2024 survey, n=1,000).",
-      "classification": "reported",
-      "source_ids": [
-        "source-d0e83dfd-10cc-4e4d-abc5-955c478d4d01"
-      ]
-    },
-    {
-      "text": "Those requests consumed an average of 13 hours of physician and staff time per physician per week.",
-      "classification": "reported",
-      "source_ids": [
-        "source-d0e83dfd-10cc-4e4d-abc5-955c478d4d01"
-      ]
-    },
-    {
-      "text": "The burden persisted a year later: about 40 requests and about 13 hours per week in the AMA 2025 survey, and 40% of physicians employ staff dedicated solely to prior authorization.",
-      "classification": "reported",
-      "source_ids": [
-        "source-efe163a1-2a67-4632-b7aa-36982f8eaaa0"
-      ]
-    },
-    {
-      "text": "82% of physicians in the 2024 survey reported patients abandoned treatment due to prior authorization issues, and more than one in four reported a serious adverse event for a patient in their care.",
-      "classification": "reported",
-      "source_ids": [
-        "source-d0e83dfd-10cc-4e4d-abc5-955c478d4d01"
-      ]
-    },
-    {
-      "text": "An earlier AMA survey (web-based, 1,000 physicians, December 2016) reported an average of 37 PA requests per physician per week and 16.4 hours per week of physician and staff time; about one-third of physicians had staff working exclusively on PA, and fax and telephone were the most commonly reported ways to complete requests.",
-      "classification": "reported",
-      "source_ids": [
-        "source-b213eed010ec"
-      ]
-    }
+  "context": "Historical identifier retained to preserve links and reconciliation history; not an independent problem or extra evidence stream.",
+  "evidence": [],
+  "alternatives": [],
+  "contradictory_evidence": [],
+  "uncertainty": "Archived as duplicate, not rejected as a real workflow. Commercial viability and small-practice pain remain unknown in the canonical record.",
+  "related_problem_ids": [
+    "problem-df174fd556554536"
   ],
-  "alternatives": [
-    "Dedicated prior-authorization staff (used by 40% of physicians per the 2025 survey)",
-    "Payer portals and phone/fax follow-up (status quo)",
-    "EHR and clearinghouse prior-authorization modules",
-    "Third-party prior-authorization services",
-    "Insurer 'gold card' exemption programs (reported by only 5% of physicians)"
-  ],
-  "contradictory_evidence": [
-    {
-      "text": "Insurers pledged in 2025 to streamline prior authorization and electronic prior-authorization rules are advancing, which could shrink this problem; however only one in three physicians expects meaningful change, and the 2025 measured burden is unchanged.",
-      "classification": "reported",
-      "source_ids": [
-        "source-efe163a1-2a67-4632-b7aa-36982f8eaaa0"
-      ]
-    },
-    {
-      "text": "Prior authorization exists to control inappropriate utilization, and 32% of physicians say requests are often or always denied — some share of the work is the system functioning as designed rather than pure waste. The problem claim is about process cost, not about eliminating review.",
-      "classification": "interpretation",
-      "source_ids": [
-        "source-efe163a1-2a67-4632-b7aa-36982f8eaaa0"
-      ]
-    },
-    {
-      "text": "The 2016 and 2024/2025 AMA surveys are separate samples from the same advocacy organization, so they show the burden persisting over about nine years but are not independent corroboration from a different source. The 2016 figure (16.4 hours) is higher than the 2024/2025 figure (about 13 hours), so the reported burden has not clearly grown; differences in sample and wording prevent a trend claim.",
-      "classification": "interpretation",
-      "source_ids": [
-        "source-b213eed010ec"
-      ]
-    }
-  ],
-  "uncertainty": "All figures are physician self-report from an advocacy organization's surveys; there is no independent time-motion study in this record set yet, and no practice-size breakdown — whether small independent practices bear a proportionally larger load is the key unmeasured question.",
-  "related_problem_ids": [],
   "related_opportunity_ids": [],
-  "open_questions": [
-    "How is prior-authorization time distributed in small (1-5 physician) practices: who does it, in which tools, and how much is eligibility/status-chasing versus clinical documentation?",
-    "What does denial rework add on top of initial submission time?",
-    "Which specialties and payer mixes carry the worst load?",
-    "Does dental prior authorization (different payer systems) show the same pattern?"
-  ],
+  "open_questions": [],
   "next_actions": [
-    "Investigate the small-practice distribution question above, starting from the full AMA survey data and MGMA sources.",
-    "Look for payer-side or CMS data that corroborates volumes independently of the AMA."
+    "Continue the canonical record problem-df174fd556554536 rather than reopening a disconnected copy."
   ]
 }

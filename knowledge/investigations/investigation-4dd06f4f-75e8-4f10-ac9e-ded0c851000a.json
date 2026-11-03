@@ -3,7 +3,7 @@
   "type": "investigation",
   "title": "First discovery session: three US small-business administrative problems",
   "created": "2026-11-02",
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "status": "completed",
   "history": [
     {
@@ -15,6 +15,11 @@
       "date": "2026-11-02",
       "status": "completed",
       "reason": "Three problem records documented with sources, counterevidence, and unknowns; no validation claimed"
+    },
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Resolved review: staffing does not prove willingness to buy relief; PA references canonicalized and partial Fed corroboration acknowledged."
     }
   ],
   "provenance": {
@@ -26,7 +31,7 @@
   "objective": "Identify three distinct US small-business administrative customer problems across at least two industries using permitted public primary or near-primary sources, starting with problems and existing workarounds rather than product concepts (operations/backlog/first-session.md).",
   "summary": "Three credible, distinct signals were documented: (1) prior-authorization paperwork in US medical practices (~13 hours per physician per week across two AMA survey years); (2) overdue invoices plus manual payment processes for invoicing US small businesses (59% carry 30+ day overdue invoices, vendor survey); (3) unplanned admin and manual inventory control in restaurants (44% of operators report 6+ unplanned GM admin hours weekly; counting/receiving errors drive variance). None of the three is validated; each record states its counterevidence and unknowns.",
   "related_problem_ids": [
-    "problem-ef2f4753-d46b-48cc-a5ef-28a973eca056",
+    "problem-df174fd556554536",
     "problem-3414c738-5667-4bcf-852c-440b89d80e3c",
     "problem-12c285b2-1bce-497b-bb4e-8a937e079c3c"
   ],
@@ -37,7 +42,7 @@
   ],
   "findings": [
     {
-      "text": "Prior authorization is the strongest signal: two consecutive AMA physician surveys (2024, 2025) report ~39-40 requests and ~13 hours per physician per week, and 40% of practices employ dedicated prior-auth staff \u2014 an existing budget line, i.e. revealed willingness to pay for relief.",
+      "text": "AMA 2024/2025 physician surveys report approximately 39–40 requests and 13 hours per physician per week; 40% of physicians report employing dedicated prior-authorization staff. These are reported staffing/workload observations, not revealed willingness to buy relief.",
       "classification": "reported",
       "source_ids": [
         "source-d0e83dfd-10cc-4e4d-abc5-955c478d4d01",
@@ -57,6 +62,11 @@
       "source_ids": [
         "source-d2e9f6f1-35d3-4c4c-a7da-18988b00c3bd"
       ]
+    },
+    {
+      "text": "Dedicated staffing may justify investigating who controls the administrative budget, but neither staffing prevalence nor survey workload establishes willingness to purchase a new product; that remains unknown.",
+      "classification": "hypothesis",
+      "source_ids": []
     }
   ],
   "source_ids": [
@@ -86,14 +96,14 @@
   ],
   "unresolved_questions": [
     "Small-practice distribution of prior-authorization time and task mix.",
-    "Independent corroboration of the late-payments picture (Federal Reserve SBCS, NFIB).",
+    "Additional independent late-payment evidence and segment-specific costs; Fed evidence added by PR10 uses a different question and population than the vendor report.",
     "Independent-restaurant inventory/admin time use.",
     "Owner/staff hours spent chasing payments (unquantified in current sources)."
   ],
-  "conclusions": "Discovery quota met with three distinct, sourced signals across healthcare, cross-industry invoicing businesses, and restaurants; fewer-than-three was not necessary. No opportunity is validated and none is recommended for execution. Highest-value next investigation: the small-practice prior-authorization distribution question in the prior-authorization problem record \u2014 it pairs the strongest, twice-measured evidence with a revealed budget line (dedicated staff), and its answer decides whether the accessible customer is the small independent practice or a larger group.",
+  "conclusions": "Three initial signals were documented; none is validated or recommended for execution. Prior authorization merits further desk research into the small-practice workload distribution because repeated AMA surveys describe a recurring task, but staffing is not willingness-to-pay evidence. Continue the canonical CMS/AMA PA record, preserve source and scope limits, and treat Federal Reserve corroboration of late payments as partial rather than a replication of vendor magnitudes.",
   "next_steps": [
     "Open an investigation issue for the small-practice prior-authorization distribution question.",
-    "Corroborate late payments with Federal Reserve SBCS and NFIB sources.",
+    "Build on the existing Federal Reserve evidence; seek segment-specific cost evidence rather than claiming the vendor percentages were replicated.",
     "Find independent-restaurant-specific evidence before deepening the restaurant problem.",
     "Obtain independent review of these records via this session's PR."
   ]

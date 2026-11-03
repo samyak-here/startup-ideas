@@ -15,6 +15,11 @@
       "date": "2026-11-03",
       "status": "evidence-collected",
       "reason": "Added independent Federal Reserve survey evidence from PR #10 (claude-code-cloud); answers the open question on independent corroboration only in part. Status unchanged."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "evidence-collected",
+      "reason": "Integration correction: removed stale no-independent-source language after PR10 Fed addition; retained distinct denominators and unresolved willingness to pay."
     }
   ],
   "provenance": {
@@ -86,10 +91,11 @@
       ]
     },
     {
-      "text": "The sole source so far is vendor research from a company that sells invoicing, payments, and automation; its framing predictably emphasizes manual-process pain. Independent corroboration (Federal Reserve Small Business Credit Survey, NFIB) has not yet been collected.",
+      "text": "The invoice-overdue percentages and balances come from Intuit vendor research. Federal Reserve evidence now provides independent directional corroboration of payment challenges, but does not replicate those vendor-specific measures or dollar amounts.",
       "classification": "interpretation",
       "source_ids": [
-        "source-bd7249c7-5974-461c-9c51-8633e31d28b6"
+        "source-bd7249c7-5974-461c-9c51-8633e31d28b6",
+        "source-323733b263ba"
       ]
     },
     {
@@ -100,7 +106,7 @@
       ]
     }
   ],
-  "uncertainty": "Single vendor source, self-reported, cross-industry. Owner time spent chasing payments is not quantified in this report, and industry concentration is unknown; the administrative-time claim rests on respondent attribution.",
+  "uncertainty": "Vendor self-report measures overdue-invoice incidence and balances; the independent Federal Reserve survey measures payment challenges in a different employer-firm population. Neither quantifies owner hours spent chasing payments here, proves causality from manual work to overdue invoices, or establishes willingness to buy a new solution.",
   "related_problem_ids": [],
   "related_opportunity_ids": [],
   "open_questions": [
@@ -110,7 +116,7 @@
     "Do independent sources (Federal Reserve SBCS, NFIB) reproduce the 59% / $17.7K picture?"
   ],
   "next_actions": [
-    "Corroborate with the Federal Reserve Small Business Credit Survey and NFIB problem rankings before deepening this problem.",
+    "Use the existing Federal Reserve payments evidence as partial corroboration; seek independent segment-specific time/cost and purchasing evidence before deepening.",
     "Find segment-specific sources for trades/field services."
   ]
 }
