@@ -1,0 +1,36 @@
+{
+  "id": "source-40ee46dd9d834b12",
+  "type": "source",
+  "title": "FDA current Food Traceability Rule overview: compliance date and non-enforcement direction",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Current FDA primary page read to resolve regulatory-timing review finding."
+    }
+  ],
+  "provenance": {
+    "agent": "Codex",
+    "session": "fix-PR24-review"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods",
+  "publisher": "U.S. Food and Drug Administration",
+  "published": null,
+  "accessed": "2026-11-03",
+  "source_type": "Current primary agency rule overview",
+  "reliability": "Official FDA public overview, read directly with HTTP 200 on the access date; reliable for the agency's stated timing, not independent customer burden evidence.",
+  "findings": [
+    "FDA identifies January 20, 2026 as the original compliance date and describes a proposed 30-month extension to July 20, 2028.",
+    "FDA states that the Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act of 2026 directed it not to enforce the Food Traceability Rule before July 20, 2028; FDA intends to comply."
+  ],
+  "limitations": [
+    "Original page publication date unknown; the live page can change.",
+    "The page describes the compliance-date amendment as proposed. The Congressional non-enforcement direction is distinct from enactment of that proposed amendment.",
+    "No customer research or independent burden measurement."
+  ]
+}

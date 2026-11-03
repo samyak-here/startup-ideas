@@ -1,0 +1,43 @@
+{
+  "id": "source-526c2ce9af35",
+  "type": "source",
+  "title": "Federal Register: Requirements for Additional Traceability Records for Certain Foods, final rule (FSMA section 204)",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Review correction: distinguished historical economic analysis from separately sourced current timing."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2022-11-21/pdf/2022-24417.pdf",
+  "publisher": "U.S. Food and Drug Administration (via GovInfo / Federal Register)",
+  "published": "2022-11-21",
+  "accessed": "2026-11-03",
+  "source_type": "Government final rule with regulatory flexibility analysis",
+  "reliability": "Government document; the issuing agency is also the party imposing or administering the requirement.",
+  "findings": [
+    "FDA states: \"Because some small firms may incur annualized costs that exceed 1 percent of their annual revenue, we find that the final rule will have a significant economic impact on a substantial number of small entities.\"",
+    "The final rule exempts certain small producers (including small produce farms and shell egg producers) and certain small retail food establishments and restaurants.",
+    "FDA adopted a three-year compliance period for all covered entities.",
+    "FDA states that firms keeping paper records should be able to create the required sortable electronic spreadsheet from those records \"under those limited circumstances\"."
+  ],
+  "limitations": [
+    "Per-firm cost figures and the number of affected small firms were not extracted and are not recorded.",
+    "This source is the historical 2022 final rule, not current timing guidance. Later FDA timing is recorded separately in source-40ee46dd9d834b12.",
+    "Agency analysis; no independent measurement of actual burden."
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "problem-d2a445a03af0",
+  "type": "problem",
+  "title": "FDA food traceability recordkeeping for small firms: future burden with current non-enforcement direction",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Signal from FDA final rule."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Review correction: added current primary FDA timing and distinguished proposed extension from Congressional non-enforcement direction."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "The 2022 FDA rule adds traceability records for covered non-exempt food firms, and FDA estimated significant economic impact on a substantial number of small entities. Current FDA guidance says Congress directed no enforcement before July 20, 2028; do not treat the original January 2026 date as an immediate enforcement trigger.",
+  "customer_segment": "Small food manufacturers, processors, packers, distributors and others covered by the rule and not exempt; exact counts not recorded.",
+  "industries": [
+    "food manufacturing",
+    "food distribution"
+  ],
+  "geography": "United States",
+  "context": "The November 2022 final rule and its economic analysis are historical ex ante evidence. FDA's current rule page distinguishes the original January 20, 2026 compliance date, a proposed 30-month extension to July 20, 2028, and Congress's separate direction not to enforce before July 20, 2028. FDA says it intends to comply; this does not establish that the proposed compliance-date amendment itself was finalized.",
+  "evidence": [
+    {
+      "text": "FDA found the rule has a significant economic impact on a substantial number of small entities because some small firms may incur annualized costs above 1 percent of revenue.",
+      "classification": "reported",
+      "source_ids": [
+        "source-526c2ce9af35"
+      ]
+    },
+    {
+      "text": "The rule exempts certain small producers and certain small retail food establishments and restaurants.",
+      "classification": "reported",
+      "source_ids": [
+        "source-526c2ce9af35"
+      ]
+    },
+    {
+      "text": "Small covered firms may lack tools to produce sortable electronic traceability records on request.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Spreadsheets built from paper records (FDA says this can work in limited circumstances).",
+    "Existing traceability software vendors: not yet investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "FDA exempted many of the smallest firms, narrowing the affected small-firm population.",
+      "classification": "reported",
+      "source_ids": [
+        "source-526c2ce9af35"
+      ]
+    },
+    {
+      "text": "Software vendors and industry initiatives may already address traceability recordkeeping; coverage and pricing are unknown.",
+      "classification": "unknown",
+      "source_ids": []
+    },
+    {
+      "text": "FDA says Congress directed it not to enforce the rule before July 20, 2028 and that it intends to comply. The separate compliance-date extension is described as proposed, reducing near-term enforcement urgency without removing the potential future recordkeeping work.",
+      "classification": "reported",
+      "source_ids": [
+        "source-40ee46dd9d834b12"
+      ]
+    }
+  ],
+  "uncertainty": "Unknown: number of affected non-exempt small firms, actual cost per firm, vendor coverage and willingness to pay. Current FDA enforcement timing is documented, but final disposition of the proposed compliance-date amendment and later changes require continued monitoring.",
+  "open_questions": [
+    "How many non-exempt small firms are covered, by sector?",
+    "Has FDA finalized the proposed compliance-date amendment, and have later enactments changed enforcement timing?",
+    "What do existing traceability tools cost and who adopts them?"
+  ],
+  "next_actions": [
+    "Read the rule's economic analysis tables for covered-firm counts and per-firm cost.",
+    "Monitor FDA's final compliance-date actions separately from the Congressional non-enforcement direction."
+  ]
+}
