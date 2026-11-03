@@ -130,6 +130,93 @@ class IntegrityTests(unittest.TestCase):
             lab.validate(self.records)
 
 
+class AuditRegressionTests(unittest.TestCase):
+    """Regression tests for the 2026-11-02 independent audit findings."""
+
+    def setUp(self):
+        self.records = fixtures()
+        self.problem = next(r for r in self.records if r['type'] == 'problem')
+        self.source = next(r for r in self.records if r['type'] == 'source')
+
+    def _rename_problem(self, new_id):
+        old = self.problem['id']
+        def swap(value):
+            if isinstance(value, list):
+                return [new_id if item == old else item for item in value]
+            if isinstance(value, dict):
+                return {k: swap(v) for k, v in value.items()}
+            return value
+        for record in self.records:
+            for key in list(record):
+                record[key] = swap(record[key])
+        self.problem['id'] = new_id
+
+    def test_placeholder_title_is_rejected(self):
+        self.problem['title'] = 'Replace with descriptive title'
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_short_sequential_id_is_rejected_for_real_records(self):
+        self._rename_problem('problem-1')
+        self.problem['demo'] = False
+        # Isolate the ID rule: a production record may not reference demo data,
+        # so validate this record alone (it has no references of its own that
+        # point at demo records except opportunities — clear them).
+        self.problem['related_opportunity_ids'] = []
+        with self.assertRaises(ValueError):
+            lab.validate([self.problem])
+
+    def test_trailing_hyphen_id_is_rejected(self):
+        self._rename_problem('problem-demo-')
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_self_reference_is_rejected(self):
+        self.problem['related_problem_ids'] = [self.problem['id']]
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_duplicate_source_url_is_rejected(self):
+        clone = copy.deepcopy(self.source)
+        clone['id'] = 'source-87654321'
+        self.records.append(clone)
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_completed_investigation_requires_sourced_findings(self):
+        inv = next(r for r in self.records if r['type'] == 'investigation')
+        inv['findings'] = []
+        inv['source_ids'] = []
+        inv['status'] = 'completed'
+        inv['history'][-1]['status'] = 'completed'
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_source_accessed_before_publication_is_rejected(self):
+        self.source['published'] = '2025-06-06'
+        self.source['accessed'] = '2020-01-01'
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_credential_shaped_text_is_rejected(self):
+        self.problem['description'] = 'leaked key sk-' + 'A' * 24
+        with self.assertRaises(ValueError):
+            lab.validate(self.records)
+
+    def test_knowledge_loader_enforces_type_directory_and_filename(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            base = Path(tmp)
+            bad_root = base / 'bad'
+            (bad_root / 'wrongdir').mkdir(parents=True)
+            (bad_root / 'wrongdir' / 'random.json').write_text(json.dumps(self.problem))
+            with self.assertRaises(ValueError):
+                lab.load_knowledge(bad_root)
+            good_root = base / 'good'
+            (good_root / 'problems').mkdir(parents=True)
+            (good_root / 'problems' / (self.problem['id'] + '.json')).write_text(json.dumps(self.problem))
+            self.assertEqual([r['id'] for r in lab.load_knowledge(good_root)], [self.problem['id']])
+
+
 class PublicationTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
@@ -236,6 +323,20 @@ class PublicationTests(unittest.TestCase):
         render.build(self.records, self.out)
         for path in self.out.rglob('*.html'):
             self.assertRegex(path.read_text().lower(), r'demonstration|synthetic')
+
+    def test_empty_narrative_sections_are_omitted_from_reports(self):
+        render.build(self.records, self.out)
+        source = next(r for r in self.records if r['type'] == 'source')
+        text = (self.out / 'reports' / (source['id'] + '.html')).read_text()
+        self.assertNotIn('Customer problem', text)
+        self.assertIn('Record detail', text)
+
+    def test_library_has_record_type_filter_and_curated_search_index(self):
+        render.build(self.records, self.out)
+        text = (self.out / 'index.html').read_text()
+        self.assertIn('id="type"', text)
+        self.assertIn('data-type="problem"', text)
+        self.assertNotIn('provenance', text.split('data-search=')[1].split('"')[1])
 
 
 if __name__ == '__main__':
