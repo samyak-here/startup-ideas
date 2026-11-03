@@ -73,6 +73,9 @@ def report(record, records):
         ('Related problems', r.get('related_problem_ids', [])),
         ('Sources and references', sorted(source_ids)),
     ]
+    # Omit narrative sections with nothing behind them; every field — empty
+    # ones included, rendered as Unknown — still appears in Record detail.
+    sections = [(t, v) for t, v in sections if not (v is None or v == '' or v == [] or v == {})]
     demo = '<aside class="demo">SYNTHETIC DEMONSTRATION · Fictional content for pipeline testing. No market evidence or validated business claims.</aside>' if r.get('demo') else ''
     nav = '<nav class="contents" aria-label="Report contents"><h2>In this report</h2>' + ''.join(f'<a href="#section-{i}">{esc(title)}</a>' for i,(title,_) in enumerate(sections)) + '</nav>'
     body = demo + f'<div class="report-heading"><a class="back" href="../index.html">← Research library</a><p class="eyebrow">{esc(r["type"])} / {esc(r["id"])}</p><h1>{esc(r["title"])}</h1><p class="meta">Published {esc(r["created"])} · Revised {esc(r["updated"])} <span class="badge">{esc(r["status"])}</span></p></div>'
@@ -111,10 +114,19 @@ def build(records, output):
     body += '<section class="hero"><p class="eyebrow">THE RESEARCH COLLECTION</p><h1>Better questions.<br><em>Stronger foundations.</em></h1><p class="dek">A living library of customer problems, supporting evidence, and opportunities worth investigating. Built for careful decisions, not quick convictions.</p><div class="stats"><strong>'+str(len(selected))+'</strong> published records <span>·</span> <strong>'+str(sum(r['type']=='problem' for r in selected))+'</strong> customer problems</div></section>'
     tags = sorted({tag for r in selected for tag in r.get('industries', [])})
     states = sorted({r['status'] for r in selected})
+    types = sorted({r['type'] for r in selected})
     options = lambda values: ''.join(f'<option value="{esc(v)}">{esc(v.replace("_", " "))}</option>' for v in values)
-    body += '<section class="library"><div class="section-heading"><h2>Explore the library</h2><span>Most recently revised first</span></div><div class="filters"><div><label for="search">Search records</label><input id="search" type="search" placeholder="Problem, customer, or keyword…"></div><div><label for="industry">Industry</label><select id="industry"><option value="">All industries</option>'+options(tags)+'</select></div><div><label for="status">Research stage</label><select id="status"><option value="">All stages</option>'+options(states)+'</select></div></div><p id="result-count" role="status" aria-live="polite"></p><div class="cards">'
+    body += '<section class="library"><div class="section-heading"><h2>Explore the library</h2><span>Most recently revised first</span></div><div class="filters"><div><label for="search">Search records</label><input id="search" type="search" placeholder="Problem, customer, or keyword…"></div><div><label for="industry">Industry</label><select id="industry"><option value="">All industries</option>'+options(tags)+'</select></div><div><label for="status">Research stage</label><select id="status"><option value="">All stages</option>'+options(states)+'</select></div><div><label for="type">Record type</label><select id="type"><option value="">All types</option>'+options(types)+'</select></div></div><p id="result-count" role="status" aria-live="polite"></p><div class="cards">'
     for r in sorted(selected,key=lambda r:(r['updated'],r['id']),reverse=True):
         tags_r = r.get('industries', [])
-        body += f'<article class="card" data-search="{esc(json.dumps(r, sort_keys=True, ensure_ascii=False).lower())}" data-industry="{esc("|".join(tags_r))}" data-status="{esc(r["status"])}"><div class="card-top"><span class="eyebrow">{esc(r["type"])}</span><span class="badge">{esc(r["status"])}</span></div><h3><a href="reports/{esc(r["id"])}.html">{esc(r["title"])}</a></h3><p>{esc(r.get("description", r.get("objective", "Explore the evidence, uncertainties, and next questions.")) or "Unknown / not yet investigated.")}</p><div class="card-foot"><span>{esc(" · ".join(tags_r) or "Research record")}</span><time>{esc(r["updated"])}</time></div></article>'
+        # Index only human-meaningful text: embedding the whole record made
+        # search match field names/provenance and bloated the homepage.
+        search_parts = [r['id'], r['type'], r['title'], r['status']]
+        for key in ('description', 'objective', 'summary', 'customer_segment', 'geography'):
+            if isinstance(r.get(key), str): search_parts.append(r[key])
+        for key in ('industries', 'potential_customers'):
+            search_parts += [x for x in r.get(key, []) if isinstance(x, str)]
+        search_text = ' '.join(search_parts).lower()
+        body += f'<article class="card" data-search="{esc(search_text)}" data-type="{esc(r["type"])}" data-industry="{esc("|".join(tags_r))}" data-status="{esc(r["status"])}"><div class="card-top"><span class="eyebrow">{esc(r["type"])}</span><span class="badge">{esc(r["status"])}</span></div><h3><a href="reports/{esc(r["id"])}.html">{esc(r["title"])}</a></h3><p>{esc(r.get("description", r.get("objective", "Explore the evidence, uncertainties, and next questions.")) or "Unknown / not yet investigated.")}</p><div class="card-foot"><span>{esc(" · ".join(tags_r) or "Research record")}</span><time>{esc(r["updated"])}</time></div></article>'
     body += '</div><div id="no-results" class="empty"'+(' hidden' if selected else '')+'><h3>'+('No matching records' if selected else 'The next good question starts here.')+'</h3><p>'+('Try another keyword or clear the filters.' if selected else 'No real research has been published yet. Future reviewed investigations will appear in this collection.')+'</p></div></section>'
     (output/'index.html').write_text(page('Research library',body),encoding='utf-8')
