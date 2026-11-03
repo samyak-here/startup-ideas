@@ -1,0 +1,34 @@
+{
+  "id": "source-8d74a2dc96fe",
+  "type": "source",
+  "title": "Federal Register: Beneficial Ownership Information Reporting Requirement Revision (FinCEN, August 2026)",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-14/pdf/2026-16576.pdf",
+  "publisher": "Financial Crimes Enforcement Network, U.S. Department of the Treasury (via GovInfo / Federal Register)",
+  "published": "2026-08-14",
+  "accessed": "2026-11-03",
+  "source_type": "Government rule",
+  "reliability": "Government document; the issuing agency is also the party imposing or administering the requirement.",
+  "findings": [
+    "The rule is effective August 14, 2026.",
+    "Its background section recounts that the March 2025 interim final rule exempted entities previously defined as domestic reporting companies, and that Treasury announced its intent to narrow the reporting rule to require BOI reporting by foreign companies only."
+  ],
+  "limitations": [
+    "Only the summary and background were read; the operative provisions and any compliance dates were not verified. Page text extraction interleaved other Federal Register documents."
+  ]
+}
