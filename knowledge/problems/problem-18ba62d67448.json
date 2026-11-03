@@ -1,0 +1,68 @@
+{
+  "id": "problem-18ba62d67448",
+  "type": "problem",
+  "title": "Form I-9 completion: agency estimates about 21 minutes per employer response",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "paused",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Signal from USCIS PRA notice."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "paused",
+      "reason": "USCIS's estimate of 0.35 hours per employer response is small; no evidence of material cost or penalty exposure. Revisit if independent evidence of error rates or penalties appears."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "Employers must complete Form I-9 for each hire; USCIS estimates 0.35 hours per employer response across about 62 million annual responses.",
+  "customer_segment": "All US employers; no size breakdown available.",
+  "industries": [
+    "multiple industries"
+  ],
+  "geography": "United States",
+  "context": "USCIS PRA extension notice published May 2026.",
+  "evidence": [
+    {
+      "text": "USCIS estimates 0.35 hours per employer Form I-9 response and 62,063,950 annual employer responses.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-5c02d7b8da75"
+      ]
+    }
+  ],
+  "alternatives": [
+    "E-Verify and electronic I-9 software: not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "Per-response time is small by the agency's own estimate.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-5c02d7b8da75"
+      ]
+    },
+    {
+      "text": "Employer pain may lie in errors, audits or penalties rather than completion time; no evidence read.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: audit and penalty exposure, error rates, small-employer experience, and existing tool adoption.",
+  "open_questions": [
+    "Do small employers face material penalty or audit risk from I-9 errors?"
+  ],
+  "next_actions": [
+    "Look for independent evidence on I-9 error and penalty rates before reopening."
+  ]
+}
