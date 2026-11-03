@@ -1,0 +1,40 @@
+{
+  "id": "source-a7d9dedfe942",
+  "type": "source",
+  "title": "Federal Register: Cybersecurity Maturity Model Certification (CMMC) Program, final rule (32 CFR part 170)",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2024-10-15/pdf/2024-22905.pdf",
+  "publisher": "U.S. Department of Defense (via GovInfo / Federal Register)",
+  "published": "2024-10-15",
+  "accessed": "2026-11-03",
+  "source_type": "Government final rule with regulatory impact analysis",
+  "reliability": "Government document; the issuing agency is also the party imposing or administering the requirement. Cost figures are the Department's own estimates.",
+  "findings": [
+    "DoD estimates about 1,366,262 contracts and orders per year contain DFARS clause 252.204-7012, going to 31,338 unique awardees; 683,718 awards (50%) go to 23,475 small entities (75% of awardees).",
+    "DoD estimates, for a small entity, a Level 2 self-assessment plus initial affirmation costs $34,277 (three-year cost $37,196).",
+    "DoD estimates, for a small entity, a Level 2 certification assessment plus initial affirmation costs $101,752 (three-year cost $104,670).",
+    "DoD estimates annual Level 1 reaffirmation costs a small entity $560.",
+    "The rule states DoD did not count the cost of implementing the security requirements themselves because implementation is already required under existing contract clauses."
+  ],
+  "limitations": [
+    "Figures are DoD ex ante estimates from extracted PDF text; table totals were not independently recomputed.",
+    "Excludes the cost of implementing the underlying security controls, so total compliance cost to a contractor is higher and unquantified here.",
+    "Phase-in dates, the later DFARS acquisition rule and any subsequent changes were not read or verified.",
+    "Does not show how many small entities will buy outside help or what they would pay for it."
+  ]
+}
