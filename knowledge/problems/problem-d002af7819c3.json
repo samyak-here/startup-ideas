@@ -1,0 +1,77 @@
+{
+  "id": "problem-d002af7819c3",
+  "type": "problem",
+  "title": "Electronic submission of OSHA injury and illness records: burden appears small",
+  "created": "2026-11-03",
+  "updated": "2026-11-03",
+  "status": "rejected",
+  "history": [
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Signal from OSHA final rule."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "rejected",
+      "reason": "OSHA's own estimate is about $136 per year per affected establishment, and only establishments with 100+ employees are covered; evidence argues against pursuing this as a startup problem."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-cloud",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "Establishments with 100 or more employees in designated industries must submit injury and illness records electronically each year; OSHA estimates the added cost is small.",
+  "customer_segment": "Establishments with 100+ employees in OSHA-designated industries (not small businesses by employee count).",
+  "industries": [
+    "multiple industries"
+  ],
+  "geography": "United States",
+  "context": "Rule published July 2023. Reopen only with independent evidence that the cost or error burden is materially larger than OSHA estimates.",
+  "evidence": [
+    {
+      "text": "OSHA estimates an average cost of $136 per year for affected establishments (annualized over 10 years at 7%).",
+      "classification": "estimate",
+      "source_ids": [
+        "source-8e18182f8039"
+      ]
+    },
+    {
+      "text": "Only establishments with 100 or more employees in designated industries are required to submit Forms 300 and 301 electronically.",
+      "classification": "reported",
+      "source_ids": [
+        "source-8e18182f8039"
+      ]
+    },
+    {
+      "text": "OSHA states the information submitted is already required to be kept.",
+      "classification": "reported",
+      "source_ids": [
+        "source-8e18182f8039"
+      ]
+    }
+  ],
+  "alternatives": [
+    "Manual entry through OSHA's submission portal; existing safety-management software: not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "The only quantified burden is OSHA's own estimate, which is very low; independent evidence of higher cost was not found.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-8e18182f8039"
+      ]
+    }
+  ],
+  "uncertainty": "Unknown: actual time spent, error or penalty exposure, and whether recordkeeping itself (as opposed to electronic submission) is burdensome.",
+  "open_questions": [
+    "Is the underlying injury recordkeeping process, rather than submission, the pain point?"
+  ],
+  "next_actions": [
+    "Reopen only with independent evidence of material cost."
+  ]
+}
