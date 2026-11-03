@@ -10,33 +10,38 @@
       "date": "2026-11-03",
       "status": "discovered",
       "reason": "Signal from DOL final rule and public comments."
+    },
+    {
+      "date": "2026-11-03",
+      "status": "discovered",
+      "reason": "Review correction: separated proposal dispute/final four-hour incremental familiarization estimate from total H-2A filing burden; qualified matched-subset small-employer statistics and documented enforcement-scope limits."
     }
   ],
   "provenance": {
     "agent": "claude-code-cloud",
-    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs; Codex review correction PR26"
   },
   "demo": false,
   "publish": true,
   "related_problem_ids": [],
   "related_opportunity_ids": [],
-  "description": "Agricultural employers using the H-2A program file job orders and certification applications with addenda; DOL estimates small burden while industry commenters call the estimate a gross underestimation.",
-  "customer_segment": "H-2A employers, most of them small (DOL found 82.5 percent of the matched sample small, average 11 employees).",
+  "description": "H-2A employers file job orders, certification applications and addenda. The 2024 rule’s economic analysis models incremental rule familiarization and added application disclosures, not the full seasonal application or compliance workload; a commenter disputed the proposal’s incremental estimates.",
+  "customer_segment": "H-2A employers, including small farms. DOL classified 2,159 of 2,615 matched employers as small (82.5%); those matches came from 9,927 unique employers excluding labor contractors in FY2020/FY2021 data. Match coverage does not establish population-wide prevalence.",
   "industries": [
     "agriculture"
   ],
   "geography": "United States",
-  "context": "Based on the April 2024 final rule; the rule's later status and DOL processing changes were not checked.",
+  "context": "Historical April 2024 final-rule analysis. The DOL rule page describes an August 2024 injunction limiting enforcement in specified states/entities; later litigation and all subsequent policy changes have not been comprehensively checked. Do not assume the 2024 additions apply universally today.",
   "evidence": [
     {
-      "text": "DOL found 2,159 of 2,615 matched H-2A employers (82.5 percent) were small, averaging 11 employees and about $3.6 million revenue.",
+      "text": "Among 9,927 unique H-2A employers excluding labor contractors in FY2020/FY2021 data, DOL matched employee/revenue data for 2,615; 2,159 matches (82.5%) were small, averaging 11 employees and about $3.6 million annual revenue. This is a matched subset, not a representative prevalence estimate for all H-2A employers.",
       "classification": "reported",
       "source_ids": [
         "source-379bf6b7cb50"
       ]
     },
     {
-      "text": "An industry commenter asserted DOL's burden estimate was drastically low.",
+      "text": "An industry commenter disputed the proposal’s incremental familiarization/new-disclosure estimates, characterizing them as $54 and $108. These are not estimates of the full H-2A seasonal application cost.",
       "classification": "reported",
       "source_ids": [
         "source-379bf6b7cb50"
@@ -46,6 +51,20 @@
       "text": "H-2A employers may spend material staff time or consultant fees on applications and records.",
       "classification": "hypothesis",
       "source_ids": []
+    },
+    {
+      "text": "In the final rule DOL increased modeled one-time rule familiarization to four hours, using an HR-specialist compensation basis. The analysis separately models added application disclosure work; neither measure is the whole H-2A application workload.",
+      "classification": "reported",
+      "source_ids": [
+        "source-379bf6b7cb50"
+      ]
+    },
+    {
+      "text": "DOL’s Farmworker Protection Rule page describes an August 26, 2024 preliminary injunction prohibiting enforcement in specified states and against specified entities. This is a documented scope restriction, not a comprehensive current legal-status review.",
+      "classification": "reported",
+      "source_ids": [
+        "source-a29cd6f049cf4963"
+      ]
     }
   ],
   "alternatives": [
@@ -53,14 +72,21 @@
   ],
   "contradictory_evidence": [
     {
-      "text": "DOL's own analysis estimates a low per-employer burden; the dispute is between agency and commenters and is not resolved by this source.",
+      "text": "The proposal’s disputed figures address incremental changes, so they cannot support a comparison with total seasonal filing/agent costs. DOL revised familiarization to four hours in the final rule. This source alone does not establish either low or high total employer pain.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-379bf6b7cb50"
+      ]
+    },
+    {
+      "text": "The small-employer proportion is conditional on successful matching, with labor contractors excluded; selection and coverage limit generalization to the full employer population.",
       "classification": "interpretation",
       "source_ids": [
         "source-379bf6b7cb50"
       ]
     }
   ],
-  "uncertainty": "Unknown: actual time and fees per application, how many farms use agents, and who buys software.",
+  "uncertainty": "Unknown: total actual seasonal time and fees, avoidable residual work, representativeness of matched employers, agent usage and existing automation, software buyer, and complete current rule/litigation status. No willingness-to-pay evidence.",
   "open_questions": [
     "What do H-2A employers or their agents actually spend per season?",
     "Do agents already automate this work?"
