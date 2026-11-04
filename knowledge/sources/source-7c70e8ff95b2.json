@@ -1,0 +1,41 @@
+{
+  "id": "source-7c70e8ff95b2",
+  "type": "source",
+  "title": "Federal Register: Agency Information Collection Activities: Submission for OMB Review (CMS-10545, OASIS-E1), 30-day notice",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2024-06-14/pdf/2024-13130.pdf",
+  "publisher": "Centers for Medicare & Medicaid Services (via GovInfo / Federal Register)",
+  "published": "2024-06-14",
+  "accessed": "2026-11-04",
+  "source_type": "Government Paperwork Reduction Act information collection notice",
+  "reliability": "Government document; the issuing agency (CMS) is also the party imposing and administering the requirement. Figures are CMS ex ante burden estimates, not measured time.",
+  "findings": [
+    "CMS states HHAs are required to collect the Outcome and Assessment Information Set (OASIS) to participate in the Medicare program.",
+    "CMS seeks OMB approval for OASIS-E1, scheduled for implementation in the Home Health Quality Reporting Program on January 1, 2025, replacing OASIS-E (implemented January 1, 2023).",
+    "OASIS-E1 changes: addition of one item supporting a quality measure, removal of one item due to retirement of a measure, removal of two data elements no longer used.",
+    "Stated burden for CMS-10545 (OMB 0938-1279): 11,866 respondents; 18,017,056 total annual responses; 16,683,290 total annual hours.",
+    "The same respondent, response and hour figures appear in the 60-day notice published April 5, 2024 (FR Doc. 2024-07202), which was also read."
+  ],
+  "limitations": [
+    "Estimate prepared by the regulator for the Paperwork Reduction Act; actual time per assessment, staffing cost and software effects are not measured here.",
+    "The notice gives totals only; per-response minutes and per-agency figures in this record set are derived by arithmetic, not stated by CMS.",
+    "Respondent count covers all HHAs, not only small agencies; no size breakdown is given.",
+    "Burden figures are for the 2025 OASIS-E1 version; later OASIS versions or revised estimates were not read.",
+    "Dollar cost per hour and which staff complete OASIS were not extracted from this notice."
+  ]
+}

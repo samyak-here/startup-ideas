@@ -1,0 +1,41 @@
+{
+  "id": "source-5769b83e50d0",
+  "type": "source",
+  "title": "Federal Register: Calendar Year 2027 Home Health Prospective Payment System Rate Update; HH Quality Reporting Program (CMS-1844-P), proposed rule",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-07-06/pdf/2026-13602.pdf",
+  "publisher": "Centers for Medicare & Medicaid Services (via GovInfo / Federal Register)",
+  "published": "2026-07-06",
+  "accessed": "2026-11-04",
+  "source_type": "Government proposed rule with regulatory flexibility analysis and information collection section",
+  "reliability": "Government document; the issuing agency (CMS) is also the party imposing and administering the requirement. Proposed rule; content may change in a final rule that was not read.",
+  "findings": [
+    "CMS states that approximately 96 percent of HHAs are considered small entities (NAICS 621610, size standard $19 million).",
+    "CMS proposes to revise HH QRP data submission deadlines and the OASIS annual payment update reporting timeframe; it states the net effect is no change in burden for OASIS data collection.",
+    "Using 2024 data, CMS reports 99.27 percent of all OASIS assessments were submitted to CMS within a 45-day timeframe; it states only 0.49 percent of assessments would be affected by moving the deadline from 4.5 months to the 15th day of the second month after the quarter.",
+    "CMS notes that failure to submit OASIS data timely results in a 2 percentage point reduction of the annual home health market basket increase for the corresponding calendar year.",
+    "CMS reports a CY 2025 RFI on shortening the OASIS submission deadline from 4.5 months to 45 days, with comments summarized in the CY 2026 final rule (which was not read).",
+    "CMS concludes the payment policies would have a significant positive economic impact on a substantial number of small entities (net estimated +2.4 percent, about $420 million, in the aggregate for CY 2027)."
+  ],
+  "limitations": [
+    "Proposed rule dated July 6, 2026; whether it was finalized, and with what changes, was not checked.",
+    "Only the OASIS-related sections, the information collection section and the small-entity discussion were read, not the whole rule.",
+    "The OASIS burden statement is a \"no change\" statement relative to the existing approved collection; it does not itself quantify burden.",
+    "Table 39/40 data on small-firm revenue are graphics and were not extracted."
+  ]
+}
