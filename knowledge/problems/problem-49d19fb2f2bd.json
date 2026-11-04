@@ -1,0 +1,121 @@
+{
+  "id": "problem-49d19fb2f2bd",
+  "type": "problem",
+  "title": "Home health agencies must complete and submit OASIS assessments: CMS estimates about 16.7 million burden hours a year across 11,866 agencies",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Signal from CMS information collection notices for OASIS."
+    },
+    {
+      "date": "2026-11-04",
+      "status": "evidence-collected",
+      "reason": "Two primary CMS documents read; the aggregate OASIS burden estimate and the 96 percent small-entity share are recorded. Burden specific to small agencies, and whether it is a customer pain point, remain unestablished."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "description": "Medicare-certified home health agencies must collect and submit the OASIS patient assessment data set to CMS, and CMS itself estimates the collection takes about 16.7 million hours a year in aggregate; about 96 percent of HHAs are small entities by CMS definition.",
+  "customer_segment": "Medicare-participating home health agencies (CMS counts 11,866 respondents; about 96 percent are small entities by SBA-based size standard). Which agencies feel the burden most is not established.",
+  "industries": [
+    "home health care"
+  ],
+  "geography": "United States",
+  "context": "OASIS-E1 took effect for the HH Quality Reporting Program on January 1, 2025 per the 2024 CMS notice. CMS has since proposed (July 2026) changes to submission deadlines and the reporting timeframe, stating no net change in burden. Late submission is penalized by a 2 percentage point market basket reduction.",
+  "evidence": [
+    {
+      "text": "CMS estimates 11,866 respondents, 18,017,056 annual responses and 16,683,290 annual hours for the OASIS-E1 collection (CMS-10545).",
+      "classification": "estimate",
+      "source_ids": [
+        "source-7c70e8ff95b2"
+      ]
+    },
+    {
+      "text": "Dividing CMS totals gives about 55.6 minutes per response and about 1,406 hours and 1,518 responses per agency per year on average across all agencies; this is our arithmetic on agency estimates, not a CMS statement or a measurement.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-7c70e8ff95b2"
+      ]
+    },
+    {
+      "text": "CMS states approximately 96 percent of HHAs are small entities for RFA purposes.",
+      "classification": "reported",
+      "source_ids": [
+        "source-5769b83e50d0"
+      ]
+    },
+    {
+      "text": "CMS reports a failure to submit OASIS data timely reduces the annual home health market basket increase by 2 percentage points.",
+      "classification": "reported",
+      "source_ids": [
+        "source-5769b83e50d0"
+      ]
+    },
+    {
+      "text": "CMS reports 99.27 percent of OASIS assessments were submitted within 45 days in 2024 data.",
+      "classification": "reported",
+      "source_ids": [
+        "source-5769b83e50d0"
+      ]
+    },
+    {
+      "text": "Small agencies without dedicated clinical documentation staff may lose a disproportionate share of clinician time to OASIS completion and review.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Home health EHR/agency software with built-in OASIS completion and submission: not yet investigated, and vendors and pricing are unknown.",
+    "Outsourced OASIS review and coding services: not yet investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "CMS reports that 99.27 percent of OASIS assessments were submitted within 45 days, suggesting most agencies already meet submission timing with current tools and processes.",
+      "classification": "reported",
+      "source_ids": [
+        "source-5769b83e50d0"
+      ]
+    },
+    {
+      "text": "CMS states its July 2026 proposals cause no change in OASIS burden, and OASIS-E1 removed more items than it added, so the regulator sees the burden as stable rather than growing.",
+      "classification": "reported",
+      "source_ids": [
+        "source-7c70e8ff95b2",
+        "source-5769b83e50d0"
+      ]
+    },
+    {
+      "text": "All burden numbers are CMS ex ante Paperwork Reduction Act estimates and not measured time; they are aggregate and not broken out by agency size.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-7c70e8ff95b2"
+      ]
+    },
+    {
+      "text": "Many agencies already use EHR software that embeds OASIS; whether small agencies are underserved by those tools is unknown.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: actual minutes per OASIS by agency size, staff cost, share of the burden that is data entry versus clinical assessment, error and resubmission rates for small agencies, current EHR adoption and satisfaction, and whether the CY 2027 proposals were finalized.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "How long does an OASIS take in practice for small agencies, from independent surveys or trade-association data?",
+    "What do small agencies spend on EHR and OASIS review services, and are they satisfied?",
+    "What happened to the CY 2027 proposals in the final rule?"
+  ],
+  "next_actions": [
+    "Look for independent time studies or home health association surveys on OASIS completion time.",
+    "Read the CMS-10545 supporting statement for per-response time and wage assumptions.",
+    "Check the CY 2027 final rule for finalized OASIS provisions."
+  ]
+}
