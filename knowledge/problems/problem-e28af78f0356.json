@@ -25,7 +25,7 @@
   "publish": true,
   "related_problem_ids": [],
   "related_opportunity_ids": [],
-  "description": "HIPAA covered entities, most of them small, must already perform a thorough risk analysis and document Security Rule compliance. HHS proposed in January 2025 to add a written asset inventory and network map, annual compliance audits and more written policies. HHS estimates about $1,235 per entity per year and certifies no significant small-entity impact; the actual time and cost for small practices are not measured in the sources read.",
+  "description": "HIPAA covered entities, most of them small, must already perform a thorough risk analysis and document Security Rule compliance. HHS proposed in January 2025 to add a written asset inventory and network map, annual compliance audits and more written policies. HHS estimates about $1,235 per entity per year and proposes to certify no significant small-entity impact (the NPRM is not final, so no final certification exists); the actual time and cost for small practices are not measured in the sources read.",
   "customer_segment": "Small HIPAA covered entities (HHS counts about 740,348 small covered entities, 90 percent of 822,609), including small medical and mental health practices; business associates also affected.",
   "industries": [
     "healthcare"
@@ -87,8 +87,15 @@
       ]
     },
     {
-      "text": "HHS costs the compliance audit at about 2 hours per entity on the assumption that compliance activities are already documented; where documentation is missing, the cost is understated, and HHS lists asset inventory and documentation of existing requirements as not readily quantified.",
+      "text": "HHS costs the compliance audit at about 2 hours per entity on the assumption that compliance activities are already documented (90 FR 997), and states that some costs of complying more fully with existing requirements are not readily quantifiable (90 FR 994).",
       "classification": "reported",
+      "source_ids": [
+        "source-38e744f087ae"
+      ]
+    },
+    {
+      "text": "Interpretation, not an HHS statement: the HHS estimate covers incremental new-rule cost and does not bound the total real-world cost for a practice that currently lacks documentation; whether HHS understated its own incremental estimate is not established by the sources read.",
+      "classification": "interpretation",
       "source_ids": [
         "source-38e744f087ae"
       ]
