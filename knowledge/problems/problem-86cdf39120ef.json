@@ -29,7 +29,7 @@
     "federal contracting"
   ],
   "geography": "United States",
-  "context": "Agency Paperwork Reduction Act notices from 2016 and 2025. They estimate form-completion time only, not time spent understanding requirements, resolving validation problems, or paying third-party helpers. The related grant-side SAM collection (OMB 3090-0290) was not analyzed.",
+  "context": "Agency Paperwork Reduction Act notices from 2016 and 2025. They report aggregate burden estimates; the reviewed notices do not establish which familiarization, requirements-understanding, validation-resolution, or third-party-helper costs are included (the OMB supporting statements, not yet read, could clarify this). The related grant-side SAM collection (OMB 3090-0290) was not analyzed.",
   "evidence": [
     {
       "text": "In 2016 the agencies estimated 110,350 respondents and 1.7141 hours per response for contractor registration, totaling 189,151 burden hours a year.",
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "text": "These are the agencies' own ex ante estimates of form-completion time, not measured burden; the issuing agencies administer the requirement, so the estimates may understate burden, and the absence of comments is weak evidence either way.",
+      "text": "These are the agencies' own ex ante burden estimates, not measured burden, and the reviewed notices do not establish which familiarization or validation costs they include; the issuing agencies administer the requirement, so the estimates may understate burden, and the absence of comments is weak evidence either way.",
       "classification": "interpretation",
       "source_ids": [
         "source-0dca96f112aa",
