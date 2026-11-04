@@ -1,0 +1,131 @@
+{
+  "id": "problem-43a4fe4327db",
+  "type": "problem",
+  "title": "Dental practices verify insurance eligibility and benefits through varying plan portals; industry spend is rising",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Signals from ADA publications."
+    },
+    {
+      "date": "2026-11-04",
+      "status": "evidence-collected",
+      "reason": "CAQH Index 2024 read directly; dental verification volume, spend and portal-cost findings recorded alongside ADA advocacy sources."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "Before treatment, dental offices check each patient's eligibility and benefits, often through insurer-specific web portals or by phone because the automated electronic transaction lacks trusted dental detail. CAQH estimates dental verification spend at $2.1 billion for 2023, rising 15 percent, driven by volume and portal cost.",
+  "customer_segment": "US dental practices (mostly small independent practices per the ADA) and their front-office/billing staff; the CAQH figures are industry-wide and not split by practice size.",
+  "industries": [
+    "dentistry",
+    "health care administration"
+  ],
+  "geography": "United States",
+  "context": "Data are for calendar 2023 (CAQH 2024 Index) plus a December 2025 ADA panel survey and a September 2026 ADA letter summary. ADA is an advocacy organization for dentists; CAQH is an industry alliance that promotes electronic transactions. Regulatory work on dental content in the electronic eligibility transaction (CORE operating rules) was in progress per CAQH; current status not checked.",
+  "evidence": [
+    {
+      "text": "CAQH estimates the dental industry conducted 1.2 billion eligibility and benefit verifications in 2023 (up 24 percent), 24 percent of dental transaction volume.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-446cdb78cbb0"
+      ]
+    },
+    {
+      "text": "CAQH estimates dental verification spending rose 15 percent to $2.1 billion (30 percent of dental administrative spend), driven by volume and higher portal cost; portal requirements and formats vary.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-446cdb78cbb0"
+      ]
+    },
+    {
+      "text": "CAQH estimates a $580 million dental savings opportunity from fully electronic checks and 8 minutes average time savings per transaction for dental providers.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-446cdb78cbb0"
+      ]
+    },
+    {
+      "text": "A dental practice quoted by CAQH says it lacks a trustworthy automated eligibility tool and does not use it; CAQH reports dental providers often find electronic responses insufficiently robust.",
+      "classification": "reported",
+      "source_ids": [
+        "source-446cdb78cbb0"
+      ]
+    },
+    {
+      "text": "In an ADA panel survey (Dec 2025), 55.3 percent of 751 coded responses named low reimbursement, denials or other insurance issues among top 2026 challenges.",
+      "classification": "reported",
+      "source_ids": [
+        "source-0065df0b8148"
+      ]
+    },
+    {
+      "text": "The ADA states manual verification of varying plan designs burdens dental practices and asks for standardized electronic verification in Medicare Advantage.",
+      "classification": "reported",
+      "source_ids": [
+        "source-fcc74db5d4e9"
+      ]
+    },
+    {
+      "text": "Practices may be willing to pay for tools that consolidate portal checks, but willingness to pay is untested.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Fully electronic 270/271 eligibility transactions via practice-management software or clearinghouses (CAQH says adoption is growing but trust in dental detail is limited).",
+    "Outsourced or offshore verification staff and vendor verification services: not investigated.",
+    "Practice-management software with built-in verification: not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "In the ADA panel, administrative time was a separate coded category at only 0.8 percent of responses, and the insurance category is dominated by reimbursement and denials rather than verification.",
+      "classification": "reported",
+      "source_ids": [
+        "source-0065df0b8148"
+      ]
+    },
+    {
+      "text": "CAQH reports growth in electronic adoption and a 32 percent rise in dental electronic volume, so the burden may be shrinking as electronic checks spread.",
+      "classification": "reported",
+      "source_ids": [
+        "source-446cdb78cbb0"
+      ]
+    },
+    {
+      "text": "CAQH cost per transaction is modeled labor only, excluding information gathering and follow-up, and the savings opportunity is an industry estimate by an organization that promotes electronic transactions; the ADA is an advocacy group.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-446cdb78cbb0",
+        "source-fcc74db5d4e9"
+      ]
+    },
+    {
+      "text": "Industry-wide totals do not show how much falls on small practices or whether verification is the practices' most painful administrative task.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: staff hours per practice, practice-size split, share of verifications done via portal versus phone, error cost (surprise patient bills, denials) attributable to verification, existing vendor coverage and pricing, and whether the problem is eligibility lookup or benefit interpretation.",
+  "open_questions": [
+    "How many hours per week do small dental practices actually spend on verification, and who does it?",
+    "What fraction of verification errors cause denials or patient balance disputes?",
+    "What do existing verification services and practice-management integrations cost and cover?",
+    "What is the current status of dental data in the federal eligibility operating rules?"
+  ],
+  "next_actions": [
+    "Find independent or practice-level time data (e.g., ADA practice surveys, academic studies) beyond the industry-wide CAQH model.",
+    "Read the CAQH 2025 Index dental sections for the trend and cost per transaction.",
+    "Review pricing and scope of existing dental verification vendors."
+  ]
+}
