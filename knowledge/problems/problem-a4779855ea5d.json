@@ -60,7 +60,7 @@
     }
   ],
   "alternatives": [
-    "Free assistance from MEP centers (federally funded, may be subsidized for clients).",
+    "MEP-center assistance (federally funded program); client pricing not established by the cited sources.",
     "Self-assessment using NIST SP 800-171A and DoD guidance (Handbook 162 was withdrawn in favor of these).",
     "Private compliance consultants and managed service providers: not investigated."
   ],
@@ -102,7 +102,7 @@
     }
   ],
   "uncertainty": "Unknown: share of SMMs that cannot meet requirements, their actual spend, who the buyer is, current MEP offerings, and effect of CMMC since 2019. Web-search items such as consultant case studies and trade-press commentary were not read and are not evidence here.",
-  "related_problem_ids": [],
+  "related_problem_ids": ["problem-bb2a8a222fe6"],
   "related_opportunity_ids": [],
   "open_questions": [
     "Is there an independent, measured dataset (e.g., assessor findings or SPRS score distributions) on SMM control implementation?",
