@@ -50,7 +50,7 @@
       ]
     },
     {
-      "text": "APHIS estimates about 1.0 hour per veterinarian for the voluntary NVAP application, 22,582 hours per year in total.",
+      "text": "APHIS estimates 1.0 hour per NVAP application response, with 22,581 annual respondents and 22,582 responses (22,582 burden hours per year); NVAP is voluntary and this covers the application form only.",
       "classification": "estimate",
       "source_ids": [
         "source-d2050c0e3cd4"
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "text": "The only measured administrative task read, the NVAP application, is about 1 hour per veterinarian per year by APHIS estimate, which is small.",
+      "text": "The only administrative task read, the voluntary NVAP application, is estimated by APHIS at 1.0 hour per application response; this is an agency PRA estimate for application respondents only, not observed time and not a recurring annual duty for every veterinarian, and it says little about overall practice administrative burden.",
       "classification": "estimate",
       "source_ids": [
         "source-d2050c0e3cd4"
