@@ -26,7 +26,7 @@
   "related_problem_ids": [],
   "related_opportunity_ids": [],
   "description": "Before treatment, dental offices check each patient's eligibility and benefits, often through insurer-specific web portals or by phone because the automated electronic transaction lacks trusted dental detail. CAQH estimates dental verification spend at $2.1 billion for 2023, rising 15 percent, driven by volume and portal cost.",
-  "customer_segment": "US dental practices (mostly small independent practices per the ADA) and their front-office/billing staff; the CAQH figures are industry-wide and not split by practice size.",
+  "customer_segment": "US dental practices (the ADA describes independent practices as generally small businesses; the share of all dental practices that are independent was not established here) and their front-office/billing staff; the CAQH figures are industry-wide and not split by practice size.",
   "industries": [
     "dentistry",
     "health care administration"
@@ -96,8 +96,15 @@
       ]
     },
     {
-      "text": "CAQH reports growth in electronic adoption and a 32 percent rise in dental electronic volume, so the burden may be shrinking as electronic checks spread.",
+      "text": "CAQH reports growth in electronic adoption and a 32 percent rise in dental electronic volume.",
       "classification": "reported",
+      "source_ids": [
+        "source-446cdb78cbb0"
+      ]
+    },
+    {
+      "text": "One possible reading is that the burden may be shrinking as electronic checks spread, but volume growth alone does not show a falling total burden: the same report shows rising dental spend ($2.1 billion, 15 percent growth), and per-practice effect was not measured.",
+      "classification": "interpretation",
       "source_ids": [
         "source-446cdb78cbb0"
       ]
