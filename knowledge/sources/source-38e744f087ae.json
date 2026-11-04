@@ -1,0 +1,45 @@
+{
+  "id": "source-38e744f087ae",
+  "type": "source",
+  "title": "Federal Register: HIPAA Security Rule To Strengthen the Cybersecurity of Electronic Protected Health Information, notice of proposed rulemaking (90 FR 898)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-06/pdf/2024-30983.pdf",
+  "publisher": "HHS Office for Civil Rights (via GovInfo / Federal Register)",
+  "published": "2025-01-06",
+  "accessed": "2026-11-04",
+  "source_type": "Government notice of proposed rulemaking with regulatory impact and small-entity analyses",
+  "reliability": "Government document; the issuing agency is also the party proposing and administering the requirement. All cost figures are HHS ex ante estimates \"based on subject matter expertise\", not measured burden.",
+  "findings": [
+    "HHS states regulated entities are already required to conduct an accurate and thorough risk analysis, which requires inventorying technology assets and determining how ePHI moves through systems, though this is \"not specified in the regulatory text\".",
+    "The NPRM proposes a standard requiring a written technology asset inventory and network map (proposed 45 CFR 164.308(a)(1)(i)) and a new annual Security Rule compliance audit (proposed 164.308(a)(14)).",
+    "HHS estimates 1,822,600 regulated entities and 822,609 covered entities, and that 90% of covered entities (740,348) are small entities under SBA size standards or nonprofits.",
+    "HHS estimates first-year costs of about $9 billion (regulated entities about $4,655 million; health plan sponsors about $4,659 million) and about $6 billion per year in years two to five; annualized $6.8 billion at a 2 percent discount rate.",
+    "HHS states annualized cost per regulated entity is approximately $1,235 (about $2.3 billion / 1,822,600), says this is per establishment so smaller entities bear lower cost, and proposes to certify no significant economic effect on a substantial number of small entities (3 percent-of-revenue test; $1,235 would exceed 3 percent only for revenue below $41,167).",
+    "HHS acknowledges firms without employees might have revenue below that threshold and assumes they would comply by buying services from software and web-hosting companies.",
+    "HHS estimates the compliance audit at an average 2 hours of information systems analyst labor (range 0.25 to 2.5 hours; $119.94 per hour), assuming entities have already documented Security Rule compliance as currently required.",
+    "HHS says costs not readily quantified include completing a technology asset inventory, \"a baseline expectation for the existing requirement of conducting a risk assessment\", and documenting completion of existing requirements.",
+    "HHS cites an NCVHS inquiry (2021-2023) in which experts voiced concern about a \"widespread lack of robust risk analysis\" among covered entities and business associates.",
+    "Proposed compliance period is 240 days after the final rule publication date."
+  ],
+  "limitations": [
+    "Text read from pdftotext output of a multi-column PDF; tables 6-7 were not recomputed.",
+    "Agency ex ante estimates; no measured time or spend by small practices. Per-establishment average obscures spread across practice types.",
+    "Public comments on the NPRM were not read; comment-period positions of physician groups or small-practice advocates are unknown.",
+    "This is a proposal; the finalized text, if any, may differ."
+  ]
+}

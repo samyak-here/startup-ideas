@@ -1,0 +1,38 @@
+{
+  "id": "source-ce603986b7bc",
+  "type": "source",
+  "title": "Reginfo.gov Unified Agenda entry: RIN 0945-AA22, HIPAA Security Rule to Strengthen the Cybersecurity of Electronic Protected Health Information",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.reginfo.gov/public/do/eAgendaViewRule?pubId=202510&RIN=0945-AA22",
+  "publisher": "Office of Information and Regulatory Affairs, OMB / GSA (reginfo.gov)",
+  "published": null,
+  "accessed": "2026-11-04",
+  "source_type": "Government regulatory agenda entry (status)",
+  "reliability": "Government document; the issuing agency is also the party proposing and administering the requirement. Agenda dates are agency projections and frequently slip. Publication date not shown on the entry page; the pubId=202510 edition is the one the site labels \"2026\" in its navigation.",
+  "findings": [
+    "The entry lists the NPRM as published 01/06/2025 at 90 FR 898.",
+    "In this edition the Agenda Stage of Rulemaking is \"Long-Term Actions\" with Final Action projected 07/00/2027.",
+    "The earlier Spring 2025 edition (pubId=202504) listed the stage as Final Rule Stage with Final Action 05/00/2026.",
+    "The entry flags the rule as Economically Significant and Major, with Small Entities Affected: Businesses, Governmental Jurisdictions, Organizations."
+  ],
+  "limitations": [
+    "A Federal Register API search on 2026-11-04 (terms \"Security Rule\", \"HIPAA Security Rule\", RIN 0945-AA22, published after 2025-01-07) returned no final rule or withdrawal for this RIN; this is absence of evidence from one search, not proof.",
+    "The page also lists a newer Spring 2026 agenda edition that could not be read (pubId=202604 returned an empty shell), so the latest projection may differ.",
+    "Agency projection, not a commitment."
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "problem-e28af78f0356",
+  "type": "problem",
+  "title": "Small healthcare practices: HIPAA Security Rule risk analysis and documentation burden is asserted low by HHS but unmeasured",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Signal from HHS/OCR January 2025 NPRM small-entity and cost analysis."
+    },
+    {
+      "date": "2026-11-04",
+      "status": "evidence-collected",
+      "reason": "NPRM and Unified Agenda entry read; HHS cost, small-entity and status statements recorded with counterevidence. Burden on small practices remains unmeasured; rule not final."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "HIPAA covered entities, most of them small, must already perform a thorough risk analysis and document Security Rule compliance. HHS proposed in January 2025 to add a written asset inventory and network map, annual compliance audits and more written policies. HHS estimates about $1,235 per entity per year and certifies no significant small-entity impact; the actual time and cost for small practices are not measured in the sources read.",
+  "customer_segment": "Small HIPAA covered entities (HHS counts about 740,348 small covered entities, 90 percent of 822,609), including small medical and mental health practices; business associates also affected.",
+  "industries": [
+    "healthcare"
+  ],
+  "geography": "United States",
+  "context": "The rule is only a proposal (NPRM 90 FR 898, January 6, 2025). The latest Unified Agenda edition read lists it as a Long-Term Action with final action projected July 2027; no final rule was found in a Federal Register search on 2026-11-04. Existing requirements (risk analysis, documentation) apply today regardless.",
+  "evidence": [
+    {
+      "text": "HHS states regulated entities are already required to conduct an accurate and thorough risk analysis, including an inventory of technology assets and mapping ePHI movement.",
+      "classification": "reported",
+      "source_ids": [
+        "source-38e744f087ae"
+      ]
+    },
+    {
+      "text": "HHS estimates 740,348 small covered entities (90 percent of 822,609) and an annualized cost of about $1,235 per regulated entity, and proposes to certify no significant economic effect on a substantial number of small entities.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-38e744f087ae"
+      ]
+    },
+    {
+      "text": "HHS estimates first-year costs of about $9 billion and about $6 billion per year thereafter across regulated entities and plan sponsors.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-38e744f087ae"
+      ]
+    },
+    {
+      "text": "HHS cites NCVHS testimony of a widespread lack of robust risk analysis among covered entities and business associates, indicating that documentation of the existing duty is often absent or weak.",
+      "classification": "reported",
+      "source_ids": [
+        "source-38e744f087ae"
+      ]
+    },
+    {
+      "text": "The Unified Agenda entry (pubId 202510) lists the rule as a Long-Term Action with final action projected 07/00/2027; the Spring 2025 edition had projected 05/00/2026.",
+      "classification": "reported",
+      "source_ids": [
+        "source-ce603986b7bc"
+      ]
+    },
+    {
+      "text": "Small practices without in-house security staff may spend significant owner or office-manager time, or outside fees, producing and maintaining risk analysis and written documentation.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Outsourced IT and managed service providers, compliance consultants and HIPAA compliance software: not investigated.",
+    "Free HHS/ONC security risk assessment tooling: existence and use by small practices not verified in the sources read."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "HHS, the rule-writer, estimates about $1,235 per entity per year and says small entities bear lower cost per establishment; this is an ex ante agency estimate, not measured burden.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-38e744f087ae"
+      ]
+    },
+    {
+      "text": "HHS costs the compliance audit at about 2 hours per entity on the assumption that compliance activities are already documented; where documentation is missing, the cost is understated, and HHS lists asset inventory and documentation of existing requirements as not readily quantified.",
+      "classification": "reported",
+      "source_ids": [
+        "source-38e744f087ae"
+      ]
+    },
+    {
+      "text": "The rule is a proposal that has slipped from a projected 2026 to 2027 final action, so the incremental requirements may never take effect in this form.",
+      "classification": "reported",
+      "source_ids": [
+        "source-ce603986b7bc"
+      ]
+    },
+    {
+      "text": "Software and hosting vendors may absorb much of the work for the smallest firms (HHS assumption); vendor coverage is unknown.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: actual hours and fees small practices spend on risk analysis and documentation today; what share lack a current written risk analysis; how many already use paid tools or consultants; comment-letter positions of physician and small-practice groups; whether and in what form the rule is finalized; the Spring 2026 Unified Agenda status.",
+  "open_questions": [
+    "What do small practices actually spend (time and fees) on risk analysis and Security Rule documentation?",
+    "What share of small practices have a current, written risk analysis (OCR enforcement data, independent surveys)?",
+    "What do public comments from small-practice groups say about the NPRM burden estimates?",
+    "What do existing HIPAA compliance tools and consultants cost, and where do they fall short?"
+  ],
+  "next_actions": [
+    "Read OCR enforcement actions and published settlements for risk analysis failures at small entities.",
+    "Read public comment letters from physician and small-practice associations on regulations.gov docket HHS-OCR-0945-AA22.",
+    "Find an independent survey of small-practice HIPAA compliance time and spend.",
+    "Re-check rule status via the Spring 2026 Unified Agenda before further work."
+  ]
+}
