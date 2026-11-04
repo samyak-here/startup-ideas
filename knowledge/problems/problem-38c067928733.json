@@ -1,0 +1,131 @@
+{
+  "id": "problem-38c067928733",
+  "type": "problem",
+  "title": "Small remote sellers must track differing state economic-nexus thresholds and register, collect and file in many states after Wayfair",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Signal from the Wayfair opinion and the Streamlined Sales Tax Governing Board threshold chart."
+    },
+    {
+      "date": "2026-11-04",
+      "status": "evidence-collected",
+      "reason": "Primary sources read: opinion text, SSTGB threshold chart and CSP free-services page. They articulate the obligation and the program designed to ease it, but not measured burden; status stays evidence-collected, not promising."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "description": "After Wayfair (June 21, 2018), states may require out-of-state sellers to collect sales tax once they pass state-specific sales or transaction thresholds. Small online sellers selling into many states must determine where they have crossed each state threshold, register, collect at the correct rate and file, while a state-funded Streamlined program offers free help in member states only.",
+  "customer_segment": "Small online/remote sellers (own websites or other channels without physical presence) selling taxable goods into multiple states; number of such sellers and the share crossing any state threshold were not established.",
+  "industries": [
+    "e-commerce",
+    "retail"
+  ],
+  "geography": "United States (state-by-state rules)",
+  "context": "Obligation exists since 2018 and thresholds were revised through at least 2026. Marketplace facilitator laws (Amazon, Etsy etc. collecting for sellers) are referenced in the SSTGB chart but not read in detail, so how much volume is handled that way is unknown. Dated: SSTGB chart self-dated Jan 11, 2023 with later edits; read 2026-11-04.",
+  "evidence": [
+    {
+      "text": "The Supreme Court decided South Dakota v. Wayfair on June 21, 2018, overruling the physical-presence rule, and the majority itself acknowledged that compliance burdens may pose legitimate concerns for small businesses selling small volumes in many states.",
+      "classification": "reported",
+      "source_ids": [
+        "source-cb2fc3cb9ba4"
+      ]
+    },
+    {
+      "text": "The dissent stated (citing a 2017 GAO report) that over 10,000 jurisdictions levy sales taxes with different rates, exemptions and product definitions; this is a 2018 secondhand figure and not verified here.",
+      "classification": "reported",
+      "source_ids": [
+        "source-cb2fc3cb9ba4"
+      ]
+    },
+    {
+      "text": "Remote seller thresholds differ across states: the SSTGB chart shows a dollar threshold in 47 of 52 listed jurisdictions (46 states plus DC), mostly $100,000, with $250,000 (e.g. Alabama, Mississippi) and $500,000 (e.g. California, Texas, New York) variants; some states also count 200 transactions, and the measured base (gross, retail or taxable sales) and period vary.",
+      "classification": "reported",
+      "source_ids": [
+        "source-435a7c967e8e"
+      ]
+    },
+    {
+      "text": "A multistate seller must therefore track sales per state against differing definitions to know when registration is required.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-435a7c967e8e"
+      ]
+    },
+    {
+      "text": "The Streamlined program offers state-paid calculation, filing and remittance through a CSP for qualifying sellers in member states, including sellers that are only economic-nexus sellers.",
+      "classification": "reported",
+      "source_ids": [
+        "source-c6afcfdf17da"
+      ]
+    },
+    {
+      "text": "Whether small sellers actually spend significant time or money on threshold monitoring, registration and filing across states, as measured rather than assumed, is not evidenced in these sources.",
+      "classification": "unknown",
+      "source_ids": []
+    },
+    {
+      "text": "Small sellers outside Streamlined states or above CSP eligibility may need paid tools or advisors to monitor nexus and file in many states.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Streamlined Sales Tax Registration System and CSP-provided free services in member states (source 3).",
+    "Paid tax automation software and accountants (not investigated).",
+    "Selling through marketplace facilitators that collect on the seller's behalf (not investigated).",
+    "Staying under state thresholds (not evidenced as a strategy)."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "The Streamlined system provides free state-paid compliance services in member states for eligible sellers, which directly addresses the calculation, filing and remittance burden there.",
+      "classification": "reported",
+      "source_ids": [
+        "source-c6afcfdf17da"
+      ]
+    },
+    {
+      "text": "The majority opinion reasoned that South Dakota protects small merchants through a $100,000/200-transaction threshold, no retroactivity, Streamlined membership and free software, and expected software to make compliance easier.",
+      "classification": "reported",
+      "source_ids": [
+        "source-cb2fc3cb9ba4"
+      ]
+    },
+    {
+      "text": "The burden discussion in the opinion is judicial reasoning and a dissent quoting a GAO report, not a measurement of seller cost; the SSTGB sources are published by state-government bodies that promote the program.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-cb2fc3cb9ba4",
+        "source-435a7c967e8e",
+        "source-c6afcfdf17da"
+      ]
+    },
+    {
+      "text": "Established commercial tax-automation vendors, marketplace facilitators and e-commerce platforms may already shift much of the work away from small sellers; how many small sellers still self-administer is unknown.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: measured time and cost per small seller; share of small sellers over any state threshold; non-Streamlined state burden (CA, TX, NY, FL not members per the SSTGB list); local/home-rule jurisdiction complexity; marketplace-facilitator share; current accuracy of each chart row; audit/penalty experience. The figures here are rules and agency/organization descriptions, not measured burden.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "What do independent surveys or tax-practitioner data say small sellers spend on multistate sales tax compliance?",
+    "What share of small online sellers sell through marketplaces that collect for them versus their own sites?",
+    "How do non-Streamlined large states (California, Texas, New York, Florida) handle registration and filing for small remote sellers, from their revenue department documents?",
+    "Are there documented penalty or audit outcomes for small sellers that missed a threshold?"
+  ],
+  "next_actions": [
+    "Read state revenue department guidance for 2-3 large non-member states to compare filing frequency and local-tax requirements.",
+    "Find independent (non-vendor, non-state) measurement of small-seller compliance cost; flag vendor surveys as vendor interest.",
+    "Re-verify the threshold chart rows directly against state sites before using them."
+  ]
+}

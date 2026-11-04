@@ -1,0 +1,40 @@
+{
+  "id": "source-435a7c967e8e",
+  "type": "source",
+  "title": "Streamlined Sales Tax Governing Board: Remote Seller State Guidance (state thresholds and compliance dates)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.streamlinedsalestax.org/for-businesses/remote-seller-faqs/remote-seller-state-guidance",
+  "publisher": "Streamlined Sales Tax Governing Board, Inc. (interstate state-government organization)",
+  "published": null,
+  "accessed": "2026-11-04",
+  "source_type": "Government-affiliated reference chart",
+  "reliability": "Published by an organization of member states that administers the Streamlined program and promotes simplification and CSP use; states are the parties imposing the obligation. The page says it is general guidance, not legal advice, and does not override state law.",
+  "findings": [
+    "The page states the chart summarizes remote-seller thresholds and compliance dates \"as of January 11, 2023\", yet the text also contains later entries (for example Illinois effective 1/1/2026, Utah effective 7/1/2025, Alaska effective 1/1/2025); it is therefore a mix of dates and was read on 2026-11-04.",
+    "By my count of the extracted text, 47 of 52 rows (46 states plus the District of Columbia) show a dollar threshold; Delaware (no sales tax), Montana, New Hampshire, Oregon and Puerto Rico show none.",
+    "Most thresholds are $100,000 of sales, many historically or currently \"or 200 transactions\"; Alabama and Mississippi list $250,000; California and Texas list $500,000; New York lists $500,000 and more than 100 sales.",
+    "Thresholds are measured differently across states: sales vs. transactions (OR vs. AND), gross sales, gross revenue, retail sales or taxable sales; many states do not distinguish taxable from non-taxable sales; period (previous or current calendar year, preceding 12 months) varies.",
+    "Several states changed thresholds over time (for example removing the 200-transaction test in Indiana, North Carolina, Wyoming, Alaska, Wisconsin, North Dakota).",
+    "A seller with physical presence in a state must register regardless of sales amount; economic nexus applies to sellers without it."
+  ],
+  "limitations": [
+    "No publication date is shown for the whole page; the chart is self-dated January 11, 2023 but contains later edits, so accuracy of every row is unverified.",
+    "Row counts are my tally of extracted text and were not cross-checked with state revenue department sites.",
+    "Does not give rates, filing frequency, local-tax rules or marketplace-facilitator details; does not measure compliance cost."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "source-c6afcfdf17da",
+  "type": "source",
+  "title": "Streamlined Sales Tax Governing Board: Free Sales Tax Services (Certified Service Provider program)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.streamlinedsalestax.org/for-businesses/free-sales-tax-services",
+  "publisher": "Streamlined Sales Tax Governing Board, Inc. (interstate state-government organization)",
+  "published": null,
+  "accessed": "2026-11-04",
+  "source_type": "Government-affiliated program description",
+  "reliability": "Published by the organization running the program; describes eligibility rules as designed, not how many sellers use or benefit from them. No publication date shown; read 2026-11-04.",
+  "findings": [
+    "Under the Certified Service Provider (CSP) contract, a \"CSP-compensated seller\" in a Streamlined member state gets calculation, return filing, remittance and notice/audit response services paid for by the state, at no charge to the seller, for that state.",
+    "To qualify the seller must register through the Streamlined registration system, contract with a CSP, and in the prior 12 months have no fixed place of business over 30 days, under $50,000 of property and of payroll, and under 25% of total property or payroll in the state, among other criteria.",
+    "The page states a remote seller that must collect only because it meets the state economic nexus threshold qualifies for free CSP services in that state.",
+    "CSPs may charge for states where the seller does not qualify, for non-member states, for non-taxable transaction processing above 30% of transactions, and for additional services such as accounting or consulting.",
+    "Listed certified providers offering free services: Avalara, TaxCloud, Sovos, AccurateTax, Avior; Exactor (an Intuit subsidiary) is certified but not currently offering free services."
+  ],
+  "limitations": [
+    "Free services apply only in Streamlined member states (the SSTGB home page lists 24, including associate member Tennessee); large states such as California, Texas, New York and Florida are not members per that list.",
+    "Does not say how many sellers use the program or how well it works in practice; the page is silent on onboarding effort.",
+    "Contract version mentioned is 2025-2026; terms may change."
+  ]
+}

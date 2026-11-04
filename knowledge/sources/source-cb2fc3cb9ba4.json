@@ -1,0 +1,40 @@
+{
+  "id": "source-cb2fc3cb9ba4",
+  "type": "source",
+  "title": "South Dakota v. Wayfair, Inc., 585 U.S. 162 (2018): syllabus, majority opinion and dissent (text hosted by Cornell LII)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.law.cornell.edu/supremecourt/text/17-494",
+  "publisher": "U.S. Supreme Court (text as hosted by Cornell Legal Information Institute)",
+  "published": "2018-06-21",
+  "accessed": "2026-11-04",
+  "source_type": "Court opinion (hosted copy of official text)",
+  "reliability": "Primary legal text, but read through a university-hosted copy, not supremecourt.gov (the supremecourt.gov PDF URL tried returned 404). Opinion authors are judges deciding a dispute, not measuring seller burden; the burden statements are judicial reasoning and a dissent citing a GAO report.",
+  "findings": [
+    "Decided June 21, 2018 (argued April 17, 2018); the Court overruled Quill Corp. v. North Dakota and National Bellas Hess v. Illinois, which had barred states from requiring out-of-state sellers without physical presence to collect sales tax.",
+    "The South Dakota Act covers sellers that deliver more than $100,000 of goods or services into the state or engage in 200 or more separate transactions annually, and is not retroactive.",
+    "The majority acknowledges burdens \"may pose legitimate concerns in some instances, particularly for small businesses that make a small volume of sales to customers in many States\", and says software \"may make it easier\" for them to cope, possibly soon, and that Congress may legislate.",
+    "The majority notes South Dakota is a Streamlined Sales and Use Tax Agreement member, which provides sellers access to state-paid sales tax administration software, with audit immunity for sellers who use it.",
+    "The dissent (Roberts, C.J., joined by three Justices) states that over 10,000 jurisdictions levy sales taxes with differing rates, exemptions and product definitions (citing the GAO Sales Taxes report GAO-18-114, Nov. 2017), and that correct calculation and remittance will likely prove baffling for many retailers.",
+    "The dissent cites estimates that the old rule cost states between $8 and $33 billion per year in revenue (GAO $8 to $13 billion; petitioner cites $23 and $33.9 billion)."
+  ],
+  "limitations": [
+    "Hosted copy on a third-party site; page text was extracted from HTML and quotes were checked against it, but not against the supremecourt.gov PDF.",
+    "The 10,000 jurisdictions figure and the revenue estimates are secondhand (dissent quoting GAO and briefs); the GAO report itself was not read (gao.gov not accessed).",
+    "Describes 2018 conditions; says nothing on current thresholds, tooling or measured compliance cost."
+  ]
+}
