@@ -1,0 +1,119 @@
+{
+  "id": "problem-afcb4205ef9a",
+  "type": "problem",
+  "title": "Business amended returns, ERC claims and correspondence face long IRS processing delays, per the National Taxpayer Advocate",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Signal from the National Taxpayer Advocate 2025 report."
+    },
+    {
+      "date": "2026-11-04",
+      "status": "evidence-collected",
+      "reason": "Both Advocate reports read; processing times, ERC inventory and correspondence figures recorded with caveats. Current status: evidence-collected."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "Businesses that claim refunds through amended returns (including Employee Retention Credit claims) or answer IRS notices wait many months for IRS processing and responses, with limited status visibility, and the National Taxpayer Advocate reports cash-flow harm and risk of missing a two-year suit deadline.",
+  "customer_segment": "Business filers (all sizes) with amended-return refund claims, ERC claims or open IRS correspondence; small-business share not broken out in the sources. Tax professionals who represent them are also affected.",
+  "industries": [
+    "multiple industries"
+  ],
+  "geography": "United States",
+  "context": "Fiscal years 2023-2025 and the ERC moratorium period from Sept. 2023. The issue is primarily IRS-side processing capacity (manual routing, paper); the sources describe the customer experience (waiting, no tracker, confusing notices) rather than a measured per-business cost.",
+  "evidence": [
+    {
+      "text": "Average processing time for business amended returns rose from 170 days (FY 2023) to 401 days (FY 2025); about 1.6 million were processed in FY 2025.",
+      "classification": "reported",
+      "source_ids": [
+        "source-c60fa6f72aab"
+      ]
+    },
+    {
+      "text": "Business amended returns are processed almost entirely by manual routing and review; no immediate IRS plans to automate; Where's My Amended Return? is not available to businesses.",
+      "classification": "reported",
+      "source_ids": [
+        "source-c60fa6f72aab"
+      ]
+    },
+    {
+      "text": "Average cycle time to work business correspondence rose from 147 days (FY 2024) to 319 days (FY 2025); business correspondence inventory was 3,648,882 with 76.2% overaged in FY 2025.",
+      "classification": "reported",
+      "source_ids": [
+        "source-c60fa6f72aab"
+      ]
+    },
+    {
+      "text": "About 41,000 ERC claims remained in Exam or Compliance at end of CY 2025; about 1.2 million ERC claims were unprocessed on Oct. 26, 2024.",
+      "classification": "reported",
+      "source_ids": [
+        "source-c60fa6f72aab",
+        "source-d1eed9f57e73"
+      ]
+    },
+    {
+      "text": "The IRS paid more than $11 billion of interest on delayed business amended-return refunds in FY 2025 (text says $11.1 billion, figure $11.3 billion).",
+      "classification": "reported",
+      "source_ids": [
+        "source-c60fa6f72aab"
+      ]
+    },
+    {
+      "text": "Tax professionals or bookkeepers who file for many small clients may spend material time tracking business refund claims and notices.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Calling the IRS or practitioner line; Taxpayer Advocate Service case help (TAS says it secured 1,261 Forms 907 extensions 2021-Aug. 2025); congressional offices; paying professionals to monitor claims. Software alternatives not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "The Advocate itself reports the ERC backlog was largely eliminated by end of 2025 and that the share of overaged business correspondence fell (85.1% to 76.2%), so the acute ERC problem is receding.",
+      "classification": "reported",
+      "source_ids": [
+        "source-c60fa6f72aab"
+      ]
+    },
+    {
+      "text": "Many ERC claims were improper or promoter-driven; the IRS moratorium was a fraud-control response, so delay was partly intended and affects legitimate claimants unknown in number.",
+      "classification": "reported",
+      "source_ids": [
+        "source-d1eed9f57e73"
+      ]
+    },
+    {
+      "text": "Data cover all business filers; the burden specifically on small businesses is not quantified, and the cause is IRS capacity, which a private product cannot fix.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-c60fa6f72aab"
+      ]
+    },
+    {
+      "text": "Source is an advocacy office; the IRS view and any independent measure of small-business harm were not read.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: share of delayed returns/correspondence belonging to small businesses, actual dollar cost to them, whether tracking/monitoring is a paid-for task, and 2026 performance. Report figures are IRS data cited by the Advocate and have a minor internal inconsistency on interest.",
+  "open_questions": [
+    "What share of business amended returns and correspondence are from small businesses?",
+    "Does the IRS or TIGTA report different figures or reasons?",
+    "What do practitioners spend on monitoring and responding?"
+  ],
+  "next_actions": [
+    "Read TIGTA or GAO reports (if accessible) on business amended-return and ERC processing for independent confirmation.",
+    "Look for the IRS response and practitioner survey data before treating this as a customer problem."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "source-c60fa6f72aab",
+  "type": "source",
+  "title": "National Taxpayer Advocate 2025 Annual Report to Congress (Publication 2104)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the PDF text."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.taxpayeradvocate.irs.gov/wp-content/uploads/2026/01/ARC_Publication-2104_2025_Web.pdf",
+  "publisher": "National Taxpayer Advocate / Taxpayer Advocate Service (IRS)",
+  "published": null,
+  "accessed": "2026-11-04",
+  "source_type": "Government advocate annual report to Congress with IRS administrative data",
+  "reliability": "Government document by the National Taxpayer Advocate, an office inside the IRS that by statute advocates for taxpayers and reports to Congress; it is an advocate, so it emphasizes taxpayer harm, and it cites IRS data and TAS information requests rather than independent measurement.",
+  "findings": [
+    "Most Serious Problem #1 states that for amended returns processed in FY 2025 businesses waited an average of 13 months; the Top 10 summary says the IRS processed about 1.6 million business amended returns in FY 2025 at an average of over 13 months.",
+    "Figure 2.1.1 (cites IRS CDW BMF Transaction History, Dec. 8, 2025) shows business amended returns: about 2.8 million processed at 170 days (FY 2023), 1.5 million at 229 days (FY 2024), 1.6 million at 401 days (FY 2025), with refunds of $202.7 bil, $63.6 bil and $89.3 bil. The report text says average processing time peaked at 401 days in FY 2025.",
+    "The report says business amended returns are processed almost entirely through manual routing and review, that the IRS has no immediate plans to automate them, and that the Where's My Amended Return? tool is not available to business taxpayers.",
+    "The report says the IRS paid more than $11.1 billion in interest on delayed refunds claimed on business amended returns in FY 2025; Figure 2.1.1 in the same document shows $11.3 bil for FY 2025 (internal inconsistency, not resolved).",
+    "In FY 2025 through Aug. 22, 2025, SB/SE Exam closed 2,235 business amended return claims open an average of 555 days; LB&I Exam closed 1,527 claims (Forms 1120, 1120S, 1065) open an average of 572 days.",
+    "Employee Retention Credit (ERC): the IRS closed about 4.9 million ERC cases for over $300 billion since the program began; about 41,000 ERC claims remain in Exam or Compliance (IRS ERC Inventory Projected Status, Dec. 30, 2025). The report says taxpayers now wait on Exam, protests and Appeals.",
+    "About 28,000 ERC disallowance notices were issued in summer 2024; the two-year IRC 6532 suit period is running, and the IRS already rejected 316 ERC protests because the two-year deadline expired. TAS says it secured 1,261 Forms 907 (extensions) from 2021 through Aug. 25, 2025.",
+    "Taxpayer service table: business correspondence inventory 5,750,123 (FY 2023), 3,594,311 (FY 2024), 3,648,882 (FY 2025); average cycle time to work business correspondence 148, 147 and 319 days; inventory overage 74.5%, 85.1% and 76.2%. The report says the doubling of average age of closed business correspondence while the overage percentage fell suggests the IRS closed out a considerable amount of old business correspondence."
+  ],
+  "limitations": [
+    "Exact publication date not stated in text read; upload path indicates January 2026. Advocate perspective: the report is advocacy to Congress; the IRS's own responses to these findings were not read (no IRS comment on this problem was located in the text read).",
+    "Figures are for all business filers (including corporations and large businesses); the report does not break out small businesses, so the small-business share is unknown. Averages are means over processed returns, not distributions.",
+    "Taken from extracted PDF text; Figure 2.1.1 column layout was read from text and row order assumed to be FY 2023, 2024, 2025 (consistent with the narrative 1.6 million / 401 days for FY 2025).",
+    "Data are as of fiscal year ending Sept. 30, 2025 or Dec. 2025 and will age; the 2026 filing season was not read."
+  ]
+}

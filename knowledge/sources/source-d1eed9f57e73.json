@@ -1,0 +1,38 @@
+{
+  "id": "source-d1eed9f57e73",
+  "type": "source",
+  "title": "National Taxpayer Advocate 2024 Annual Report to Congress: Most Serious Problem 1, Employee Retention Credit",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the PDF text."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.taxpayeradvocate.irs.gov/wp-content/uploads/2024/12/ARC24_MSP_01_ERC.pdf",
+  "publisher": "National Taxpayer Advocate / Taxpayer Advocate Service (IRS)",
+  "published": null,
+  "accessed": "2026-11-04",
+  "source_type": "Government advocate report section (Most Serious Problem) with IRS administrative data",
+  "reliability": "Government document by the National Taxpayer Advocate, an office inside the IRS that by statute advocates for taxpayers and reports to Congress; it is an advocate, so it emphasizes taxpayer harm, and it cites IRS data and TAS information requests rather than independent measurement.",
+  "findings": [
+    "The IRS imposed a moratorium on processing new ERC claims on Sept. 14, 2023 to separate valid from invalid claims; the Advocate says bad actors misled business owners about eligibility.",
+    "As of Oct. 26, 2024, about 1.2 million ERC claims remained unprocessed (IRS AM RAD report, COVID Business Credits); the section also states about 98 percent of the slightly over one million unprocessed claims were over 120 days old, versus about five percent before the moratorium.",
+    "The Advocate states that while waiting, businesses have been forced to close, experienced significant financial hardship, or taken out loans that continue to accrue interest. This is a general statement; the section does not quantify closures.",
+    "The Advocate states the IRS provided little to no information on status and that its disallowance notices were confusing and omitted critical information."
+  ],
+  "limitations": [
+    "Exact publication date not stated; upload path indicates December 2024. Dated: IRS inventory as of Oct. 26, 2024; the 2025 report shows the backlog subsequently largely cleared.",
+    "Advocate advocacy document; the hardship statements are not quantified and the document acknowledges many claims were improper, so affected-business counts for legitimate small businesses are unknown.",
+    "Only the introductory sections and selected figures were read in detail."
+  ]
+}
