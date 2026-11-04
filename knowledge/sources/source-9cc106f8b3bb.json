@@ -1,0 +1,38 @@
+{
+  "id": "source-9cc106f8b3bb",
+  "type": "source",
+  "title": "Federal Register: Submission for OMB Review; Certain Federal Acquisition Regulation Part 4 Requirements (OMB Control No. 9000-0189)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly (PDF from GovInfo converted to text) on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2025-03-13/pdf/2025-04003.pdf",
+  "publisher": "DoD, GSA and NASA (via GovInfo / Federal Register)",
+  "published": "2025-03-13",
+  "accessed": "2026-11-04",
+  "source_type": "Government Paperwork Reduction Act notice (consolidated FAR Part 4 information collection)",
+  "reliability": "Government document; the issuing agencies (DoD, GSA, NASA) also administer the registration and certification requirements they estimate. Burden figures are agency estimates, not measurements.",
+  "findings": [
+    "The collection covers FAR Part 4 items including TIN information, unique entity identifier, SAM registration and maintenance (FAR 52.204-7, 52.204-13, 52.212-3(b)), service contract reporting in SAM, CAGE code reporting, ownership or control of offeror, predecessor of offeror, and Kaspersky-related reporting.",
+    "The notice states FAR 52.204-13 requires contractors to keep SAM data current, accurate and complete through final payment, with maintenance at a minimum done through an annual review and update of the SAM registration.",
+    "Annual burden: 353,291 respondents, 843,253 total annual responses, 387,083 total burden hours. Dividing hours by responses gives about 0.46 hours per response (our arithmetic, not stated in the notice).",
+    "A 60-day notice published December 20, 2024 (89 FR 104154) drew no comments."
+  ],
+  "limitations": [
+    "The burden is a single aggregate across about eight different requirements; it is not broken out for SAM registration, for first-time registrants, or for small businesses.",
+    "Agency estimate with no stated method; actual time, third-party fees and registration problems are not measured.",
+    "Only the notice itself was read; the supporting statement submitted to OMB was not."
+  ]
+}

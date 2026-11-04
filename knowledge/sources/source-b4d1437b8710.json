@@ -1,0 +1,38 @@
+{
+  "id": "source-b4d1437b8710",
+  "type": "source",
+  "title": "Federal Register: Submission for OMB Review; Commercial Acquisitions (OMB Control No. 9000-0136)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly (PDF from GovInfo converted to text) on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2025-07-03/pdf/2025-12446.pdf",
+  "publisher": "DoD, GSA and NASA (via GovInfo / Federal Register)",
+  "published": "2025-07-03",
+  "accessed": "2026-11-04",
+  "source_type": "Government Paperwork Reduction Act notice (offeror representations and certifications, commercial acquisitions)",
+  "reliability": "Government document; the issuing agencies (DoD, GSA, NASA) also administer the registration and certification requirements they estimate. Burden figures are agency estimates, not measurements.",
+  "findings": [
+    "The collection covers FAR 52.212-3, Offeror Representations and Certifications for commercial products and services; paragraph (b)(2) requires offerors to identify which of paragraphs (c) through (v) they completed for the relevant solicitation only.",
+    "The notice states changes under paragraph (b)(2) apply to that solicitation only and do not update the representations and certifications posted in SAM.",
+    "Annual burden: 140,055 respondents, 414,909 total annual responses, 207,455 total burden hours (about 0.5 hours per response by our arithmetic).",
+    "Three comments received on the 60-day notice (90 FR 14450, April 2, 2025) were supportive and did not change the estimate."
+  ],
+  "limitations": [
+    "Covers only the solicitation-specific selection step for commercial acquisitions, not completing the annual representations and certifications in SAM itself.",
+    "Agency estimate with no method and no breakdown by business size.",
+    "Other FAR provisions that require representations (for example small business status) sit under other control numbers that were not read."
+  ]
+}
