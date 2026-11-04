@@ -1,0 +1,36 @@
+{
+  "id": "source-d2050c0e3cd4",
+  "type": "source",
+  "title": "Federal Register: Notice of Request for Revision to and Extension of Approval of an Information Collection; National Veterinary Accreditation Program (APHIS)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the fetched document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-07-24/pdf/2026-15023.pdf",
+  "publisher": "USDA Animal and Plant Health Inspection Service (via GovInfo / Federal Register)",
+  "published": "2026-07-24",
+  "accessed": "2026-11-04",
+  "source_type": "Government Paperwork Reduction Act notice",
+  "reliability": "Government document; the issuing agency administers the program and the burden figures are its own estimates.",
+  "findings": [
+    "APHIS estimates 22,581 veterinarian respondents per year, one response each (22,582 responses), at an average of 1.0 hour per response and a total annual burden of 22,582 hours for the NVAP application form.",
+    "APHIS states NVAP is a voluntary program, and that it is amending the collection for a decrease in respondents and responses and an increase in burden hours from more time to complete the application.",
+    "The notice concerns the accreditation application form only, not the health certificates and other paperwork accredited veterinarians complete afterward."
+  ],
+  "limitations": [
+    "Agency PRA estimate, not measured time; covers only the NVAP application form.",
+    "Does not address staffing, clinic-level administrative workload, or independent practices specifically."
+  ]
+}

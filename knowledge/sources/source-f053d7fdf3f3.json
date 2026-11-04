@@ -1,0 +1,40 @@
+{
+  "id": "source-f053d7fdf3f3",
+  "type": "source",
+  "title": "BLS Employment Projections: National Employment Matrix, Veterinary services (NAICS 541940), 2025 and projected 2035",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the fetched document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://data.bls.gov/projections/nationalMatrix?queryParams=541940&ioType=i",
+  "publisher": "U.S. Bureau of Labor Statistics, Employment Projections program",
+  "published": null,
+  "accessed": "2026-11-04",
+  "source_type": "Government statistical table (industry-by-occupation employment matrix with projections)",
+  "reliability": "Government statistical page; BLS is a neutral statistical agency, but figures are model-based projections. Release date is not shown on the page text read; it reports 2025 employment and a 2035 projection.",
+  "findings": [
+    "Veterinary services (NAICS 541940) total employment is 473.6 thousand in 2025, projected 511.8 thousand in 2035 (+38.2 thousand, +8.1%).",
+    "Veterinarians are 75.5 thousand (15.9%) of industry employment in 2025, veterinary technologists and technicians 116.6 thousand (24.6%), and veterinary assistants and laboratory animal caretakers 113.6 thousand (24.0%).",
+    "Office and administrative support occupations total 105.9 thousand (22.4% of industry employment) in 2025, projected 106.9 thousand in 2035 (+1.0 thousand, +1.0%); its share falls to 20.9%.",
+    "Within office and administrative support in 2025: receptionists and information clerks 55.6 thousand (projected 56.2), customer service representatives 18.5 thousand (projected 18.3), first-line supervisors of office and administrative workers 11.8 thousand, bookkeeping, accounting and auditing clerks 2.7 thousand.",
+    "Projected 2025-2035 growth is 9.9% for veterinarians, technicians and assistants, versus 1.0% for office and administrative support overall."
+  ],
+  "limitations": [
+    "Industry-wide table for all veterinary services employers; it does not distinguish independent practices from corporate-owned or hospital groups, and does not show practice size.",
+    "Employment counts and projections only: no hours, tasks or workload, so it does not measure administrative burden or unmet staffing need.",
+    "Rounded to 0.1 thousand; small occupations are suppressed. Release date and methodology notes were not read.",
+    "Table rows were parsed from the page HTML; the occupation-level figures were not independently recomputed."
+  ]
+}
