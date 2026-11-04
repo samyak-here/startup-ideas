@@ -1,0 +1,38 @@
+{
+  "id": "source-182e84c840e6",
+  "type": "source",
+  "title": "Federal Register: Certificates of Compliance, final rule (eFiling) with Final Regulatory Flexibility Analysis",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date (PDF from GovInfo converted with pdftotext); findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-08/pdf/2024-30826.pdf",
+  "publisher": "U.S. Consumer Product Safety Commission (via GovInfo / Federal Register)",
+  "published": "2025-01-08",
+  "accessed": "2026-11-04",
+  "source_type": "Government final rule with final regulatory flexibility analysis",
+  "reliability": "Government document; the issuing agency (CPSC) is also the party administering the requirement. Estimates are the Commission's own.",
+  "findings": [
+    "The final rule requires importers to eFile certificates (CPCs for children's products) with Customs at entry; CPSC treats cost above one percent of revenue as economically significant for small firms.",
+    "CPSC estimates the rule applies to about 230,000 small firms for children's products (18,852 manufacturers and 211,148 importers).",
+    "CPSC estimates average startup cost for eFiling of $1,086 per firm (about 20 hours), which it deems nonsignificant for the typical small firm, and says commenters offered no specific data on technology investment sizes.",
+    "CPSC estimates the average cost of the rule per small importer of children's products at $1,099 a year, below the roughly $10,000 one-percent threshold it computes for firms with about $1 million revenue, and about $72.28 per CPC eFiling in the first year (0.5999 percent of estimated revenue per certificate).",
+    "The rule states the domestic manufacturers are unaffected by eFiling."
+  ],
+  "limitations": [
+    "Covers the certificate filing layer only (not lab testing); first-year and annualized figures differ and only some were read.",
+    "Ex ante agency estimates; the rule's effective dates and any later changes were not checked."
+  ]
+}
