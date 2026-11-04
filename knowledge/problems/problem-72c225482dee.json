@@ -23,7 +23,7 @@
   },
   "demo": false,
   "publish": true,
-  "description": "Every motor carrier employing CDL drivers (about 99 percent of them small by FMCSA's definition) must register with the FMCSA Drug and Alcohol Clearinghouse, run pre-employment queries and annual queries on each driver, obtain electronic driver consent, and report certain violations within three business days. FMCSA estimates this at 10-20 minutes per response, but sources read contain no measurement of small-carrier time, error or cost.",
+  "description": "Motor carriers employing CDL drivers must register with the FMCSA Drug and Alcohol Clearinghouse, run pre-employment queries (which need the driver's electronic Clearinghouse consent for a full query), run an annual query on each current driver, and report certain violations by the close of the third business day. The annual query may be a limited query, for which the 2016 rule allows paper or electronic consent that can be general and last more than one year; a full query, with electronic consent, is required only if the limited result shows a record. By FMCSA's 2016 analysis, about 99 percent of active interstate property carriers (515,000 of 520,000) were small (146 or fewer power units); the share among all CDL-employing entities, such as passenger carriers, was not established. FMCSA estimates 10-20 minutes per response, but sources read contain no measurement of small-carrier time, error or cost.",
   "customer_segment": "Small motor carriers employing CDL drivers (FMCSA analysis proxy: 146 or fewer power units) and owner-operators who employ themselves as drivers, who must use a C/TPA for employer reporting.",
   "industries": [
     "trucking",
@@ -53,6 +53,13 @@
       "classification": "reported",
       "source_ids": [
         "source-f7c76abe4159"
+      ]
+    },
+    {
+      "text": "The 2016 rule lets an employer meet the annual-query requirement with a limited query using paper or electronic driver consent that may be general and effective for more than one year; a full query (with electronic Clearinghouse consent) is required within 24 hours only if the limited query shows a record. Blanket consent is not permitted for full queries.",
+      "classification": "reported",
+      "source_ids": [
+        "source-9ec01bd6f751"
       ]
     },
     {
