@@ -1,0 +1,38 @@
+{
+  "id": "source-7bd749b281df",
+  "type": "source",
+  "title": "TTB: Processing Times for Label Applications (COLA)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.ttb.gov/regulated-commodities/labeling/processing-times",
+  "publisher": "Alcohol and Tobacco Tax and Trade Bureau (ttb.gov)",
+  "published": null,
+  "accessed": "2026-11-04",
+  "source_type": "Government web page with live agency statistics",
+  "reliability": "Government document; TTB is also the agency that imposes and administers the label approval requirement. Median figures are the agency's own reporting and the page is a live snapshot.",
+  "findings": [
+    "Page states it was updated 11/4/2026 7:00 AM and shows median label processing times of 6 days for distilled spirits labels, 1 day for malt beverage labels and 2 days for wine labels, with TTB working on applications received 10/30/2026, 11/03/2026 and 11/02/2026 respectively.",
+    "TTB states its customer service goal is to complete review of 85% of label applications within 15 days, and reports 139,048 label applications received in 2026 to date.",
+    "TTB defines label processing time as the median days from receipt until approval or rejection, including time spent sending electronic applications back and forth for correction; applications resubmitted for correction take priority over new applications.",
+    "TTB states there is no fee to apply through COLAs Online."
+  ],
+  "limitations": [
+    "Live page: figures change daily and this record is a single snapshot on the access date; the page publication date is not stated.",
+    "Medians hide the tail: no distribution, rejection rate, or number of resubmission rounds was shown.",
+    "A median measured after approval or rejection does not capture label design, legal review or rework costs borne by the producer."
+  ]
+}

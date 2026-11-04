@@ -1,0 +1,37 @@
+{
+  "id": "source-fb53fdc01f55",
+  "type": "source",
+  "title": "Federal Register: Proposed Information Collections; Comment Request (No. 94) (TTB; includes Form 5100.31 label approval collection)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2024-11-29/pdf/2024-28008.pdf",
+  "publisher": "Alcohol and Tobacco Tax and Trade Bureau (via GovInfo / Federal Register)",
+  "published": "2024-11-29",
+  "accessed": "2026-11-04",
+  "source_type": "Government Paperwork Reduction Act information-collection notice",
+  "reliability": "Government document; TTB is also the agency that imposes and administers the label approval requirement. Burden figures are TTB agency estimates, not measured time.",
+  "findings": [
+    "For OMB Control No. 1513-0020 (TTB F 5100.31, Application for and Certification/Exemption of Label/Bottle Approval, filed through COLAs Online), TTB estimates 13,000 respondents, 16.4 average responses per respondent, 213,200 responses per year, an average per-response burden of 31 minutes, and a total burden of 110,153 hours.",
+    "TTB describes the action as an extension of a currently approved collection with no program changes, and says that due to changes in agency estimates it is increasing the number of annual respondents, responses and burden hours.",
+    "Affected public is stated as businesses or other for-profits; the notice does not break the figures down by firm size or commodity."
+  ],
+  "limitations": [
+    "Agency ex ante burden estimate; no independent measurement of actual time, rework or consultant cost.",
+    "Dated November 2024; the later Feb 2026 notice (No. 98) in this series did not contain this collection, and the current approved figures were not checked.",
+    "Per-response burden is an average across all application types; it does not show the burden for first-time small applicants."
+  ]
+}

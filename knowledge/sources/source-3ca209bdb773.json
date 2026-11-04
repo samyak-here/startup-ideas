@@ -1,0 +1,40 @@
+{
+  "id": "source-3ca209bdb773",
+  "type": "source",
+  "title": "Federal Register: Alcohol Facts Statements in the Labeling of Wines, Distilled Spirits, and Malt Beverages, proposed rule (TTB Notice No. 237)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-17/pdf/2025-00957.pdf",
+  "publisher": "Alcohol and Tobacco Tax and Trade Bureau (via GovInfo / Federal Register)",
+  "published": "2025-01-17",
+  "accessed": "2026-11-04",
+  "source_type": "Government proposed rule with Regulatory Flexibility Act certification",
+  "reliability": "Government document; TTB is also the agency that imposes and administers the label approval requirement. The certification that the rule has no significant small-entity impact is the agency's own; the rule is a proposal and its final content is unknown.",
+  "findings": [
+    "TTB reports that in FY 2022 it received 192,954 label applications and 26,922 formula applications, and that fewer than 12,000 permittees or brewers applied for label approval in each of FY 2020-2022 (fewer than 18,000 over the three years), out of 17,649 wineries and bonded wine cellars, 14,185 brewers and 4,494 distillers authorized.",
+    "TTB states the vast majority of producers, bottlers and importers are small entities; from 2019 Census SUSB data about 99 percent of firms in breweries, wineries and distilleries NAICS codes are small by SBA size standards.",
+    "TTB estimates initial compliance cost of roughly $1,636 per UPC, so a small entity with one to ten UPCs would incur roughly $1,636 to $16,636 over a proposed 5-year implementation period; the proposed compliance date is 5 years after a final rule.",
+    "TTB certifies the proposal would not have a significant economic impact on a substantial number of small entities, citing the extended compliance period, a linear format option, tolerances to limit lab testing, and not requiring new COLA submissions.",
+    "TTB reports that over a dozen commenters (mostly small producers or trade associations) asked for a small business exemption; TTB declined to include one in the proposal, and the American Beverage Licensees and Beer Institute commented against exemptions."
+  ],
+  "limitations": [
+    "Proposed rule only; whether it was finalized, changed or withdrawn after the comment period (extended to Aug 15, 2025 per a TTB April 2025 notice) was not verified, and a search of TTB Federal Register documents found no final rule.",
+    "The per-UPC cost is an agency estimate; the number of UPCs owned by small firms was not known to TTB.",
+    "SUSB firm and revenue data cited by TTB are from 2019 and 2017.",
+    "The commenters' own cost claims were summarized by TTB and not read at the docket."
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "problem-e9d6fdaa9af4",
+  "type": "problem",
+  "title": "Craft producers file frequent COLA label applications; agency turnaround is fast, so burden is rework and upcoming label rules",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "paused",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Signal from TTB COLA collection notice and labeling proposed rule."
+    },
+    {
+      "date": "2026-11-04",
+      "status": "paused",
+      "reason": "TTB's own current median approval times are 1-6 days against a 15-day goal and the per-application burden estimate is 31 minutes, which argues against a delay problem; revisit if the Alcohol Facts rule is finalized or independent evidence shows large rework or consultant cost. Current status: paused."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "description": "Alcohol producers, bottlers and importers must obtain a Certificate of Label Approval (COLA) for each label before interstate sale; TTB estimates about 213,200 applications a year at 31 minutes each, while its own current data show very fast median turnaround. Any real pain would lie in rework, label-change cost or a proposed Alcohol Facts requirement, not in waiting.",
+  "customer_segment": "Breweries, wineries, distilleries, bottlers and importers that sell across state lines; TTB says the vast majority are small entities (about 99 percent by SBA size standards). Number of small craft producers filing is not established (TTB: fewer than 18,000 applicants over FY 2020-2022).",
+  "industries": [
+    "craft brewing",
+    "wineries",
+    "distilled spirits"
+  ],
+  "geography": "United States",
+  "context": "Based on a November 2024 PRA notice, a January 2025 proposed rule and a live TTB page read 2026-11-04. The permit side (TTB permits and recurring excise/operations reports) was not examined here beyond noting TTB publishes separate permit processing times.",
+  "evidence": [
+    {
+      "text": "TTB estimates 13,000 respondents file an average of 16.4 label applications a year (213,200 responses) at 31 minutes each, for 110,153 burden hours.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-fb53fdc01f55"
+      ]
+    },
+    {
+      "text": "TTB received 192,954 label applications in FY 2022 and reports 139,048 received in 2026 to date as of 2026-11-04.",
+      "classification": "reported",
+      "source_ids": [
+        "source-3ca209bdb773",
+        "source-7bd749b281df"
+      ]
+    },
+    {
+      "text": "TTB estimates initial compliance with the proposed Alcohol Facts rule at roughly $1,636 per UPC, or about $1,636 to $16,636 for a firm with one to ten UPCs over a proposed 5-year period.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-3ca209bdb773"
+      ]
+    },
+    {
+      "text": "Over a dozen commenters, mostly small producers or trade associations, asked for a small business exemption from new label requirements, according to TTB.",
+      "classification": "reported",
+      "source_ids": [
+        "source-3ca209bdb773"
+      ]
+    },
+    {
+      "text": "Small producers may spend material time or consultant fees on label compliance review and rejected-application rework beyond the 31-minute form burden.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Applying directly in COLAs Online at no fee (TTB states there is no fee).",
+    "Compliance consultants, label printers or distributors who check labels: not investigated.",
+    "Existing label-compliance software: not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "TTB's current median processing times are 1 day (malt beverages), 2 days (wine) and 6 days (distilled spirits) against a 15-day goal, so slow approval does not appear to be the pain.",
+      "classification": "reported",
+      "source_ids": [
+        "source-7bd749b281df"
+      ]
+    },
+    {
+      "text": "TTB's own estimate of 31 minutes per application is small, and TTB certifies the proposed Alcohol Facts rule would not significantly burden a substantial number of small entities; these are agency self-assessments and not measured burden.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-fb53fdc01f55",
+        "source-3ca209bdb773"
+      ]
+    },
+    {
+      "text": "TTB's proposal does not require new COLA submissions for Alcohol Facts changes, which would limit paperwork volume if adopted as proposed.",
+      "classification": "reported",
+      "source_ids": [
+        "source-3ca209bdb773"
+      ]
+    },
+    {
+      "text": "Whether label rejections or resubmissions are common and costly for craft producers was not shown in any source read.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: rejection and resubmission rates, true producer time and consultant spend per label, how many applicants are small craft producers, whether the Alcohol Facts rule was finalized, and the permit and recurring excise/operations-report burden (not examined). The median turnaround is a single-day snapshot.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "What share of COLA submissions are rejected or returned, and how long does a correction cycle take?",
+    "Was the Alcohol Facts proposal finalized, and with what compliance date?",
+    "What do small producers actually pay for label review or consultants?",
+    "Is the burden larger in permits and recurring monthly/quarterly reports than in labels?"
+  ],
+  "next_actions": [
+    "Look for TTB annual report or FOIA data on COLA rejection rates.",
+    "Check the status of RIN 1513-AC93 and read the regulations.gov comments from small producers.",
+    "Examine TTB permit and operations-report information collections separately."
+  ]
+}
