@@ -27,13 +27,13 @@
   "findings": [
     "CPSC says recordkeeping requirements in parts 1107 and 1109 apply to all manufacturers, importers and private labelers of children's products covered by a children's product safety rule.",
     "CPSC estimates about 390,600 annual respondents (about 20,100 manufacturers, 106,700 wholesalers, 263,800 retailers from Census NAICS categories) and says this is an overestimate because the categories include many non-children's products.",
-    "CPSC assumes an average of three hours per year per response for testing and certification recordkeeping, and says the burden \"will vary greatly from respondent to respondent\"; it estimates 5,037,900 hours for this part and 5,346,104 hours in total for the collection, about $222.3 million at $41.59 per hour.",
+    "CPSC assumes an average of three hours per response (Table 1: two annual responses for manufacturers, three for wholesalers, five for retailers, i.e. 6, 9 and 15 hours per respondent per year; about 12.9 hours averaged over the modeled population) for testing and certification recordkeeping, and says the burden \"will vary greatly from respondent to respondent\"; it estimates 5,037,900 hours for this part and 5,346,104 hours in total for the collection, about $222.3 million at $41.59 per hour.",
     "CPSC estimates 224,000 importers will eFile Children's Product Certificates, 28,555,603 message sets a year at about 22 seconds each, with filing fees of $0.77 per response, $21,987,815 in total.",
     "The collection covers recordkeeping, marking and labeling; it does not state the price of laboratory testing."
   ],
   "limitations": [
     "Agency PRA estimates of recordkeeping time only; laboratory test fees, samples, shipping and consultant costs are outside this notice.",
-    "The flat three-hour assumption is an average across about 390,600 firms and says nothing about small makers with many products.",
+    "The three-hours-per-response assumption, and the resulting 6/9/15 hours per respondent per year, are agency averages across about 390,600 modeled firms (a stated overestimate) and say nothing about small makers with many products. The 22-second eFiling estimate is a separate burden and not the denominator for recordkeeping.",
     "Burden arithmetic (e.g. totals) was not independently recomputed beyond a check that the listed components add to the stated total."
   ]
 }

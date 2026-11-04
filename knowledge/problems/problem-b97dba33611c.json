@@ -64,7 +64,7 @@
       ]
     },
     {
-      "text": "CPSC's 2025 PRA estimate assumes three hours per year per respondent for testing and certification recordkeeping across about 390,600 respondents, with eFiling about 22 seconds per filing.",
+      "text": "CPSC's 2025 PRA notice (Table 1) assumes three hours per response for testing and certification recordkeeping, with two annual responses for manufacturers, three for wholesalers and five for retailers (6, 9 and 15 hours per respondent per year), totaling 5,037,900 hours across about 390,600 modeled respondents (about 12.9 hours per respondent on average; the population is a stated overestimate that includes non-children's-product firms). The separate eFiling estimate of about 22 seconds per message set is not the denominator for this recordkeeping burden.",
       "classification": "estimate",
       "source_ids": [
         "source-80ed73136bc5"
@@ -91,7 +91,7 @@
   ],
   "contradictory_evidence": [
     {
-      "text": "The 2025 PRA notice assumes only three hours of recordkeeping per year per respondent and eFiling takes seconds, and the 2025 eFiling analysis finds the paperwork layer nonsignificant for typical small firms; the paperwork component looks small.",
+      "text": "CPSC's modeled recordkeeping averages roughly 6 to 15 hours per respondent per year (about 12.9 across the modeled population), eFiling takes seconds per message set, and the 2025 eFiling analysis finds the filing-layer cost nonsignificant for typical small firms. These are agency averages over a population that includes many non-children's-product firms, not measured small-maker burden, so they neither confirm nor refute that paperwork is small for makers with many SKUs.",
       "classification": "reported",
       "source_ids": [
         "source-80ed73136bc5",
