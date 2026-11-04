@@ -1,0 +1,36 @@
+{
+  "id": "source-84cdc4fe2b88",
+  "type": "source",
+  "title": "Federal Register: Agency Information Collection Activities, CMS-855I Medicare Enrollment Application for Physician and Non-Physician Practitioners (30-day notice)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-03-02/pdf/2026-04133.pdf",
+  "publisher": "U.S. Centers for Medicare & Medicaid Services (via GovInfo / Federal Register)",
+  "published": "2026-03-02",
+  "accessed": "2026-11-04",
+  "source_type": "Government Paperwork Reduction Act notice",
+  "reliability": "Government document; the agency both imposes the form and estimates its burden. Estimates are ex ante.",
+  "findings": [
+    "CMS-855I (OMB control number 0938-1355) is the sole instrument CMS uses to enroll physicians and non-physician practitioners in Medicare; the notice describes it as the \"first line defense\" against illegitimate practitioners.",
+    "CMS states 813,975 respondents, 813,975 responses and 1,364,716 total annual hours for this collection."
+  ],
+  "limitations": [
+    "The notice does not state hours per response; dividing gives about 1.7 hours per response, which is my arithmetic, not a CMS figure.",
+    "Covers Medicare enrollment only, not commercial payer credentialing or directory updates.",
+    "The supporting statement referred to in the notice was not read; agency burden estimates are not measured time."
+  ]
+}
