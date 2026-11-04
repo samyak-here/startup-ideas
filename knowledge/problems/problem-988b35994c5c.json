@@ -1,0 +1,148 @@
+{
+  "id": "problem-988b35994c5c",
+  "type": "problem",
+  "title": "Possible reconciliation and contract-opacity burden for independent pharmacies on PBM reimbursement (federal concern; current incidence and cost unmeasured)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Signal from CMS rulemaking documents that cite FTC findings on independent-pharmacy contract terms."
+    },
+    {
+      "date": "2026-11-04",
+      "status": "evidence-collected",
+      "reason": "Three primary federal documents read (two CMS, one FTC); they articulate post-sale reconciliation, opacity and below-cost concerns, but contain no measured independent-pharmacy burden. Status: evidence-collected."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "description": "Historically (CMS reports 2010-2020), post-sale pharmacy price concessions such as DIR fees grew more than 107,400 percent and left Part D pharmacies without predictable payment. CMS says the Part D point-of-sale requirements beginning in 2024 made pharmacy payment \"now more transparent and predictable\" and reports negative pharmacy DIR in CY 2024, so that mechanism is dated and may be largely addressed for Medicare. Whether an unresolved burden remains today is a hypothesis and an agency concern, not an established finding: CMS and the FTC raise questions about effective-rate reconciliation, financial terms outside the executed contract, below-acquisition-cost payment, and whether remittance advice shows per-claim payment detail. Medicare versus commercial scope is unknown. The RFI questions do not establish incidence or staff cost, and no source read here measures how much staff time or money independents lose.",
+  "customer_segment": "Independent and small-chain community retail pharmacies (the FTC consent order defines a retail community pharmacy as a business with three or fewer retail stores); number of such pharmacies and their share of volume not established from the sources read.",
+  "industries": [
+    "retail pharmacy",
+    "pharmacy benefit management"
+  ],
+  "geography": "United States",
+  "context": "Pharmacies contract with PBMs and plan sponsors, often through pharmacy services administrative organizations (PSAOs). Federal roles differ: CMS regulates Medicare Part D pharmacy contracting and payment disclosure (rulemaking, comments due Nov-Dec 2026); the FTC studies PBMs under section 6(b) (information-gathering, staff reports) and enforces Section 5 (the ESI proposed consent order). The FTC does not set Part D payment rules, and FTC staff reports are staff views. The FTC 6(b) reports themselves could not be fetched (ftc.gov returned HTTP 404 to automated requests from this environment) and are known here only through CMS's description.",
+  "evidence": [
+    {
+      "text": "CMS asks whether Part D pharmacy reimbursement and dispensing fees sufficiently cover pharmacies' ingredient and operational costs, and how reimbursement compares to actual acquisition cost.",
+      "classification": "reported",
+      "source_ids": [
+        "source-4a30da960c69"
+      ]
+    },
+    {
+      "text": "CMS asks how far claim-level negotiated prices differ from end-of-year reconciled effective rates, and whether remittance advice gives enough claim-level detail for a pharmacy to determine what it was paid per claim after point-of-sale adjustments.",
+      "classification": "reported",
+      "source_ids": [
+        "source-4a30da960c69"
+      ]
+    },
+    {
+      "text": "CMS asks about pharmacy contract provisions that allow plans to recoup or suspend payment, about financial terms in rate sheets, side letters and manuals outside the executed contract, and about dispute mechanisms and their approval/denial rates.",
+      "classification": "reported",
+      "source_ids": [
+        "source-4a30da960c69"
+      ]
+    },
+    {
+      "text": "CMS summarizes FTC reports as finding opaque contract terms that disadvantage smaller and independent pharmacies and higher payments to PBM-affiliated than unaffiliated pharmacies (secondhand; FTC reports not read).",
+      "classification": "reported",
+      "source_ids": [
+        "source-9a9906d592bb"
+      ]
+    },
+    {
+      "text": "CMS reports pharmacy price concessions grew more than 107,400 percent between 2010 and 2020 and that these post-sale concessions left pharmacies without predictable payment (historical; CMS says point-of-sale requirements beginning in 2024 changed this for Part D).",
+      "classification": "reported",
+      "source_ids": [
+        "source-9a9906d592bb"
+      ]
+    },
+    {
+      "text": "The FTC proposed consent order would require ESI to offer retail community pharmacies (three or fewer stores) payment based on actual acquisition cost plus a dispensing fee and payment for non-dispensing services.",
+      "classification": "reported",
+      "source_ids": [
+        "source-e03e5a332b30"
+      ]
+    },
+    {
+      "text": "The FTC states its PBM Investigation examined whether ESI coerced unaffiliated pharmacies into unfavorable contractual terms; these are allegations in a settlement notice, not findings.",
+      "classification": "reported",
+      "source_ids": [
+        "source-e03e5a332b30"
+      ]
+    },
+    {
+      "text": "Some post-sale reconciliation and contract-opacity burden may persist for independents today (for example in commercial plans, effective-rate reconciliation, or terms outside the executed contract); the RFI questions alone do not establish incidence, scope (Medicare versus commercial) or staff cost.",
+      "classification": "hypothesis",
+      "source_ids": []
+    },
+    {
+      "text": "Pharmacy staff probably spend recurring time matching remittances to expected payments and disputing underpayments; the sources read do not quantify this.",
+      "classification": "hypothesis",
+      "source_ids": []
+    },
+    {
+      "text": "Reconciliation may be a larger operational problem for independents than for chains because of less contracting leverage and fewer billing staff.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "PSAOs and pharmacy wholesalers that negotiate contracts and provide claims reconciliation or audit support to independents: not investigated.",
+    "Existing pharmacy management and reconciliation software and reimbursement-analytics services: not investigated.",
+    "Regulatory change itself (CAA 2026 sections 6223 and 6224, the ESI standard offering) may reduce the problem without any tool."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "CMS states that since point-of-sale price concessions took effect, Part D pharmacy payment \"is now more transparent and predictable,\" and that pharmacy DIR turned negative in CY 2024 (per internal CMS data); the Part D post-sale clawback problem may already be largely addressed.",
+      "classification": "reported",
+      "source_ids": [
+        "source-9a9906d592bb"
+      ]
+    },
+    {
+      "text": "The sources are agencies with policy interests (CMS pursuing rulemaking; the FTC pursuing enforcement); an RFI and a settlement notice present concerns and allegations, not measured burdens or adjudicated facts.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-4a30da960c69",
+        "source-e03e5a332b30"
+      ]
+    },
+    {
+      "text": "The CMS growth figure of 107,400 percent describes aggregate price concessions, not time or dollars lost by an independent pharmacy, and says nothing about commercial plans.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-9a9906d592bb"
+      ]
+    },
+    {
+      "text": "Any PBM views on reimbursement adequacy, and pharmacy-side data on actual underpayment frequency, were not read.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: how many independent pharmacies are affected, how often claims are paid below cost or adjusted after sale, how many staff hours reconciliation takes, who in the pharmacy (owner, pharmacist, technician) does it, how much of the problem is Medicare versus commercial, and whether CAA 2026 and the ESI order change it. The FTC 6(b) reports were not read directly. Source dates: CMS RFI 2026-09-24, CMS proposed rule 2026-10-20, FTC notice 2026-02-12; rules are proposals and may change.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "What do the FTC 6(b) staff reports and independent-pharmacy trade surveys actually report about below-cost payment and clawback frequency?",
+    "What do RFI comments (due 2026-11-23) from pharmacies and PBMs say about remittance detail and reconciliation?",
+    "How are reconciliation tasks done in independent pharmacies today, and what do they cost in staff time?",
+    "Did the Part D point-of-sale rule remove the problem for Medicare claims, and does it persist in commercial claims?"
+  ],
+  "next_actions": [
+    "Retrieve the FTC staff reports from an environment that can reach ftc.gov and record their figures with page references.",
+    "Read public RFI comments on regulations.gov docket CMS-2026-3037 when posted.",
+    "Find independent measurement (surveys, state audits) of underpayment frequency and reconciliation workload."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "source-9a9906d592bb",
+  "type": "source",
+  "title": "Federal Register: Medicare Program; Implementation of Sections 6219, 6220, and 6224 of the Consolidated Appropriations Act, 2026 (CMS-4214-P), proposed rule",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source downloaded from GovInfo and read on the access date; findings transcribed from the extracted text."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-10-20/pdf/2026-21420.pdf",
+  "publisher": "Centers for Medicare & Medicaid Services (via GovInfo / Federal Register)",
+  "published": "2026-10-20",
+  "accessed": "2026-11-04",
+  "source_type": "Government proposed rule with background discussion",
+  "reliability": "Government document. The issuing agency is a party with its own policy interest (CMS: rulemaking; FTC: enforcement and study). The background on FTC reports is CMS summarizing another agency; CMS DIR figures are cited as internal CMS data and cannot be checked from the document.",
+  "findings": [
+    "CMS describes the FTC as having issued section 6(b) special orders in 2022 to the six largest PBMs and having released a 2024 report (\"Pharmacy Benefit Managers: The Powerful Middlemen Inflating Drug Costs and Squeezing Main Street Pharmacies\") and a 2025 report on specialty generic drugs.",
+    "CMS summarizes those reports as discussing a concentrated, vertically integrated market in which the three largest PBMs process about 80 percent of US prescription claims, higher payment rates for PBM-affiliated pharmacies than unaffiliated ones, and \"opaque contract terms that disadvantage smaller and independent pharmacies.\"",
+    "CMS states that in its May 9, 2022 rule (87 FR 27704) it addressed \"opaque performance-based penalties and price concessions\" PBMs applied after the point of sale, and that CMS analysis showed pharmacy price concessions grew more than 107,400 percent between 2010 and 2020.",
+    "CMS states that pharmacy direct and indirect remuneration (DIR) changed from a positive amount in CY 2023 (sponsors and PBMs recouped more from pharmacies than they paid in bonuses) to a negative amount in CY 2024, citing internal CMS data, and that Part D pharmacy payment \"is now more transparent and predictable for pharmacies.\"",
+    "CMS proposes to implement section 6224 of the CAA 2026 (enacted February 3, 2026), which restricts PBM remuneration to bona fide service fees not tied to drug price or rebates and requires annual PBM reporting including payment rates at affiliated versus unaffiliated pharmacies; comments due December 15, 2026. CMS states these remuneration requirements do not prohibit flat dispensing fees or ingredient-cost reimbursement or modify pharmacy payment rules."
+  ],
+  "limitations": [
+    "Proposed rule: requirements may change before finalization.",
+    "Background statements about FTC reports and CMS data are secondhand or unverifiable from the document itself; the FTC reports were not read by us.",
+    "The 107,400 percent figure is a growth rate over 2010-2020 from a low base, as characterized by CMS; the underlying dollar amounts were not read.",
+    "Medicare Part D only; says nothing quantitative about independent pharmacies specifically."
+  ]
+}

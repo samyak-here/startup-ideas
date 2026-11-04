@@ -1,0 +1,41 @@
+{
+  "id": "source-4a30da960c69",
+  "type": "source",
+  "title": "Federal Register: Request for Information; Medicare Part D Reasonable and Relevant Pharmacy Contracting Standards (CMS-4217-NC)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source downloaded from GovInfo and read on the access date; findings transcribed from the extracted text."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-09-24/pdf/2026-19535.pdf",
+  "publisher": "Centers for Medicare & Medicaid Services (via GovInfo / Federal Register)",
+  "published": "2026-09-24",
+  "accessed": "2026-11-04",
+  "source_type": "Government request for information (no findings or data)",
+  "reliability": "Government document. The issuing agency is a party with its own policy interest (CMS: rulemaking; FTC: enforcement and study). An RFI poses questions; it does not report measurements.",
+  "findings": [
+    "CMS states that section 6223(a) of the Consolidated Appropriations Act, 2026 requires Part D sponsors to let any pharmacy that meets standard contract terms participate, that those terms must be reasonable and relevant for plan years beginning January 1, 2029, and that the Secretary must set the standards no later than the first Monday in April 2028; comments were due November 23, 2026.",
+    "CMS states it \"has not established additional requirements for what constitutes reasonable and relevant terms and conditions.\"",
+    "CMS asks whether Part D pharmacy reimbursement and dispensing fees \"sufficiently cover the ingredient and operational costs\" of network pharmacies, how reimbursement compares to actual acquisition cost, and how often MAC price lists are updated and disputed.",
+    "CMS asks about the extent to which negotiated prices on claim responses reflect final reimbursement versus aggregate guarantees (generic or brand effective rates) reconciled after the point of sale, the magnitude of the difference, and the predictability of final reimbursement at dispensing.",
+    "CMS asks whether remittance advice gives enough claim-level detail for a pharmacy to determine what it was reimbursed per claim after point-of-sale adjustments.",
+    "CMS asks about contract provisions allowing plans to recoup or suspend pharmacy payments, about financial terms located outside the executed contract (rate sheets, side letters, provider manuals), and about the adequacy and approval/denial rates of pharmacy dispute mechanisms."
+  ],
+  "limitations": [
+    "These are questions CMS is asking, not evidence that the practices occur or how common they are; no data are reported.",
+    "Medicare Part D only; commercial and Medicaid plans (a large share of independent pharmacy volume) are outside this document.",
+    "Responses to the RFI were not read and are not yet public as of the access date to our knowledge (not checked).",
+    "Extracted PDF text; wording was read but not compared against the Federal Register web edition."
+  ]
+}
