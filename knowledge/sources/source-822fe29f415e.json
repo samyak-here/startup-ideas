@@ -25,19 +25,21 @@
   "source_type": "Government information collection notice with burden tables",
   "reliability": "Government document; the issuing agency (FDA) is also the party administering the requirement. Figures are FDA ex ante estimates, not measured burden.",
   "findings": [
-    "FDA estimates total annual recordkeeping/reporting burden of 367,777 hours (417,698 total annual responses) for the cosmetics collection.",
+    "FDA estimates total annual recordkeeping/reporting burden (Table 1, reporting and recordkeeping) of 367,777 hours (417,698 total annual responses) for the cosmetics collection.",
     "Initial facility registration: 8,343 respondents, 1 response each, 0.5 hour per response (4,172 hours); FDA says this is based on \"internal trials and communication with industry\".",
     "Initial cosmetic product listing: 22,564 respondents averaging 14.64 responses each (330,337 responses) at 1 hour per response, 330,337 hours (about 90% of the 367,777 total). Listing renewals: 25,190 respondents, 0.10 hour each (2,519 hours); listing updates: 3,020 respondents, 8.15 responses, 0.25 hour (6,153 hours).",
     "Safety substantiation recordkeeping (sec. 608(a)): 22,564 respondents, one record each, 1 hour, 22,564 hours; FDA says responsible persons have discretion in which records satisfy the requirement and it assumes at least one record each.",
     "Adverse event recordkeeping (sec. 605(e)(1)): 1,165 respondents, 1.2 responses, 0.6 hour (839 hours); records kept six years, three years for qualifying small businesses. FDA says the cosmetics-only count may be lower than shown because the underlying data combine cosmetics, food and infant formula reports.",
-    "Third-party disclosure (labeling) table: 676,170 annual disclosures; for example 5,738 respondents averaging about 21-24 labels each.",
-    "FDA states there are no capital or operating and maintenance costs, and that two comments received on the July 17, 2026 60-day notice did not discuss the collection topics or suggest revising the figures."
+    "Table 2, estimated annual third-party disclosure (labeling) burden: 676,170 annual disclosures at 1 hour each, i.e. 676,170 burden hours (e.g. 5,738 respondents averaging about 21-24 labels each across ingredient declaration, statement of identity, name and place of business, net quantity, and FD&C sec. 609(a) adverse event contact information; 402 respondents for sec. 609(c) professional-use labeling). Table 2 combines existing labeling rules (21 CFR 701) with MoCRA additions (sec. 609), so its hours are not all incremental MoCRA burden.",
+    "Across Tables 1 and 2 the notice's hours sum to 1,043,947 (367,777 + 676,170); the 330,337 hours of initial product listing are about 31.6% of that sum, although about 89.8% of Table 1 alone (the sum and shares are computed from the notice's table totals, not stated in the notice).",
+    "FDA states there are no capital or operating and maintenance costs (this concerns non-labor costs; it does not mean the labor hours carry no dollar cost), and that two comments received on the July 17, 2026 60-day notice did not discuss the collection topics or suggest revising the figures."
   ],
   "limitations": [
     "Notice contains no dollar cost estimate and no breakdown by firm size; the small-business share of respondents is not stated.",
     "Hour estimates are FDA assumptions; no measured time or consultant spend. FDA notes the respondent counts may overstate unique respondents.",
     "The October notice cites the July notice as 91 FR 9287, whereas the July notice (FDA-2026-N-6739) appears at page 44850 of the July 17, 2026 issue; the 60-day notice itself (doc 2026-14434) was not recorded as a separate source.",
     "Table 1 text was extracted from PDF columns; row-to-value alignment was cross-checked against the July notice and the arithmetic (responses x hours) but not against the FDA web page for OMB 0910-0599.",
-    "OMB approval status after this submission was not checked."
+    "OMB approval status after this submission was not checked.",
+    "Notice contains no dollar value for the burden hours, so the labor cost of the hours is unquantified here. Tables 1 and 2 appear on Federal Register pp. 65220-65221."
   ]
 }
