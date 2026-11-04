@@ -1,0 +1,118 @@
+{
+  "id": "problem-72c225482dee",
+  "type": "problem",
+  "title": "Clearinghouse registration, annual queries and reporting for small motor carriers and owner-operators: modest agency-estimated burden",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "paused",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Signal from FMCSA final rule and 2026 information collection renewal."
+    },
+    {
+      "date": "2026-11-04",
+      "status": "paused",
+      "reason": "FMCSA's own estimates put each transaction at 10-20 minutes, owner-operators are required to hand reporting to a C/TPA, and no source read shows unmet small-carrier pain; no evidence yet to justify further work. Current status: paused."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "description": "Every motor carrier employing CDL drivers (about 99 percent of them small by FMCSA's definition) must register with the FMCSA Drug and Alcohol Clearinghouse, run pre-employment queries and annual queries on each driver, obtain electronic driver consent, and report certain violations within three business days. FMCSA estimates this at 10-20 minutes per response, but sources read contain no measurement of small-carrier time, error or cost.",
+  "customer_segment": "Small motor carriers employing CDL drivers (FMCSA analysis proxy: 146 or fewer power units) and owner-operators who employ themselves as drivers, who must use a C/TPA for employer reporting.",
+  "industries": [
+    "trucking",
+    "motor carriers",
+    "bus and passenger transportation"
+  ],
+  "geography": "United States (interstate CDL operations)",
+  "context": "Requirement in force since a January 6, 2020 compliance date. Consortia/third-party administrators (C/TPAs) may query and report for employers, and are mandatory for owner-operators who employ only themselves; how many small carriers delegate and what they pay is not established by sources read.",
+  "evidence": [
+    {
+      "text": "FMCSA estimated in 2016 that about 515,000 of 520,000 active interstate property carriers are small (146 or fewer power units).",
+      "classification": "estimate",
+      "source_ids": [
+        "source-9ec01bd6f751"
+      ]
+    },
+    {
+      "text": "FMCSA's 2016 burden estimate was about 1.86 million hours a year, assuming 10 minutes per query and 20 or 10 minutes per registration; its 2026 renewal estimates 1,653,032 hours across 9,834,949 respondents.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-9ec01bd6f751",
+        "source-f7c76abe4159"
+      ]
+    },
+    {
+      "text": "Employers must query each current driver at least annually and prospective drivers as needed, and report violations by the close of the third business day; FMCSA states this requirement remains in the 2026 collection.",
+      "classification": "reported",
+      "source_ids": [
+        "source-f7c76abe4159"
+      ]
+    },
+    {
+      "text": "A commenter asserted in 2016 that first-time registration alone would take more than 10 minutes; FMCSA disagreed.",
+      "classification": "reported",
+      "source_ids": [
+        "source-9ec01bd6f751"
+      ]
+    },
+    {
+      "text": "Owner-operators who employ themselves must designate a C/TPA for employer reporting, which FMCSA says should not create new burden.",
+      "classification": "reported",
+      "source_ids": [
+        "source-9ec01bd6f751"
+      ]
+    }
+  ],
+  "alternatives": [
+    "C/TPAs and drug-testing service providers that run queries and reporting on behalf of employers (offerings and prices not investigated).",
+    "Direct use of the FMCSA Clearinghouse website by the carrier."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "FMCSA's estimated 10-20 minutes per response is small per transaction, and the 2026 comment summary says commenters did not directly challenge the published burden hours.",
+      "classification": "reported",
+      "source_ids": [
+        "source-f7c76abe4159"
+      ]
+    },
+    {
+      "text": "Owner-operators are required to use a C/TPA, so the direct burden on them may already be outsourced; FMCSA expected consolidation of reporting to produce efficiencies.",
+      "classification": "reported",
+      "source_ids": [
+        "source-9ec01bd6f751"
+      ]
+    },
+    {
+      "text": "Both sources are from the agency that administers the rule; its ex ante estimates are not measured burden and may under- or over-state real small-carrier effort.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-9ec01bd6f751",
+        "source-f7c76abe4159"
+      ]
+    },
+    {
+      "text": "Fees, delegation rates, error rates and actual time spent by small carriers are unknown.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: actual time and spend by small carriers and owner-operators, how many delegate to C/TPAs and at what price, error and rework rates, and current Clearinghouse fees. The 2016 figures are about ten years old and the 2026 figures are renewal estimates, so neither measures realized burden.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "Do independent small-carrier surveys or trade-association comments (for example OOIDA, ATA) report time or cost problems with Clearinghouse tasks?",
+    "What do C/TPAs publicly charge small carriers for query and reporting services?",
+    "Are there recurring failure points (consent expirations, registration verification) documented in the regulations.gov comments?"
+  ],
+  "next_actions": [
+    "Only reopen if independent evidence shows burden materially above FMCSA's 10-20 minute estimates, for example docket comments in FMCSA-2026-0727.",
+    "Read the regulations.gov comments on the 2026 renewal to see what carriers themselves say."
+  ]
+}

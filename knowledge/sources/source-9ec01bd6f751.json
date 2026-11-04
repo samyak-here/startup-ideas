@@ -1,0 +1,41 @@
+{
+  "id": "source-9ec01bd6f751",
+  "type": "source",
+  "title": "Federal Register: Commercial Driver's License Drug and Alcohol Clearinghouse, final rule (81 FR 87686)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2016-12-05/pdf/2016-27398.pdf",
+  "publisher": "U.S. Department of Transportation, FMCSA (via GovInfo / Federal Register)",
+  "published": "2016-12-05",
+  "accessed": "2026-11-04",
+  "source_type": "Government final rule with regulatory impact and regulatory flexibility analysis",
+  "reliability": "Government document; the issuing agency (FMCSA) is also the party imposing and administering the requirement. Figures are ex ante estimates made in 2016, not measured burden.",
+  "findings": [
+    "FMCSA's final regulatory flexibility analysis treats motor carriers of property with 146 or fewer power units as small; it estimates over 99 percent of interstate property carriers with recent activity are small, about 515,000 of 520,000 active motor carriers.",
+    "FMCSA states ninety-nine percent of motor carriers, MROs, C/TPAs and SAPs are most likely small entities, and that it identified no significant alternatives that could lessen small-entity burden without compromising the statutory mandate.",
+    "The information collection burden is estimated at about 1.86 million hours annually (table total 1,864,000 hours over 11,039,655 instances). Examples: annual queries 5,200,000 instances at 10 minutes (867,000 hours); pre-employment queries 1,996,328 at 10 minutes (333,000 hours); register/familiarize/verify 793,000 instances at 20 or 10 minutes (155,000 hours); driver consents and verifications 2,357,328 at 10 minutes (393,000 hours). Tasks are assumed to be done by bookkeeping clerks (employers) or drivers.",
+    "FMCSA's RIA estimates about $154 million annual cost against $196 million annual crash-reduction benefit, including $29 million of employee time for annual queries, $11 million for pre-employment queries, and $24 million of Clearinghouse access fees (fee levels were not set in this rule).",
+    "The rule requires an owner-operator who employs himself or herself as a driver to designate a C/TPA to handle employer reporting; FMCSA states this should not create new burdens because such owner-operators already must join a C/TPA-managed testing pool under 382.103(b).",
+    "In response to a commenter who said first-time registration alone would take more than 10 minutes, FMCSA disagreed that its 20-minute registration and familiarization estimate was too low, saying much registration would be automated."
+  ],
+  "limitations": [
+    "Row labels of the burden table were matched to numbers from a layout-preserving PDF extraction; a reviewer should re-check the table.",
+    "The power-unit-to-revenue conversion for the small-carrier threshold uses a 2014-dollar proxy and the then-current SBA size standard; neither was re-checked.",
+    "Fee levels, current Clearinghouse functionality and later amendments (for example 2021 State licensing agency rule) were not read here.",
+    "Does not measure actual time spent, errors, or costs borne by owner-operators or very small carriers."
+  ]
+}
