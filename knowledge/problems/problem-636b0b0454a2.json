@@ -1,0 +1,103 @@
+{
+  "id": "problem-636b0b0454a2",
+  "type": "problem",
+  "title": "New-home builders report regulatory and permit delay, but permit approval time itself is not measured in the sources read",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Weak signal: builder-reported delay from an advocacy-group survey; Census-based data show a short post-permit wait and do not measure approval time."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "Single-family builders surveyed by NAHB overwhelmingly report that regulation, which can include delays in obtaining permits or inspections, delays their projects; but the readable data measure builder-perceived delay and post-permit start lag, not permit application-to-issuance time or friction specific to small builders and remodelers.",
+  "customer_segment": "Single-family home builders (NAHB HMI panel, stratified by size); small builders and remodelers are the intended segment but are not separately measured in the sources read.",
+  "industries": [
+    "residential construction"
+  ],
+  "geography": "United States (national averages; regional variation reported)",
+  "context": "Evidence dated March 2026 (NAHB surveys) and calendar 2025 (Census-based timing). Local permit processes differ by jurisdiction; no jurisdiction-level performance report was read.",
+  "evidence": [
+    {
+      "text": "93.4% of surveyed builders (n=337) reported regulation caused some construction-process delay, averaging a little over six weeks where present; the question includes unreasonable delays in obtaining permits or inspections.",
+      "classification": "reported",
+      "source_ids": [
+        "source-5ac39fb81cf5"
+      ]
+    },
+    {
+      "text": "94.2% of surveyed developers (n=54) reported regulatory delay averaging roughly seven months.",
+      "classification": "reported",
+      "source_ids": [
+        "source-5ac39fb81cf5"
+      ]
+    },
+    {
+      "text": "NAHB estimates the pure cost of regulatory delay at $1,632 per home in construction and $2,480 in development, about 0.8% of house price combined.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-5ac39fb81cf5"
+      ]
+    },
+    {
+      "text": "Census-based data summarized by NAHB show an average 1.4 months from authorization to start of construction for single-family homes completed in 2025.",
+      "classification": "reported",
+      "source_ids": [
+        "source-eccf51abec06"
+      ]
+    },
+    {
+      "text": "Small builders and remodelers spend material unpaid staff or owner time on permit applications, resubmittals and status chasing.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Permit expediters and architects/engineers who file on the builder's behalf; jurisdictions' own online permit portals; not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "Delay costs are small relative to other regulatory items in NAHB's own estimate (about 0.8% of house price versus 26.4% total), so permit delay is not the largest burden even by the advocacy group's numbers.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-5ac39fb81cf5"
+      ]
+    },
+    {
+      "text": "Census-based timing shows only about 1.4 months from permit to start, with nearly all of that after approval; it does not show long approval waits.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-eccf51abec06"
+      ]
+    },
+    {
+      "text": "Both sources come from a builders' trade association with a policy interest in showing regulatory burden; the builder delay question lumps permit and inspection delay with other regulation.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-5ac39fb81cf5",
+        "source-eccf51abec06"
+      ]
+    }
+  ],
+  "uncertainty": "Unknown: application-to-issuance time and its distribution; share of delay due to applicant corrections versus agency queues; how small builders and remodelers differ from the HMI panel; any remodeling-specific data; and whether builders would pay for tools given that jurisdictions control the process.",
+  "open_questions": [
+    "What do city/county permitting performance reports show for residential application-to-issuance time, and for small projects?",
+    "How much is resubmittal and correction churn versus agency queue time?",
+    "Do remodelers (not covered here) face different friction?"
+  ],
+  "next_actions": [
+    "Find readable jurisdiction permit-timeline dashboards or audits for residential permits.",
+    "Look for non-advocacy measurement of permit review times.",
+    "Read the Census Survey of Construction tables directly."
+  ]
+}

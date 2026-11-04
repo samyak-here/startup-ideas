@@ -1,0 +1,38 @@
+{
+  "id": "source-eccf51abec06",
+  "type": "source",
+  "title": "NAHB Eye on Housing: Single-Family Home Construction Time Declines in 2025",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://eyeonhousing.org/2026/09/single-family-home-construction-time-declines-in-2025/",
+  "publisher": "National Association of Home Builders (Economic Research Blog)",
+  "published": "2026-09-08",
+  "accessed": "2026-11-04",
+  "source_type": "Trade-association analysis of U.S. Census Bureau Survey of Construction data",
+  "reliability": "NAHB economist summarizing Census Bureau Survey of Construction (a federal probability survey); the blog is an advocacy-group secondary summary, and the underlying Census tables were not read.",
+  "findings": [
+    "For single-family homes completed in 2025, NAHB reports an average of 8.8 months from authorization to completion: 1.4 months from authorization (permit) to start of construction plus 7.4 months to finish construction.",
+    "NAHB reports homes built for sale took 7.4 months from permit to completion, built by owners 14.3 months, by hired contractors 11.7 months, and built-for-rent 12.4 months.",
+    "The average wait from permit to construction start by Census division ranged from 1 month (East North Central, West North Central) to 1.8 months (New England).",
+    "NAHB states the 8.8 months is about 1.6 months longer than the 2015 average and suggests possible causes including a more stringent regulatory environment and a skilled labor shortage (an interpretation, not a measured cause)."
+  ],
+  "limitations": [
+    "Measures time after a permit is authorized, not time to obtain the permit; application-to-issuance time is not in this source.",
+    "Secondary blog post; Census tables were not read directly.",
+    "Averages, not medians or distributions; no breakdown by builder size and no remodeling data."
+  ]
+}
