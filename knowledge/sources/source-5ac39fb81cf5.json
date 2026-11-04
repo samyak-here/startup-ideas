@@ -1,0 +1,42 @@
+{
+  "id": "source-5ac39fb81cf5",
+  "type": "source",
+  "title": "NAHB special study: Government Regulation in the Price of a New Home: 2026",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.nahb.org/-/media/NAHB/news-and-economics/docs/housing-economics-plus/special-studies/2026/special-study-government-regulation-in-the-price-of-a-home-june-2026-updated.pdf?rev=f3fafcb436c4440b82cfca2255998e34&hash=111CA2E0C7822D67DEDD7FA0DA8742FA",
+  "publisher": "National Association of Home Builders (Economics and Housing Policy)",
+  "published": "2026-06-08",
+  "accessed": "2026-11-04",
+  "source_type": "Trade-association survey study (advocacy organization)",
+  "reliability": "Published by the national home builders trade association, which advocates for lower regulation; survey of its own members with small samples and self-reported costs.",
+  "findings": [
+    "NAHB surveyed a panel of 2,125 NAHB members with land development experience in March 2026; 54 developers gave complete and useable responses. Builder questions were special questions in the March 2026 NAHB/Wells Fargo HMI; 337 builders gave complete and useable responses.",
+    "NAHB estimates regulation accounts for $131,734 of the $499,500 average new-home price (26.4%): $46,975 during development and $84,939 during construction (the table shows $46,795 for development; the document is internally inconsistent by $180).",
+    "Of builders surveyed, 93.4% reported that regulation caused some delay in the construction process; where delay existed it averaged a little over six weeks. NAHB computes the \"pure\" cost of construction-phase delay at $1,632 per home (0.3% of house price).",
+    "Of developers, 94.2% said complying with regulations typically caused a delay, averaging roughly seven months; pure cost of development-phase delay $2,480 per home (0.5%).",
+    "Builder-paid fees after buying the lot (which can include building permit or inspection fees) average 4.0% of final house price ($20,154); changes to building codes over the past 10 years 8.1% ($40,288).",
+    "The builder question on delay asks how much extra time complying with regulations \"(including unreasonable delays in obtaining permits or inspections)\" adds to construction; permit delay is not separated from inspection delay or other regulation.",
+    "NAHB Appendix A assumes 1.3 months from lot sale to start of construction, taken from Census Survey of Construction data for homes built for sale in 2020."
+  ],
+  "limitations": [
+    "Survey respondents are NAHB members; response rate for developers is 54 of 2,125 panel members; builders were drawn from the HMI panel, which is stratified by builder size but whose size breakdown of respondents was not read.",
+    "Costs and delays are self-reported by members of an advocacy group; not independently measured.",
+    "Permit approval time (application to issuance) is not reported separately, and remodelers are not covered (single-family new construction only).",
+    "Dollar totals not recomputed except noting the $46,975 vs $46,795 inconsistency."
+  ]
+}
