@@ -1,0 +1,39 @@
+{
+  "id": "source-e03e5a332b30",
+  "type": "source",
+  "title": "Federal Register: Express Scripts, Inc., et al.; Analysis of Agreement Containing Consent Order To Aid Public Comment (FTC Docket No. 9437)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source downloaded from GovInfo and read on the access date; findings transcribed from the extracted text."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-02-12/pdf/2026-02844.pdf",
+  "publisher": "Federal Trade Commission (via GovInfo / Federal Register)",
+  "published": "2026-02-12",
+  "accessed": "2026-11-04",
+  "source_type": "Government notice of proposed consent order with FTC analysis",
+  "reliability": "Government document. The issuing agency is a party with its own policy interest (CMS: rulemaking; FTC: enforcement and study). The FTC is the enforcer proposing the settlement; the notice describes allegations and terms, not adjudicated findings.",
+  "findings": [
+    "The FTC states the proposed consent agreement settles (1) the Insulin Litigation alleging Section 5 violations over rebate-driven competition and (2) a separate PBM Investigation into whether Express Scripts (ESI) unlawfully harmed pharmacy or PBM competition; comments were due March 16, 2026.",
+    "The FTC states the PBM Investigation sought to determine whether ESI violated Section 5 by requiring clients' members to use its affiliated pharmacies or by coercing unaffiliated pharmacies to accept unfavorable contractual terms.",
+    "Section VIII of the proposed order requires ESI to develop a standard offering for retail community pharmacies (defined as a pharmacy business with three or fewer retail stores) that compensates based on actual drug acquisition cost plus a dispensing fee, pays for non-dispensing services, and does not exclude willing community pharmacies.",
+    "Under Section IX ESI must advertise its standard offerings, and the notice states the order is a proposed, accepted-subject-to-final-approval consent agreement placed on the public record for 30 days."
+  ],
+  "limitations": [
+    "A proposed consent order; the notice describes allegations, not findings of liability, and the scope of the PBM Investigation allegations is stated in general terms.",
+    "Applies to ESI only (and, per the notice, with Cigna-related terms); other PBMs are covered by separate matters not read here.",
+    "Final approval, final text and any later compliance outcome were not read or verified. CMS (source above) states a Caremark settlement followed in July 2026; that order was not read.",
+    "No data on how many independent pharmacies would use the standard offering or whether it changes net payments."
+  ]
+}
