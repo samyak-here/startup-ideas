@@ -1,0 +1,131 @@
+{
+  "id": "problem-efecdad6ece9",
+  "type": "problem",
+  "title": "Small cosmetics businesses and MoCRA registration, listing and safety-substantiation recordkeeping: burden looks modest by FDA estimate",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "paused",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Signal from FDA information collection notice and MoCRA guidance."
+    },
+    {
+      "date": "2026-11-04",
+      "status": "paused",
+      "reason": "Within the chosen registration, listing and recordkeeping scope (FDA Table 1), FDA estimates about 30 minutes per facility registration and 1 hour per product listing, and firms under about $1M average annual cosmetics sales are exempt from registration and listing; no independent evidence of material small-firm burden found. Labeling/third-party disclosure (Table 2, 676,170 hours, mostly existing labeling rules plus MoCRA sec. 609 additions) was not assessed as a separate small-firm burden. Revisit if independent cost or time data, or GMP rule costs, show otherwise. Current status: paused."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "Under MoCRA, cosmetics responsible persons and facilities must register facilities, list products, keep safety substantiation and adverse event records and meet labeling rules; qualifying small businesses are exempt from registration and listing but not (per the sources read) from every requirement. This record's pause rationale is scoped to registration, listing and recordkeeping (FDA Table 1); labeling disclosure burden (Table 2) is mostly existing labeling rules plus sec. 609 additions and is not separately reassessed.",
+  "customer_segment": "Small cosmetics brands and manufacturers (responsible persons and facility operators), including those above the exemption threshold or making excluded product types such as eye-area products, some nail and hair color products. Number of small firms affected is not stated in the sources.",
+  "industries": [
+    "cosmetics",
+    "personal care manufacturing"
+  ],
+  "geography": "United States",
+  "context": "MoCRA added registration, listing, safety substantiation, adverse event and labeling requirements. FDA published the registration/listing guidance in December 2024 and submitted the information collection to OMB in October 2026. Findings are about FDA estimates for the whole respondent population, not small firms specifically. Burden is reported in two tables: Table 1 reporting and recordkeeping (367,777 hours) and Table 2 third-party disclosure/labeling (676,170 hours).",
+  "evidence": [
+    {
+      "text": "FDA estimates 367,777 annual reporting and recordkeeping burden hours in Table 1 of the cosmetics collection; about 89.8% of Table 1 (330,337 hours) is initial product listing at 1 hour per listing and 14.64 listings per respondent. This share is of Table 1 only: Table 2 adds 676,170 third-party disclosure (labeling) hours, for 1,043,947 hours across both tables, of which listing is about 31.6%.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-822fe29f415e"
+      ]
+    },
+    {
+      "text": "FDA's Table 2 estimates 676,170 annual hours (1 hour per disclosure) for labeling disclosures, e.g. 5,738 respondents averaging 21-24 labels each; this combines existing labeling requirements (21 CFR 701) with MoCRA additions (FD&C sec. 609), so the larger sum is not all incremental MoCRA burden.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-822fe29f415e"
+      ]
+    },
+    {
+      "text": "FDA assumes initial facility registration takes about 30 minutes (8,343 respondents) and each safety substantiation respondent keeps at least one record (22,564 hours total).",
+      "classification": "estimate",
+      "source_ids": [
+        "source-822fe29f415e"
+      ]
+    },
+    {
+      "text": "Firms with average gross annual U.S. cosmetics sales under $1,000,000 (inflation-adjusted) are exempt from registration and listing unless they make eye-contact, injected, internal-use or long-lasting appearance-altering products.",
+      "classification": "reported",
+      "source_ids": [
+        "source-8472f735cd38",
+        "source-36919dfae956"
+      ]
+    },
+    {
+      "text": "Neither the law nor FDA regulations require specific tests for individual products; firms may use existing safety data to meet substantiation.",
+      "classification": "reported",
+      "source_ids": [
+        "source-36919dfae956"
+      ]
+    },
+    {
+      "text": "The listing-heavy burden means brands with many SKUs bear more per-firm effort than the average; small brands with many products near or above the threshold may find listing and updating tedious.",
+      "classification": "hypothesis",
+      "source_ids": []
+    },
+    {
+      "text": "Within the registration/listing/recordkeeping scope, the listing-heavy burden means brands with many SKUs bear more per-firm effort than the average; small brands with many products near or above the threshold may find listing and updating tedious. Labeling burden across all products was not analyzed for small-firm impact.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-8472f735cd38",
+        "source-36919dfae956"
+      ]
+    }
+  ],
+  "alternatives": [
+    "Cosmetics Direct (FDA online tool) and paper Forms FDA 5066/5067 for submissions at no stated fee.",
+    "Regulatory consultants and compliance software vendors: not investigated.",
+    "Using existing ingredient safety data rather than new testing for substantiation (per FDA)."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "All burden figures are FDA ex ante estimates (agency interest: justifying a paperwork burden to OMB); FDA gives about 1 hour per listing and 30 minutes per registration, which is small. FDA reports no capital or operating-and-maintenance costs, which does not mean the labor hours (over 1 million across both tables) have no dollar cost; that dollar cost is unquantified.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-822fe29f415e"
+      ]
+    },
+    {
+      "text": "The small-business exemption removes registration and listing for many of the smallest firms, narrowing the population with this burden.",
+      "classification": "reported",
+      "source_ids": [
+        "source-8472f735cd38"
+      ]
+    },
+    {
+      "text": "Only two comments were received on the 60-day notice and neither challenged the figures.",
+      "classification": "reported",
+      "source_ids": [
+        "source-822fe29f415e"
+      ]
+    },
+    {
+      "text": "Actual time, consultant spend, per-firm costs and the share of respondents that are small are not measured in any source read.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: dollar value of the labor hours, share of the labeling burden that is incremental to MoCRA, number and share of small firms covered, real hours and dollar costs (including consultants), cost of future GMP requirements, whether trade groups dispute FDA estimates, current inflation-adjusted threshold. Figures are dated October 2026 estimates.",
+  "open_questions": [
+    "Do independent surveys or trade groups (e.g. small-brand associations) report materially higher time or cost than FDA?",
+    "How many non-exempt small firms are there, and how many SKUs do they list?",
+    "What will the pending GMP rule require and cost small firms?"
+  ],
+  "next_actions": [
+    "Find independent small-brand surveys or comments on the MoCRA information collection or GMP draft guidance.",
+    "Read FDA GMP draft guidance and its economic analysis when available.",
+    "Reopen only with independent evidence of material burden."
+  ]
+}

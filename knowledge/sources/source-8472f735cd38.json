@@ -1,0 +1,39 @@
+{
+  "id": "source-8472f735cd38",
+  "type": "source",
+  "title": "FDA Guidance for Industry: Registration and Listing of Cosmetic Product Facilities and Products (December 2024)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.fda.gov/media/170732/download",
+  "publisher": "U.S. Food and Drug Administration",
+  "published": "2024-12-01",
+  "accessed": "2026-11-04",
+  "source_type": "Government guidance (nonbinding recommendations)",
+  "reliability": "Government document; the issuing agency (FDA) is also the party administering the requirement.",
+  "findings": [
+    "Defines \"small business\" under FD&C Act section 612 as responsible persons and facility owners/operators whose average gross annual U.S. cosmetics sales over the previous 3 years are less than $1,000,000, adjusted for inflation, and that do not manufacture or process the section 612(b) products.",
+    "A qualifying small business is exempt from the registration and listing requirements; the section 612 exemptions apply to sections 606 (GMP) and 607 (registration and listing).",
+    "Section 612(b) products that remove the exemption regardless of sales: products regularly contacting the mucous membrane of the eye, injected products, products for internal use, and products intended to alter appearance for more than 24 hours where consumer removal is not customary; examples given include eye shadow, eye makeup remover, liquid eyeliner, some nail polishes and some hair dyes.",
+    "FDA does not generally ask firms to submit small-business documentation and does not issue small business exemption certificates (Appendix B, Q9).",
+    "FDA recommends the BEA Implicit Price Deflator for GDP for the inflation adjustment."
+  ],
+  "limitations": [
+    "Guidance is dated December 2024 and was not checked for later revisions; part of Appendix B (Q20-Q22) was issued for comment only.",
+    "The document does not describe safety substantiation recordkeeping (section 608) exemptions; absence here is not a finding that none exist.",
+    "The current inflation-adjusted dollar threshold was not computed or found."
+  ]
+}

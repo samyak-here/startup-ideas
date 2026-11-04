@@ -1,0 +1,38 @@
+{
+  "id": "source-36919dfae956",
+  "type": "source",
+  "title": "FDA: Modernization of Cosmetics Regulation Act of 2022 (MoCRA) overview page",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra",
+  "publisher": "U.S. Food and Drug Administration",
+  "published": null,
+  "accessed": "2026-11-04",
+  "source_type": "Government agency web page (content current as of 10/29/2026 per page)",
+  "reliability": "Government document; the issuing agency (FDA) is also the party administering the requirement.",
+  "findings": [
+    "Lists new industry requirements: serious adverse event reporting within 15 business days; facility registration with renewal every two years; product listing with annual updates; safety substantiation records.",
+    "States: \"Neither the law nor FDA regulations require specific tests to demonstrate the safety of individual products or ingredients.\"",
+    "States MoCRA exempts certain small businesses from GMP, registration, and product listing requirements, with the exemptions not applying to eye-contact, injected, internal-use or more-than-24-hour appearance-altering products.",
+    "Notes GMP and fragrance allergen labeling regulations are still to be established by FDA (a draft GMP guidance is listed); a proposed talc-asbestos testing rule from December 2024 is listed as withdrawn in November 2025."
+  ],
+  "limitations": [
+    "Agency summary page, not the statute; page content may change after the access date.",
+    "Publication date not stated; \"content current as of\" 10/29/2026 recorded in findings only.",
+    "Pending GMP rulemaking details and compliance dates were not read."
+  ]
+}
