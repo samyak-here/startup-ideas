@@ -1,0 +1,38 @@
+{
+  "id": "source-0dca96f112aa",
+  "type": "source",
+  "title": "Federal Register: Submission for OMB Review; Central Contractor Registration (OMB Control No. 9000-0159)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly (PDF from GovInfo converted to text) on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2016-04-18/pdf/2016-08872.pdf",
+  "publisher": "DoD, GSA and NASA (via GovInfo / Federal Register)",
+  "published": "2016-04-18",
+  "accessed": "2026-11-04",
+  "source_type": "Government Paperwork Reduction Act notice (extension of SAM/CCR registration collection)",
+  "reliability": "Government document; the issuing agencies (DoD, GSA, NASA) also administer the registration and certification requirements they estimate. Burden figures are agency estimates, not measurements.",
+  "findings": [
+    "The notice covers the FAR subpart 4.11 contractor registration database (then called Central Contractor Registration); both current and potential vendors must register to be awarded Federal contracts.",
+    "The notice describes a one-time registration to provide basic information, with an update or renewal at least once per year to maintain active status.",
+    "Annual reporting burden: 110,350 respondents, 1 response per respondent, 110,350 annual responses, 1.7141 hours per response, 189,151 total burden hours.",
+    "The notice states no comments were received on the earlier 60-day notice."
+  ],
+  "limitations": [
+    "Dated 2016 and written when the database was still called Central Contractor Registration; SAM was later changed (for example, UEI replaced DUNS) and the 2016 figures may not reflect current effort.",
+    "Agency ex ante estimate; the notice gives no method, no breakdown by business size, and no separation of first-time registration from annual renewal.",
+    "The collection was later consolidated into other OMB control numbers (see the 2025 source), so this figure is not current."
+  ]
+}

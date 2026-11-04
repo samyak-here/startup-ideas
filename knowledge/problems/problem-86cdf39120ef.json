@@ -1,0 +1,109 @@
+{
+  "id": "problem-86cdf39120ef",
+  "type": "problem",
+  "title": "Small firms must register and certify in SAM before federal contract award; agency burden estimates are low",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "paused",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Signal from DoD/GSA/NASA Paperwork Reduction Act notices about SAM registration."
+    },
+    {
+      "date": "2026-11-04",
+      "status": "paused",
+      "reason": "Agency estimates are small (about 1.7 hours per registration in 2016; about 0.46 hours per response across FAR Part 4 in 2025), the notices give no small-business breakdown, and no source read documents real-world difficulty, cost or delay. Revisit if independent evidence of material time, fees or lost awards appears."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "description": "Firms that want a federal contract must register in SAM before award and review and update the registration annually; DoD, GSA and NASA estimate the burden at about 1.7 hours per registration (2016) and about 387,000 hours a year across FAR Part 4 information collection (2025). Whether small first-time entrants experience a larger real burden is not evidenced.",
+  "customer_segment": "Businesses seeking or holding federal contracts, including small businesses entering federal contracting; the notices give no size breakdown.",
+  "industries": [
+    "federal contracting"
+  ],
+  "geography": "United States",
+  "context": "Agency Paperwork Reduction Act notices from 2016 and 2025. They estimate form-completion time only, not time spent understanding requirements, resolving validation problems, or paying third-party helpers. The related grant-side SAM collection (OMB 3090-0290) was not analyzed.",
+  "evidence": [
+    {
+      "text": "In 2016 the agencies estimated 110,350 respondents and 1.7141 hours per response for contractor registration, totaling 189,151 burden hours a year.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-0dca96f112aa"
+      ]
+    },
+    {
+      "text": "In 2025 the agencies estimated 353,291 respondents, 843,253 responses and 387,083 burden hours a year for the consolidated FAR Part 4 collection, which includes SAM registration and maintenance.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-9cc106f8b3bb"
+      ]
+    },
+    {
+      "text": "FAR 52.204-13 requires contractors to keep SAM data current through final payment, with at minimum an annual review and update.",
+      "classification": "reported",
+      "source_ids": [
+        "source-9cc106f8b3bb"
+      ]
+    },
+    {
+      "text": "The 2025 commercial acquisitions collection estimates 140,055 respondents and 207,455 hours a year for FAR 52.212-3 solicitation-specific representation selections.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-b4d1437b8710"
+      ]
+    },
+    {
+      "text": "First-time small registrants may spend far more than the averaged agency figures because of unfamiliar requirements and validation steps.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Procurement technical assistance providers, consultants and paid registration-help services: not investigated.",
+    "Doing the registration directly in SAM.gov: the effort a first-time small firm actually needs is unknown."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "Agency estimates imply low per-response effort (about 1.7 hours in 2016; about 0.46 hours per response across FAR Part 4 in 2025, our arithmetic) and the agencies received no comments on the 2016 notice and only supportive comments on the 2025 commercial notice.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-0dca96f112aa",
+        "source-9cc106f8b3bb",
+        "source-b4d1437b8710"
+      ]
+    },
+    {
+      "text": "These are the agencies' own ex ante estimates of form-completion time, not measured burden; the issuing agencies administer the requirement, so the estimates may understate burden, and the absence of comments is weak evidence either way.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-0dca96f112aa",
+        "source-9cc106f8b3bb"
+      ]
+    },
+    {
+      "text": "No source read gives a small-business or first-time-registrant breakdown, registration failure or delay rates, or fees paid to helpers.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: time and money small first-time registrants actually spend, rejection and delay rates, use of paid helpers, whether the burden is the form or the surrounding requirements, how the 2026 FAR overhaul changes things, and current SAM.gov processes. The 2016 figure is nearly ten years old.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "How long does first-time SAM registration actually take small firms, and where do they get stuck?",
+    "What do paid registration-help services charge and how many firms use them?",
+    "Does the 2026 FAR overhaul change registration or representations and certifications requirements?"
+  ],
+  "next_actions": [
+    "Look for independent small-business or procurement-assistance data on registration time, rejections and fees.",
+    "Read the OMB supporting statement for OMB 9000-0189 for the burden method.",
+    "Revisit only if evidence of material real burden appears."
+  ]
+}
