@@ -1,0 +1,38 @@
+{
+  "id": "source-f7c76abe4159",
+  "type": "source",
+  "title": "Federal Register: Renewal of an Approved Information Collection Request, Commercial Driver's License Drug and Alcohol Clearinghouse (OMB 2126-0057)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/pdf/2026-15760.pdf",
+  "publisher": "U.S. Department of Transportation, FMCSA (via GovInfo / Federal Register)",
+  "published": "2026-08-04",
+  "accessed": "2026-11-04",
+  "source_type": "Government Paperwork Reduction Act information collection notice (30-day)",
+  "reliability": "Government document; the issuing agency (FMCSA) is also the party imposing and administering the requirement. The burden figure is the agency's estimate for an OMB renewal.",
+  "findings": [
+    "FMCSA estimates 9,834,949 respondents (motor carriers, drivers, MROs, SAPs, C/TPAs, SDLAs), 10 to 20 minutes per response, and an estimated total annual burden of 1,653,032 hours; the prior approval was set to expire August 31, 2026.",
+    "Employers or their C/TPAs must query the Clearinghouse for each currently employed driver at least once a year and for prospective employees as needed; employer reports are due by the close of the third business day after the employer obtains the information.",
+    "The notice says 88 comments were received (71 by the June 1, 2026 deadline); it says the comments suggested regulatory changes (for example SAP access to complete driver histories) and did not directly address the published costs or burden hours.",
+    "The notice states the compliance date was January 6, 2020 and registration began in September 2019."
+  ],
+  "limitations": [
+    "This is a renewal notice; it does not break burden out by carrier size, does not mention owner-operators, and gives no per-carrier hours.",
+    "The renewed approval status by OMB after the 30-day period was not checked.",
+    "The 60-day notice (91 FR 16278, April 1, 2026) was skimmed only for the same headline figures and is not recorded as a separate source."
+  ]
+}
