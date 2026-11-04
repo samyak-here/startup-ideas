@@ -1,7 +1,7 @@
 {
   "id": "problem-988b35994c5c",
   "type": "problem",
-  "title": "Independent pharmacies cannot easily predict or reconcile PBM reimbursement (post-sale adjustments, below-cost rates, opaque contract terms)",
+  "title": "Possible reconciliation and contract-opacity burden for independent pharmacies on PBM reimbursement (federal concern; current incidence and cost unmeasured)",
   "created": "2026-11-04",
   "updated": "2026-11-04",
   "status": "evidence-collected",
@@ -23,7 +23,7 @@
   },
   "demo": false,
   "publish": true,
-  "description": "Federal agencies describe pharmacy payment from PBMs and Part D plans as hard for pharmacies to predict: payment can be adjusted after the point of sale (DIR fees, effective-rate guarantees reconciled later), contract financial terms can sit outside the executed contract, and community pharmacies may be paid below acquisition cost. CMS is asking whether remittance advice is detailed enough for a pharmacy to know what it was paid per claim. No source read here measures how much staff time or money independents lose.",
+  "description": "Historically (CMS reports 2010-2020), post-sale pharmacy price concessions such as DIR fees grew more than 107,400 percent and left Part D pharmacies without predictable payment. CMS says the Part D point-of-sale requirements beginning in 2024 made pharmacy payment \"now more transparent and predictable\" and reports negative pharmacy DIR in CY 2024, so that mechanism is dated and may be largely addressed for Medicare. Whether an unresolved burden remains today is a hypothesis and an agency concern, not an established finding: CMS and the FTC raise questions about effective-rate reconciliation, financial terms outside the executed contract, below-acquisition-cost payment, and whether remittance advice shows per-claim payment detail. Medicare versus commercial scope is unknown. The RFI questions do not establish incidence or staff cost, and no source read here measures how much staff time or money independents lose.",
   "customer_segment": "Independent and small-chain community retail pharmacies (the FTC consent order defines a retail community pharmacy as a business with three or fewer retail stores); number of such pharmacies and their share of volume not established from the sources read.",
   "industries": [
     "retail pharmacy",
@@ -61,7 +61,7 @@
       ]
     },
     {
-      "text": "CMS reports pharmacy price concessions grew more than 107,400 percent between 2010 and 2020 and that these post-sale concessions left pharmacies without predictable payment.",
+      "text": "CMS reports pharmacy price concessions grew more than 107,400 percent between 2010 and 2020 and that these post-sale concessions left pharmacies without predictable payment (historical; CMS says point-of-sale requirements beginning in 2024 changed this for Part D).",
       "classification": "reported",
       "source_ids": [
         "source-9a9906d592bb"
@@ -80,6 +80,11 @@
       "source_ids": [
         "source-e03e5a332b30"
       ]
+    },
+    {
+      "text": "Some post-sale reconciliation and contract-opacity burden may persist for independents today (for example in commercial plans, effective-rate reconciliation, or terms outside the executed contract); the RFI questions alone do not establish incidence, scope (Medicare versus commercial) or staff cost.",
+      "classification": "hypothesis",
+      "source_ids": []
     },
     {
       "text": "Pharmacy staff probably spend recurring time matching remittances to expected payments and disputing underpayments; the sources read do not quantify this.",
