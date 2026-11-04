@@ -1,7 +1,7 @@
 {
   "id": "problem-61904ba8c00b",
   "type": "problem",
-  "title": "Small physician practices repeatedly submit the same provider data to many payers for directories and credentialing",
+  "title": "Small physician practices repeatedly maintain provider directory data across many payers",
   "created": "2026-11-04",
   "updated": "2026-11-04",
   "status": "evidence-collected",
@@ -14,7 +14,11 @@
     {
       "date": "2026-11-04",
       "status": "evidence-collected",
-      "reason": "Primary documents read: survey-based cost estimate, CMS accuracy review, CMS enrollment burden notice. Evidence is dated (2016-2019) and partly vendor-sourced."
+      "reason": "Primary documents read: survey-based cost estimate, CMS accuracy review, CMS enrollment burden notice. Evidence is dated (2016-2019) and partly vendor-sourced."},
+    {
+      "date": "2026-11-04",
+      "status": "evidence-collected",
+      "reason": "Review revision: title and description narrowed to directory maintenance, which is what the cost evidence supports; multi-payer credentialing burden recast as an unverified hypothesis."
     }
   ],
   "provenance": {
@@ -25,7 +29,7 @@
   "publish": true,
   "related_problem_ids": [],
   "related_opportunity_ids": [],
-  "description": "Physician practices contract with about 20 health plans on average and must answer separate directory verification and credentialing requests from each, via fax, email, portals and phone. A 2019 industry survey estimates this costs the average practice about $1,000 per month, and CMS reviews found nearly half of Medicare Advantage directory locations contained errors.",
+  "description": "Physician practices contract with about 20 health plans on average and must maintain and verify directory data with each, often via fax, email, credentialing software and portals. A 2019 industry survey (by an interested publisher) estimates directory maintenance alone costs the average practice about $1,000 per month, and CMS reviews found nearly half of Medicare Advantage directory locations contained errors. Whether repeated multi-payer credentialing imposes a comparable burden is not established here: the survey cost excludes credentialing applications, and the CMS-855I notice covers Medicare enrollment only.",
   "customer_segment": "Small physician practices (fewer than 5 providers average 13.5 plan contracts and about $319 per month directory cost per the survey); practice managers and credentialing staff. Practice counts not established here.",
   "industries": [
     "healthcare",
@@ -61,6 +65,11 @@
       "source_ids": [
         "source-84cdc4fe2b88"
       ]
+    },
+    {
+      "text": "Repeated multi-payer credentialing and re-attestation may impose a comparable burden on practices, but no cited source measures its cost or duplication; this is an unverified extension of the directory finding.",
+      "classification": "hypothesis",
+      "source_ids": []
     },
     {
       "text": "Multiple uncoordinated channels per practice (fax, email, portals) may both consume staff time and cause inconsistent answers, contributing to directory errors.",
