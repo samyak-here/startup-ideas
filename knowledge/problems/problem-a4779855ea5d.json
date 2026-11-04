@@ -1,0 +1,116 @@
+{
+  "id": "problem-a4779855ea5d",
+  "type": "problem",
+  "title": "Small manufacturers are described by NIST MEP as under-resourced for cybersecurity compliance, but the gap is asserted rather than measured",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Signal from NIST MEP guidance documents that assert an SMM cybersecurity resource gap."
+    },
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Documents read; none measures the gap, key handbook is withdrawn, and one chart contradicts the narrative; evidence is too weak to advance beyond discovered."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "description": "NIST MEP documents say small and medium-sized manufacturers (SMMs) often lack the resources, structure and perceived affordability to implement cybersecurity requirements such as NIST SP 800-171, so MEP centers offer self-assessment help. The documents assert this without measuring how large the gap is.",
+  "customer_segment": "US small and medium-sized manufacturers, particularly those in the DoD supply chain handling CUI; size of the segment not established here.",
+  "industries": [
+    "manufacturing",
+    "defense supply chain"
+  ],
+  "geography": "United States",
+  "context": "Evidence dates from 2017-2019 (handbook 2017, news release 2018, guide c. 2019) and predates CMMC; current requirements and MEP offerings not reviewed. Adjacent to, but distinct from, CMMC assessment cost covered in issue #13.",
+  "evidence": [
+    {
+      "text": "NIST MEP states SMMs typically lack the resources larger manufacturers have to invest in cybersecurity and often see it as too difficult or too expensive.",
+      "classification": "reported",
+      "source_ids": [
+        "source-cf6f6b752254"
+      ]
+    },
+    {
+      "text": "NIST Handbook 162 states small manufacturers may lack the organizational structure or resources to satisfy every SP 800-171 requirement and that assessments can be resource-intensive.",
+      "classification": "reported",
+      "source_ids": [
+        "source-03859accb709"
+      ]
+    },
+    {
+      "text": "NIST reported the MEP National Network directly assisted over 1,100 DoD contractors between 2017 and May 2018 and that Handbook 162 was downloaded over 13,000 times, indicating demand for assistance.",
+      "classification": "reported",
+      "source_ids": [
+        "source-7c98d45a4910"
+      ]
+    },
+    {
+      "text": "Small manufacturers may struggle most with documentation and evidence for security plans rather than technical controls.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Free assistance from MEP centers (federally funded, may be subsidized for clients).",
+    "Self-assessment using NIST SP 800-171A and DoD guidance (Handbook 162 was withdrawn in favor of these).",
+    "Private compliance consultants and managed service providers: not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "The guide's own cited Sikich chart, as printed, shows companies under $500M revenue taking more listed cybersecurity actions than larger companies, which does not support a smaller-firm capability deficit (population and labeling unclear).",
+      "classification": "reported",
+      "source_ids": [
+        "source-cf6f6b752254"
+      ]
+    },
+    {
+      "text": "NIST says SMMs often have less complex IT and operations, so they may be able to detect and recover quickly.",
+      "classification": "reported",
+      "source_ids": [
+        "source-cf6f6b752254"
+      ]
+    },
+    {
+      "text": "Handbook 162 states most small manufacturers already have security measures that may satisfy SP 800-171 requirements and that new systems are not necessarily required.",
+      "classification": "reported",
+      "source_ids": [
+        "source-03859accb709"
+      ]
+    },
+    {
+      "text": "All sources are from the agency whose MEP program provides the assistance, and its counts measure program activity, not unmet need; no independent measurement of capability or compliance rates was found.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-cf6f6b752254",
+        "source-03859accb709",
+        "source-7c98d45a4910"
+      ]
+    },
+    {
+      "text": "Whether any manufacturer pays for help with this, and how much, is unknown.",
+      "classification": "unknown",
+      "source_ids": []
+    }
+  ],
+  "uncertainty": "Unknown: share of SMMs that cannot meet requirements, their actual spend, who the buyer is, current MEP offerings, and effect of CMMC since 2019. Web-search items such as consultant case studies and trade-press commentary were not read and are not evidence here.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "Is there an independent, measured dataset (e.g., assessor findings or SPRS score distributions) on SMM control implementation?",
+    "What does MEP assistance cost clients and how many manufacturers still go unserved?",
+    "Which tasks are documentation versus technical remediation?"
+  ],
+  "next_actions": [
+    "Find and read a measured source (e.g., DoD SPRS data, a Census/NIST survey, or an independent academic study) before any status upgrade.",
+    "Read current NIST MEP cybersecurity program pages for present offerings."
+  ]
+}

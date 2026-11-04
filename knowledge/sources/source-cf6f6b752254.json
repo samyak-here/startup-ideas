@@ -1,0 +1,39 @@
+{
+  "id": "source-cf6f6b752254",
+  "type": "source",
+  "title": "NIST MEP: Manufacturers Guide to Cybersecurity for Small and Medium-Sized Manufacturers",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source fetched and read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.nist.gov/system/files/documents/2019/11/14/mepnn_cybersecurity_guide_10919-508.pdf",
+  "publisher": "NIST Manufacturing Extension Partnership (MEP National Network)",
+  "published": null,
+  "accessed": "2026-11-04",
+  "source_type": "Government guidance document (24 pages)",
+  "reliability": "US government (NIST MEP) document; MEP funds and promotes the assistance it describes, so it has an interest in presenting need for that assistance. Contains third-party statistics reproduced in charts; underlying surveys not read.",
+  "findings": [
+    "The guide states: \"Because SMMs typically don't have the resources to invest in cybersecurity the way larger manufacturers can, many cyber criminals view them as soft targets.\"",
+    "The guide states SMMs \"are often less prepared\" to handle a hacker, natural-disaster or resource-loss event, and that \"SMMs often see cybersecurity as too difficult or too expensive.\"",
+    "A callout cites the 2017 Ponemon Institute report \"State of Cybersecurity in Small & Medium-Sized Businesses\": 61% of small businesses experienced a cyberattack in the past 12 months (all small businesses, not manufacturers only).",
+    "A chart titled \"Actions taken to enhance cybersecurity\" (source: Sikich M&D Report 2019) shows, as printed, higher percentages for companies with less than $500M revenue than for those with more than $500M on every one of seven actions (e.g., hiring internal cybersecurity professionals 69% vs 37%; partnering with an outside firm 57% vs 42%). The blue/grey legend assignment is as read from the rendered page.",
+    "The guide says SMMs may be able to detect and recover quickly because they often have less complex operational needs and IT infrastructure."
+  ],
+  "limitations": [
+    "PDF metadata creation date is October 2019; the document carries no printed publication date, so published is recorded as null.",
+    "Qualitative assertions are not accompanied by NIST-measured data; the third-party statistics were not traced to their original surveys.",
+    "The chart population (companies by revenue, not manufacturers specifically; $500M threshold is far above SMM size) is unclear and appears to contradict the guide's narrative; it may be mislabeled or unrepresentative."
+  ]
+}
