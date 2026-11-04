@@ -1,0 +1,42 @@
+{
+  "id": "source-8dd0189f27fd",
+  "type": "source",
+  "title": "Federal Register: Testing and Labeling Pertaining to Product Certification, final rule (16 CFR part 1107) with Final Regulatory Flexibility Analysis",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date (PDF from GovInfo converted with pdftotext); findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.govinfo.gov/content/pkg/FR-2011-11-08/pdf/2011-27678.pdf",
+  "publisher": "U.S. Consumer Product Safety Commission (via GovInfo / Federal Register)",
+  "published": "2011-11-08",
+  "accessed": "2026-11-04",
+  "source_type": "Government final rule with final regulatory flexibility analysis and responses to public comments",
+  "reliability": "Government document; the issuing agency (CPSC) is also the party administering the requirement. Dollar figures are the Commission's own ex ante, hypothetical examples in 2011 prices, not measured costs.",
+  "findings": [
+    "CPSC states its regulatory flexibility analysis focused on third party testing cost because it \"will likely be the most significant cost for small manufacturers of children's products\", and that considering only those costs the initial analysis found the rule could have a significant impact on a substantial number of small entities.",
+    "CPSC counted more than 26,000 manufacturers considered small (under 500 employees) in the NAICS categories examined (Table 2: 26,479 small of 26,947 total firms), and says not all of them make regulated children's products, so the count is a high estimate. It notes there is no separate NAICS category for importers.",
+    "Hypothetical toy testing example: one round of third party testing of one toy for all applicable rules costs $1,114 ($1,064 chemical, $50 mechanical); four samples cost $4,456; with component part testing reducing chemical costs by a factor of four, one round is $316 and a four-fold repeated example is $1,264. CPSC states these are illustrative, rest on assumed per-test prices (e.g. $225 per phthalate test, $125 per soluble heavy metals test, $50 per use-and-abuse test), and that actual costs vary significantly between labs.",
+    "Table 5 hypothetical firms (rule-of-thumb threshold: cost above 1 percent of revenue is significant): Firm A, 1,000 products at 100,000 units each, total annual testing-related cost $4,670,150, 1.2 percent of revenue; Firm B, 100 products at 10,000 units, $467,015, 11.7 percent; Firm C, a small batch maker with 10 products at 1,000 units each and $40,000 revenue, $6,222, 15.6 percent. Revenue assumed $4 per toy; recordkeeping assumed 5 hours per product at $36.43 per hour.",
+    "A commenter estimated that costs beyond lab fees (destroyed samples, shipping, managing testing and paperwork) add 15 to 50 percent; CPSC responded that this \"seems reasonable\".",
+    "CPSC acknowledges the rule is complex, that some small businesses might have to hire outside consultants (lawyers, statisticians, quality control experts) and that \"some small firms may exit the market for children's products\".",
+    "CPSC describes statutory (H.R. 2715) relief to be considered for small batch manufacturers: covered products are those with fewer than 7,500 units made in the prior year, and a small batch manufacturer had gross revenue below $1 million from all consumer products; for toys, no alternative or exemption is permitted for third party testing for lead in paint, small parts and pacifiers."
+  ],
+  "limitations": [
+    "2011 data and prices; the rule has since been amended and many standards added (including ASTM F963 for toys and numerous durable infant product rules), so current per-product testing cost is not shown here.",
+    "The cost examples are hypothetical constructions by the agency, not surveys or invoices; Table 5 rows were read from extracted PDF text and the percentages were spot-checked against the stated totals.",
+    "Whether small batch relief, component part testing rules and later CPSC changes were implemented as described was not read here.",
+    "Does not measure how many small firms actually exited or never entered the market."
+  ]
+}

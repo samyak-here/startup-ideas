@@ -1,0 +1,137 @@
+{
+  "id": "problem-b97dba33611c",
+  "type": "problem",
+  "title": "Small makers and importers of children's products bear third party testing and certificate costs that CPSC itself estimated could be significant for small firms",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "evidence-collected",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Signal from CPSC rule and PRA notice."
+    },
+    {
+      "date": "2026-11-04",
+      "status": "evidence-collected",
+      "reason": "Primary documents read; agency estimates and the agency's own acknowledgement of small-firm impact recorded. Status: evidence-collected."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "description": "Makers and importers of children's products subject to CPSC rules must have products tested by CPSC-accepted third party labs and issue Children's Product Certificates. In its 2011 final rule analysis CPSC found third party testing cost could be a significant impact on small manufacturers and illustrated per-product costs and percent-of-revenue for hypothetical small firms; its 2025 notices estimate the recordkeeping and eFiling paperwork layer as small per firm.",
+  "customer_segment": "Small manufacturers (including small batch makers) and small importers of children's products; CPSC counts over 26,000 small manufacturers in relevant NAICS categories (not all make children's products) and about 230,000 small firms for children's product certificates.",
+  "industries": [
+    "children's products manufacturing",
+    "toys",
+    "apparel and textiles",
+    "children's furniture",
+    "importing"
+  ],
+  "geography": "United States",
+  "context": "Evidence spans 2011 (testing cost analysis) and 2025 (paperwork burden and eFiling). Testing costs are not measured in the sources read; requirements have grown since 2011. The cost problem is mostly laboratory fees and samples, with paperwork secondary.",
+  "evidence": [
+    {
+      "text": "CPSC stated third party testing will likely be the most significant cost for small manufacturers of children's products and its initial analysis found a possible significant impact on a substantial number of small entities.",
+      "classification": "reported",
+      "source_ids": [
+        "source-8dd0189f27fd"
+      ]
+    },
+    {
+      "text": "CPSC's hypothetical examples put annual testing-related cost at 11.7 percent of revenue for a 100-product small manufacturer and 15.6 percent for a 10-product small batch maker, versus 1.2 percent for a very large one.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-8dd0189f27fd"
+      ]
+    },
+    {
+      "text": "CPSC's hypothetical toy cost $1,114 to test once across applicable rules and $4,456 with four samples, using assumed per-test prices.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-8dd0189f27fd"
+      ]
+    },
+    {
+      "text": "A commenter estimated costs outside lab fees add 15 to 50 percent, and CPSC said this seems reasonable; CPSC also acknowledged some small firms may need outside consultants and some may exit the children's product market.",
+      "classification": "reported",
+      "source_ids": [
+        "source-8dd0189f27fd"
+      ]
+    },
+    {
+      "text": "CPSC's 2025 PRA estimate assumes three hours per year per respondent for testing and certification recordkeeping across about 390,600 respondents, with eFiling about 22 seconds per filing.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-80ed73136bc5"
+      ]
+    },
+    {
+      "text": "CPSC estimated eFiling startup at about $1,086 per small firm and annual rule cost of $1,099 per small importer of children's products, below its one-percent threshold.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-182e84c840e6"
+      ]
+    },
+    {
+      "text": "Small makers with many SKUs may spend disproportionate staff time tracking test reports, material changes, retests and certificate content.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Component part testing and reliance on supplier test reports (CPSC says this can lower cost).",
+    "Small batch manufacturer relief described in the 2011 rule: terms and current status not verified.",
+    "Testing labs, consultants and compliance software: not investigated.",
+    "Selling only through marketplaces or wholesalers that handle certification: not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "The 2025 PRA notice assumes only three hours of recordkeeping per year per respondent and eFiling takes seconds, and the 2025 eFiling analysis finds the paperwork layer nonsignificant for typical small firms; the paperwork component looks small.",
+      "classification": "reported",
+      "source_ids": [
+        "source-80ed73136bc5",
+        "source-182e84c840e6"
+      ]
+    },
+    {
+      "text": "The 2011 percent-of-revenue figures are hypothetical agency constructions in 2011 prices that assume yearly retesting of every product with four samples; actual retest frequency and sample counts may be lower.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-8dd0189f27fd"
+      ]
+    },
+    {
+      "text": "CPSC notes component part testing and a possible small batch exemption could cut costs; how many small makers use them is unknown.",
+      "classification": "reported",
+      "source_ids": [
+        "source-8dd0189f27fd"
+      ]
+    },
+    {
+      "text": "The respondent counts are explicitly overestimates because NAICS categories include non-children's products.",
+      "classification": "reported",
+      "source_ids": [
+        "source-8dd0189f27fd",
+        "source-80ed73136bc5"
+      ]
+    }
+  ],
+  "uncertainty": "Unknown: current laboratory prices and test counts per product, how many small makers actually test and certify, how many exited or never entered, actual time on paperwork versus lab fees, current status of small batch relief, and what tools or services small makers already use. All dollar figures are agency ex ante estimates; dated 2011 or 2025.",
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "open_questions": [
+    "What do small makers currently pay per product for CPSC-accepted lab testing?",
+    "How much of the burden is tracking tests, retests and certificate content rather than lab fees?",
+    "Is small batch relief in effect and how is it used?",
+    "Which existing services handle test tracking and CPC generation?"
+  ],
+  "next_actions": [
+    "Find independent data (trade group or maker surveys, lab price lists) on testing spend and time.",
+    "Read current CPSC small business guidance and the status of small batch relief."
+  ]
+}
