@@ -1,0 +1,43 @@
+{
+  "id": "source-3c31f1464a76",
+  "type": "source",
+  "title": "CAQH (now DataSpring): The Hidden Causes of Inaccurate Provider Directories (white paper on a 2019 survey of 1,240 physician practices)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.caqh.org/sites/default/files/explorations/CAQH-hidden-causes-provider-directories-whitepaper.pdf",
+  "publisher": "CAQH / DataSpring (nonprofit that operates the Provider Data Portal and sells provider data and directory solutions)",
+  "published": null,
+  "accessed": "2026-11-04",
+  "source_type": "Industry organization white paper reporting its own practice survey (n=1,240, September 2019)",
+  "reliability": "Interested party: the publisher operates and sells the single-platform provider data service whose savings it estimates. Survey method is summarized only briefly in the paper.",
+  "findings": [
+    "A September 2019 survey of 1,240 physician practices found the average practice has 20.2 health plan contracts (13.5 for practices with fewer than 5 providers).",
+    "Authors report practices spend at least one full staff day per week on directory maintenance, at an average cost of $998.84 per month per practice ($319.46 per month for practices with fewer than 5 providers); average fully loaded staff cost used is $63,004.",
+    "Authors extrapolate the cost to $2.76 billion per year across US physician practices.",
+    "Respondents using a single platform to exchange credentialing information reported $1,249.86 per month in associated administrative costs, 39.6 percent less than the $2,068.00 per month reported by those using multiple approaches; authors project a saving of $396 per month ($4,746 per year) per practice and at least $1.1 billion nationwide, \"assuming similar efficiencies\".",
+    "Citing a 2018 AMA survey, the paper says directory information is submitted by fax (38%), credentialing software (13%), email (13%), provider management and enrollment software (5%), and phone, mail and other methods (14%).",
+    "The paper states CMS requires Medicare Advantage plans to contact providers quarterly, and cites Berkeley Research Group for 19 states requiring at least monthly directory updates."
+  ],
+  "limitations": [
+    "Survey data are from September 2019 and are more than six years old; the PDF itself carries a later \"last updated\" stamp (2026) with no restated data.",
+    "Publication date not shown in the document, so the published field is null.",
+    "Cost figures are survey-reported or modelled estimates; the questionnaire, response rate and how time was converted to dollars are not given.",
+    "The single-platform saving is a projection by a party that sells such a platform; the paper footnotes it as likely conservative but gives no measured outcome.",
+    "The 2023 and 2024 CAQH Index reports were downloaded and searched; they do not report credentialing or directory cost per transaction, so no Index figures are used.",
+    "Cost excludes credentialing/enrollment applications themselves; focuses on directory maintenance."
+  ]
+}

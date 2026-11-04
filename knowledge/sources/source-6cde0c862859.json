@@ -1,0 +1,38 @@
+{
+  "id": "source-6cde0c862859",
+  "type": "source",
+  "title": "CMS: Online Provider Directory Review Report (Medicare Advantage, round 3, 2017-2018)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.cms.gov/medicare/health-plans/managedcaremarketing/downloads/oy2_provider_directory_industry_report_11-21-2018.pdf",
+  "publisher": "U.S. Centers for Medicare & Medicaid Services",
+  "published": "2018-11-21",
+  "accessed": "2026-11-04",
+  "source_type": "Government audit-style review report",
+  "reliability": "Government regulator; it reviewed health plans (not practices) and took compliance actions, so it has an interest in showing directory problems. Publication date inferred from the file name.",
+  "findings": [
+    "CMS reviewed 108 providers for each of 52 Medicare Advantage organizations (5,602 providers at 10,504 locations) between November 2017 and July 2018 by calling provider offices.",
+    "CMS found 48.74% of listed provider locations had at least one inaccuracy (provider not at location, wrong phone number, or not accepting new patients when listed as accepting); per-plan rates ranged from 4.63% to 93.02%.",
+    "Table 1 of the report gives 45.10% deficient locations in round 1 (54 MAOs) and 55.07% in round 2 (64 MAOs); CMS says the rounds are not directly comparable because of minor methodology updates.",
+    "The review covered cardiologists, oncologists, ophthalmologists and primary care physicians only."
+  ],
+  "limitations": [
+    "Data are from 2016-2018 and cover Medicare Advantage only; later rounds or changes were not read.",
+    "Report measures directory accuracy, not the time practices spend; it does not attribute errors to practice-side update burden versus plan-side processing.",
+    "Report was fetched from cms.gov but the exact publication date is inferred from the file name."
+  ]
+}
