@@ -1,0 +1,107 @@
+{
+  "id": "problem-e2af0bbdc157",
+  "type": "problem",
+  "title": "Staffing mix in veterinary services: administrative support is about 22% of jobs but projected to grow far slower than clinical roles",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "discovered",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "discovered",
+      "reason": "Weak signal only: BLS employment-matrix data show the staffing mix and projections but no measure of administrative workload. AVMA reports and BLS Occupational Outlook pages were not readable (bot-blocked) and were not used."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "related_problem_ids": [],
+  "related_opportunity_ids": [],
+  "description": "BLS data show office and administrative support makes up about 22% of employment in veterinary services and is projected to grow about 1.0% from 2025 to 2035, versus about 9.9% for veterinarians, technicians and assistants. Whether independent practices carry an unmet administrative or non-clinical workload is not established by these sources.",
+  "customer_segment": "Veterinary services employers (NAICS 541940), including independent practices; the data do not separate independent from corporate-owned practices.",
+  "industries": [
+    "veterinary services"
+  ],
+  "geography": "United States",
+  "context": "Scoping record built from federal statistics. AVMA workforce and economic reports and the BLS Occupational Outlook Handbook returned bot-protection or access-denied pages to automated clients and were not bypassed, so no workload or burnout survey was read. This record does not show a customer problem.",
+  "evidence": [
+    {
+      "text": "BLS reports veterinary services employment of 473.6 thousand in 2025, of which office and administrative support is 105.9 thousand (22.4%) and receptionists and information clerks are 55.6 thousand (11.7%).",
+      "classification": "reported",
+      "source_ids": [
+        "source-f053d7fdf3f3"
+      ]
+    },
+    {
+      "text": "BLS projects 2025-2035 employment growth of 9.9% for veterinarians, veterinary technicians and veterinary assistants but 1.0% for office and administrative support in veterinary services.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-f053d7fdf3f3"
+      ]
+    },
+    {
+      "text": "BLS reports 7.2% of veterinarians (6.6 thousand of 91.1 thousand) are self-employed in 2025.",
+      "classification": "reported",
+      "source_ids": [
+        "source-f4e660745afc"
+      ]
+    },
+    {
+      "text": "APHIS estimates about 1.0 hour per veterinarian for the voluntary NVAP application, 22,582 hours per year in total.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-d2050c0e3cd4"
+      ]
+    },
+    {
+      "text": "Slow projected growth of administrative staff alongside faster clinical growth could mean more non-clinical tasks fall on clinical staff or need to be automated.",
+      "classification": "hypothesis",
+      "source_ids": []
+    }
+  ],
+  "alternatives": [
+    "Practice-management software, outsourced billing and call-answering services, and corporate group back offices: not investigated."
+  ],
+  "contradictory_evidence": [
+    {
+      "text": "The data are employment counts and projections; they show no administrative burden, vacancy or overtime, and a projection of slow growth may reflect forecasting assumptions (for example technology) rather than shortage.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-f053d7fdf3f3"
+      ]
+    },
+    {
+      "text": "The only measured administrative task read, the NVAP application, is about 1 hour per veterinarian per year by APHIS estimate, which is small.",
+      "classification": "estimate",
+      "source_ids": [
+        "source-d2050c0e3cd4"
+      ]
+    },
+    {
+      "text": "Veterinary services includes corporate-owned practices whose back-office staff may be counted differently; independent-practice staffing cannot be isolated.",
+      "classification": "unknown",
+      "source_ids": []
+    },
+    {
+      "text": "BLS and APHIS are statistical or administering agencies, not parties selling solutions, but neither measured workload.",
+      "classification": "interpretation",
+      "source_ids": [
+        "source-f053d7fdf3f3",
+        "source-d2050c0e3cd4"
+      ]
+    }
+  ],
+  "uncertainty": "Unknown: time clinicians and managers spend on administrative work, vacancy and turnover rates for front-office roles, independent versus corporate staffing, which tasks cause pain, and willingness to pay. Data are 2025 base and 2035 projections with release date not read.",
+  "open_questions": [
+    "Do AVMA or state veterinary association surveys (if readable) quantify administrative or front-office workload and turnover?",
+    "How do staffing ratios differ between independent and corporate practices?",
+    "Which non-clinical tasks (records, client communication, billing, controlled-substance logs) consume the most staff time?"
+  ],
+  "next_actions": [
+    "Find a readable primary survey on veterinary practice staffing and administrative time (AVMA report PDFs if accessible by normal means, state veterinary medical associations, or peer-reviewed studies).",
+    "Do not treat this record as a validated problem until workload or turnover evidence is read."
+  ]
+}
