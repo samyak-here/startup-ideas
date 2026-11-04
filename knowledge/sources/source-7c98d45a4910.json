@@ -1,0 +1,37 @@
+{
+  "id": "source-7c98d45a4910",
+  "type": "source",
+  "title": "NIST news: MEP Centers Aid Manufacturers on Cybersecurity (May 3, 2018)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source fetched and read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.nist.gov/news-events/news/2018/05/mep-centers-aid-manufacturers-cybersecurity",
+  "publisher": "NIST Manufacturing Extension Partnership",
+  "published": "2018-05-03",
+  "accessed": "2026-11-04",
+  "source_type": "Government news release",
+  "reliability": "US government (NIST MEP) document; MEP funds and promotes the assistance it describes, so it has an interest in presenting need for that assistance.",
+  "findings": [
+    "NIST states: \"Since 2017, the MEP National Network has provided direct assistance to over 1100 DoD contractors.\"",
+    "NIST states Handbook 162 \"has been downloaded over 13,000 times\" since its November 2017 publication.",
+    "NIST states MEP Centers guide small and medium-sized manufacturers through self-assessment against the Cybersecurity Framework, and help DoD-supply-chain manufacturers meet DFARS requirements via NIST SP 800-171.",
+    "The release includes a client testimonial (Flexfab LLC) saying it completed an SSP and POA&M with its MEP and was working toward full compliance in 2018."
+  ],
+  "limitations": [
+    "Dated May 2018; counts are cumulative to that date and not updated here.",
+    "Assistance counts are outputs of a federally funded program, not measures of unmet need, outcomes or compliance; downloads are not unique users or manufacturers."
+  ]
+}

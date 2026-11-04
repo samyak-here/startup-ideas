@@ -1,0 +1,38 @@
+{
+  "id": "source-03859accb709",
+  "type": "source",
+  "title": "NIST Handbook 162: NIST MEP Cybersecurity Self-Assessment Handbook for Assessing NIST SP 800-171 (withdrawn 2022)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source fetched and read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://nvlpubs.nist.gov/nistpubs/hb/2017/NIST.HB.162.pdf",
+  "publisher": "NIST Manufacturing Extension Partnership",
+  "published": "2017-11-20",
+  "accessed": "2026-11-04",
+  "source_type": "Government handbook (withdrawn publication)",
+  "reliability": "US government (NIST MEP) document; MEP funds and promotes the assistance it describes, so it has an interest in presenting need for that assistance.",
+  "findings": [
+    "The cover notice states Handbook 162 was published November 20, 2017, and withdrawn September 23, 2022, superseded by NIST SP 800-171A and DoD guidance.",
+    "The handbook states NIST SP 800-171 \"assumes that small manufacturers currently have IT infrastructures in place, and it is not necessary to develop or acquire new systems to handle CUI.\"",
+    "The handbook states \"Small manufacturers may not have the necessary organizational structure or resources to satisfy every security requirement\" and that alternative but equally effective measures are acceptable.",
+    "The handbook states conducting security control assessments \"can be challenging, and resource-intensive\" and expects the business owner, COO, IT manager, security manager and plant managers to work together on an assessment.",
+    "The handbook states that in 2016 the MEP National Network had 51 centers and connected with 25,445 manufacturers."
+  ],
+  "limitations": [
+    "Withdrawn; keyed to SP 800-171 Rev. 1 and pre-CMMC; current requirements differ.",
+    "A how-to guide; it contains no measurement of how many small manufacturers meet or miss the requirements."
+  ]
+}
