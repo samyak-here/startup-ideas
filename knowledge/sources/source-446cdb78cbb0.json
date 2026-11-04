@@ -1,0 +1,43 @@
+{
+  "id": "source-446cdb78cbb0",
+  "type": "source",
+  "title": "CAQH Index Report 2024: eligibility and benefit verification, dental sections",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.caqh.org/hubfs/Index/2024%20Index%20Report/CAQH_IndexReport_2024_FINAL.pdf",
+  "publisher": "CAQH (nonprofit health-care industry alliance; data collection with NORC at the University of Chicago)",
+  "published": null,
+  "accessed": "2026-11-04",
+  "source_type": "Industry benchmarking survey report (voluntary survey of plans and providers)",
+  "reliability": "Industry-alliance survey report; voluntary participation, data reflect calendar year 2023. CAQH promotes electronic transactions, so its savings framing carries that interest. The ADA and NDEDIC encouraged members to contribute data.",
+  "findings": [
+    "For 2023, the dental industry conducted an estimated 1.2 billion eligibility and benefit verifications, up 24 percent; verifications were 24 percent of total dental transaction volume.",
+    "Dental spending on eligibility and benefit verification rose 15 percent to $2.1 billion, the largest increase among dental administrative tasks measured and 30 percent of total dental administrative spend.",
+    "CAQH attributes the dental increase to higher volume and higher cost of conducting a check via a plan portal, \"the highest portal cost among the dental transactions\"; it states variations in portal requirements and formats add complexity.",
+    "CAQH estimates the dental savings opportunity from switching to fully electronic (270/271) checks at $580 million (up seven percent), and an average time savings opportunity of 8 minutes per transaction for dental providers (12 minutes for medical).",
+    "A dental practice quoted in the report: \"When it comes to eligibility and benefits, I don't have an automated tool that I can trust, so I don't use it.\" The report says dental providers report that automated responses often lack robust enough dental-specific information to trust.",
+    "CAQH cost per transaction counts only labor (salaries, wages, benefits, overhead) for conducting the transaction, not information gathering or follow-up, and excludes system costs. Data collected by voluntary online survey July to September 2024."
+  ],
+  "limitations": [
+    "Findings read from pdftotext output of the report; the bar-chart values for dental adoption and volume by mode were garbled in extraction and are not recorded.",
+    "Industry-wide dental figures; no breakdown by practice size, so small-practice burden is not isolated.",
+    "Voluntary survey with honoraria for providers; representativeness is weighted by CAQH but was not independently assessed.",
+    "The report cites a 12 percent claim denial rate for 2023 sourced to an Optum index that is not dental-specific; not used here.",
+    "Cost figures are modeled labor cost per transaction, not measured staff hours in a given practice. Dated: 2023 data, report published 2024.",
+    "Exact publication date not shown in the document text read (report year 2024 / December 2025 inferred)."
+  ]
+}

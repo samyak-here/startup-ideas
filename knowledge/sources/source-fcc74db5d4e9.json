@@ -1,0 +1,37 @@
+{
+  "id": "source-fcc74db5d4e9",
+  "type": "source",
+  "title": "ADA News: ADA calls for greater oversight of dental insurance markets (September 18, 2026)",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://adanews.ada.org/ada-news/2026/september/ada-calls-for-greater-oversight-of-dental-insurance-markets/",
+  "publisher": "American Dental Association (ADA News, association publication)",
+  "published": "2026-09-18",
+  "accessed": "2026-11-04",
+  "source_type": "Advocacy organization news article summarizing a letter to Congress",
+  "reliability": "Advocacy organization's own news service describing its comments to a House subcommittee; reports positions, not independent measurements.",
+  "findings": [
+    "The ADA urged Congress to include dental insurance markets in competition oversight and to avoid new broad burdens on independent dental practices.",
+    "According to the ADA's letter, manual verification of varying plan designs creates administrative burdens for dental practices; the ADA urged greater automation of dental administrative transactions in Medicare Advantage, including standardized electronic eligibility and benefit verification.",
+    "The article states the ADA wrote that insurers should not use AI as the sole basis for claim denials or prior authorization decisions."
+  ],
+  "limitations": [
+    "Article summary only; the underlying letter was not read.",
+    "ADA position, not measured burden; no quantification of verification time or cost.",
+    "Concerns Medicare Advantage supplemental dental and policy advocacy, not small-practice cost data."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "source-0065df0b8148",
+  "type": "source",
+  "title": "ADA Health Policy Institute: Economic Outlook and Emerging Issues in Dentistry, 4th Quarter 2025",
+  "created": "2026-11-04",
+  "updated": "2026-11-04",
+  "status": "completed",
+  "history": [
+    {
+      "date": "2026-11-04",
+      "status": "completed",
+      "reason": "Source read directly on the access date; findings transcribed from the document."
+    }
+  ],
+  "provenance": {
+    "agent": "claude-code-subagent",
+    "session": "session_01LQxkVvFKqYivoTtCXoQ4cs"
+  },
+  "demo": false,
+  "publish": true,
+  "url": "https://www.ada.org/-/media/project/ada-organization/ada/ada-org/files/resources/research/hpi/q42025_economic_outlook_dentistry_main.pdf",
+  "publisher": "American Dental Association, Health Policy Institute (ADA is a professional and advocacy organization for dentists)",
+  "published": null,
+  "accessed": "2026-11-04",
+  "source_type": "Association panel survey report (private-practice dentists)",
+  "reliability": "Primary survey by the dentists' trade and advocacy association; panel survey with 34.7 percent adjusted response rate and open-ended answers coded by the publisher. The ADA lobbies on dental insurance issues, so framing may favor providers. Publication month inferred from the survey being sent December 8, 2025.",
+  "findings": [
+    "The survey was sent December 8, 2025 to 2,432 panel members; 839 responded (adjusted response rate 34.7 percent).",
+    "Asked for the top 3 challenges for their practice in 2026 (open-ended, 751 responses, coded): \"Low insurance reimbursement / denials / Medicaid and Medicare / other insurance issues\" 55.3 percent; staffing 54.2 percent; increasing expenses/overhead 41.5 percent.",
+    "\"Spending too much time on administrative tasks\" was a separate coded category at 0.8 percent of responses.",
+    "The report notes percentages for write-in categories should be used with caution."
+  ],
+  "limitations": [
+    "The insurance category bundles reimbursement level, denials, Medicaid/Medicare and other insurance issues; it does not isolate eligibility verification or administrative time.",
+    "Self-selected panel of private-practice dentists (not staff who do the verification); no practice-size breakdown was read for this question.",
+    "The methods paragraph says \"third quarter of 2025\" in the methods paragraph although the report is titled 4th Quarter 2025; the date was taken from the survey send date.",
+    "Exact publication date not shown in the document text read (December 2025 inferred from the Q4 2025 report title and survey timing)."
+  ]
+}
